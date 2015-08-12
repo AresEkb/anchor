@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated anchor -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="anchor.presentation.AnchorModelWizardID"
+            name="%_UI_AnchorModelWizard_label"
+            class="anchor.presentation.AnchorModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/AnchorModelFile.gif">
+         <description>%_UI_AnchorModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated anchor -->
+      <editor
+            id="anchor.presentation.AnchorEditorID"
+            name="%_UI_AnchorEditor_label"
+            icon="icons/full/obj16/AnchorModelFile.gif"
+            extensions="anchor"
+            class="anchor.presentation.AnchorEditor"
+            contributorClass="anchor.presentation.AnchorActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

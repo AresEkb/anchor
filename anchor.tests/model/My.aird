@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_eswqwEC_EeWwCsb-F2I95Q" selectedViews="_fJm-0EC_EeWwCsb-F2I95Q" version="10.0.0.201505222000">
+  <semanticResources>My.anchor</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_fJm-0EC_EeWwCsb-F2I95Q">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_zLL2wEC_EeWwCsb-F2I95Q" name="new Model">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_zLL2wUC_EeWwCsb-F2I95Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_zLL2wkC_EeWwCsb-F2I95Q"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_zLNr8EC_EeWwCsb-F2I95Q" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_zLNr8UC_EeWwCsb-F2I95Q" type="Sirius" element="_zLL2wEC_EeWwCsb-F2I95Q" measurementUnit="Pixel">
+          <children xmi:type="notation:Node" xmi:id="_zLNr80C_EeWwCsb-F2I95Q" type="2001" element="_zLMd0EC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLOTAEC_EeWwCsb-F2I95Q" visible="false" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zLOTAUC_EeWwCsb-F2I95Q" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLUZoEC_EeWwCsb-F2I95Q" type="3005" element="_zLMd0kC_EeWwCsb-F2I95Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zLUZoUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLUZokC_EeWwCsb-F2I95Q"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zLNr9EC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLNr9UC_EeWwCsb-F2I95Q" x="95" y="202" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zLO6EEC_EeWwCsb-F2I95Q" type="2001" element="_zLMd00C_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLPhIEC_EeWwCsb-F2I95Q" visible="false" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zLPhIUC_EeWwCsb-F2I95Q" x="21"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLVnwEC_EeWwCsb-F2I95Q" type="3005" element="_zLMd1UC_EeWwCsb-F2I95Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zLVnwUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLVnwkC_EeWwCsb-F2I95Q"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zLO6EUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLO6EkC_EeWwCsb-F2I95Q" x="295" y="120" width="20" height="20"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zLQIMEC_EeWwCsb-F2I95Q" type="2001" element="_zLMd1kC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLQIM0C_EeWwCsb-F2I95Q" visible="false" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zLQINEC_EeWwCsb-F2I95Q" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLWO0EC_EeWwCsb-F2I95Q" type="3005" element="_zLMd2EC_EeWwCsb-F2I95Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zLWO0UC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLWO0kC_EeWwCsb-F2I95Q"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zLQIMUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLQIMkC_EeWwCsb-F2I95Q" x="59" y="270" width="21" height="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zLRWUEC_EeWwCsb-F2I95Q" type="2001" element="_zLMd2UC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLR9YEC_EeWwCsb-F2I95Q" visible="false" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zLR9YUC_EeWwCsb-F2I95Q" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLW14EC_EeWwCsb-F2I95Q" type="3005" element="_zLMd20C_EeWwCsb-F2I95Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zLW14UC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLW14kC_EeWwCsb-F2I95Q"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zLRWUUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLRWUkC_EeWwCsb-F2I95Q" x="285" y="30" width="21" height="21"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zLSkcEC_EeWwCsb-F2I95Q" type="2001" element="_zLMd3EC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLSkc0C_EeWwCsb-F2I95Q" visible="false" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zLSkdEC_EeWwCsb-F2I95Q" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLXc8EC_EeWwCsb-F2I95Q" type="3005" element="_zLMd3kC_EeWwCsb-F2I95Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zLXc8UC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLXc8kC_EeWwCsb-F2I95Q"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zLSkcUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLSkckC_EeWwCsb-F2I95Q" x="400" y="139" width="25" height="25"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_zLTLgEC_EeWwCsb-F2I95Q" type="2001" element="_zLMd30C_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLTykEC_EeWwCsb-F2I95Q" visible="false" type="5002">
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_zLTykUC_EeWwCsb-F2I95Q" x="-1"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLYEAEC_EeWwCsb-F2I95Q" type="3005" element="_zLMd4UC_EeWwCsb-F2I95Q">
+              <styles xmi:type="notation:ShapeStyle" xmi:id="_zLYEAUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLYEAkC_EeWwCsb-F2I95Q"/>
+            </children>
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_zLTLgUC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8" lineColor="0"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLTLgkC_EeWwCsb-F2I95Q" x="185" y="175" width="28" height="28"/>
+          </children>
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_zLNr8kC_EeWwCsb-F2I95Q"/>
+          <edges xmi:type="notation:Edge" xmi:id="_zLYrEEC_EeWwCsb-F2I95Q" type="4001" element="_zLMd4kC_EeWwCsb-F2I95Q" source="_zLNr80C_EeWwCsb-F2I95Q" target="_zLQIMEC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLYrFEC_EeWwCsb-F2I95Q" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLYrFUC_EeWwCsb-F2I95Q" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLYrFkC_EeWwCsb-F2I95Q" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLYrF0C_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLZSIEC_EeWwCsb-F2I95Q" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLZSIUC_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_zLYrEUC_EeWwCsb-F2I95Q" lineColor="0"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_zLYrEkC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zLYrE0C_EeWwCsb-F2I95Q" points="[-8, 20, 28, -69]$[-27, 68, 9, -21]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLZSIkC_EeWwCsb-F2I95Q" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLZSI0C_EeWwCsb-F2I95Q" id="(0.47619047619047616,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_zLZ5MEC_EeWwCsb-F2I95Q" type="4001" element="_zLMd5UC_EeWwCsb-F2I95Q" source="_zLO6EEC_EeWwCsb-F2I95Q" target="_zLRWUEC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLZ5NEC_EeWwCsb-F2I95Q" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLZ5NUC_EeWwCsb-F2I95Q" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLZ5NkC_EeWwCsb-F2I95Q" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLZ5N0C_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLZ5OEC_EeWwCsb-F2I95Q" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLZ5OUC_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_zLZ5MUC_EeWwCsb-F2I95Q" lineColor="0"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_zLZ5MkC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zLZ5M0C_EeWwCsb-F2I95Q" points="[0, 0, 10, 69]$[-10, -69, 0, 0]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLagQEC_EeWwCsb-F2I95Q" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLagQUC_EeWwCsb-F2I95Q" id="(0.47619047619047616,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_zLagQkC_EeWwCsb-F2I95Q" type="4001" element="_zLMd6EC_EeWwCsb-F2I95Q" source="_zLO6EEC_EeWwCsb-F2I95Q" target="_zLSkcEC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLbHUEC_EeWwCsb-F2I95Q" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLbHUUC_EeWwCsb-F2I95Q" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLbHUkC_EeWwCsb-F2I95Q" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLbHU0C_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLbHVEC_EeWwCsb-F2I95Q" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLbHVUC_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_zLagQ0C_EeWwCsb-F2I95Q" lineColor="0"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_zLagREC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zLagRUC_EeWwCsb-F2I95Q" points="[0, 0, -107, -44]$[95, 39, -12, -5]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLbuYEC_EeWwCsb-F2I95Q" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLbuYUC_EeWwCsb-F2I95Q" id="(0.48,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_zLbuYkC_EeWwCsb-F2I95Q" type="4001" element="_zLMd60C_EeWwCsb-F2I95Q" source="_zLTLgEC_EeWwCsb-F2I95Q" target="_zLNr80C_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLcVcEC_EeWwCsb-F2I95Q" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLcVcUC_EeWwCsb-F2I95Q" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLcVckC_EeWwCsb-F2I95Q" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLcVc0C_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLcVdEC_EeWwCsb-F2I95Q" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLcVdUC_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_zLbuY0C_EeWwCsb-F2I95Q" lineColor="0"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_zLbuZEC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zLbuZUC_EeWwCsb-F2I95Q" points="[-14, 1, 80, -46]$[-84, 41, 10, -6]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLcVdkC_EeWwCsb-F2I95Q" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLcVd0C_EeWwCsb-F2I95Q" id="(0.5,1.0)"/>
+          </edges>
+          <edges xmi:type="notation:Edge" xmi:id="_zLc8gEC_EeWwCsb-F2I95Q" type="4001" element="_zLMd7kC_EeWwCsb-F2I95Q" source="_zLTLgEC_EeWwCsb-F2I95Q" target="_zLO6EEC_EeWwCsb-F2I95Q">
+            <children xmi:type="notation:Node" xmi:id="_zLc8hEC_EeWwCsb-F2I95Q" type="6001">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLc8hUC_EeWwCsb-F2I95Q" y="-10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLc8hkC_EeWwCsb-F2I95Q" type="6002">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLc8h0C_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_zLc8iEC_EeWwCsb-F2I95Q" type="6003">
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zLc8iUC_EeWwCsb-F2I95Q" y="10"/>
+            </children>
+            <styles xmi:type="notation:ConnectorStyle" xmi:id="_zLc8gUC_EeWwCsb-F2I95Q" lineColor="0"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_zLc8gkC_EeWwCsb-F2I95Q" fontName="Arial" fontHeight="8"/>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zLc8g0C_EeWwCsb-F2I95Q" points="[0, 0, -106, 35]$[106, -36, 0, -1]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLdjkEC_EeWwCsb-F2I95Q" id="(0.5,0.0)"/>
+            <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zLdjkUC_EeWwCsb-F2I95Q" id="(0.5,1.0)"/>
+          </edges>
+        </data>
+      </ownedAnnotationEntries>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zLMd0EC_EeWwCsb-F2I95Q" name="Restaurant" outgoingEdges="_zLMd4kC_EeWwCsb-F2I95Q" incomingEdges="_zLMd60C_EeWwCsb-F2I95Q" width="-1" height="-1">
+        <target xmi:type="anchor:Anchor" href="My.anchor#//@anchors.0"/>
+        <semanticElements xmi:type="anchor:Anchor" href="My.anchor#//@anchors.0"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_zLMd0UC_EeWwCsb-F2I95Q"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zLMd0kC_EeWwCsb-F2I95Q" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor/images/anchor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zLMd00C_EeWwCsb-F2I95Q" name="Dish" outgoingEdges="_zLMd5UC_EeWwCsb-F2I95Q _zLMd6EC_EeWwCsb-F2I95Q" incomingEdges="_zLMd7kC_EeWwCsb-F2I95Q" width="-1" height="-1">
+        <target xmi:type="anchor:Anchor" href="My.anchor#//@anchors.1"/>
+        <semanticElements xmi:type="anchor:Anchor" href="My.anchor#//@anchors.1"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_zLMd1EC_EeWwCsb-F2I95Q"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zLMd1UC_EeWwCsb-F2I95Q" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor/images/anchor.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zLMd1kC_EeWwCsb-F2I95Q" incomingEdges="_zLMd4kC_EeWwCsb-F2I95Q" width="-1" height="-1">
+        <target xmi:type="anchor:StaticAttribute" href="My.anchor#//@anchors.0/@attributes.0"/>
+        <semanticElements xmi:type="anchor:StaticAttribute" href="My.anchor#//@anchors.0/@attributes.0"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_zLMd10C_EeWwCsb-F2I95Q"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zLMd2EC_EeWwCsb-F2I95Q" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor/images/static-attribute.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zLMd2UC_EeWwCsb-F2I95Q" incomingEdges="_zLMd5UC_EeWwCsb-F2I95Q" width="-1" height="-1">
+        <target xmi:type="anchor:HistorizedAttribute" href="My.anchor#//@anchors.1/@attributes.0"/>
+        <semanticElements xmi:type="anchor:HistorizedAttribute" href="My.anchor#//@anchors.1/@attributes.0"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_zLMd2kC_EeWwCsb-F2I95Q"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zLMd20C_EeWwCsb-F2I95Q" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor/images/static-attribute.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zLMd3EC_EeWwCsb-F2I95Q" incomingEdges="_zLMd6EC_EeWwCsb-F2I95Q" width="-1" height="-1">
+        <target xmi:type="anchor:HistorizedAttribute" href="My.anchor#//@anchors.1/@attributes.0"/>
+        <semanticElements xmi:type="anchor:HistorizedAttribute" href="My.anchor#//@anchors.1/@attributes.0"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_zLMd3UC_EeWwCsb-F2I95Q"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zLMd3kC_EeWwCsb-F2I95Q" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor/images/historized-attribute.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_zLMd30C_EeWwCsb-F2I95Q" outgoingEdges="_zLMd60C_EeWwCsb-F2I95Q _zLMd7kC_EeWwCsb-F2I95Q" width="-1" height="-1">
+        <target xmi:type="anchor:StaticTie" href="My.anchor#//@ties.0"/>
+        <semanticElements xmi:type="anchor:StaticTie" href="My.anchor#//@ties.0"/>
+        <graphicalFilters xmi:type="diagram:HideLabelFilter" xmi:id="_zLMd4EC_EeWwCsb-F2I95Q"/>
+        <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+        <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+        <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+        <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_zLMd4UC_EeWwCsb-F2I95Q" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor/images/static-tie.png">
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Tie']/@style"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Tie']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zLMd4kC_EeWwCsb-F2I95Q" sourceNode="_zLMd0EC_EeWwCsb-F2I95Q" targetNode="_zLMd1kC_EeWwCsb-F2I95Q">
+        <target xmi:type="anchor:Anchor" href="My.anchor#//@anchors.0"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zLMd40C_EeWwCsb-F2I95Q" targetArrow="NoDecoration" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='Attributes']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zLMd5EC_EeWwCsb-F2I95Q"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='Attributes']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zLMd5UC_EeWwCsb-F2I95Q" sourceNode="_zLMd00C_EeWwCsb-F2I95Q" targetNode="_zLMd2UC_EeWwCsb-F2I95Q">
+        <target xmi:type="anchor:Anchor" href="My.anchor#//@anchors.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zLMd5kC_EeWwCsb-F2I95Q" targetArrow="NoDecoration" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='Attributes']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zLMd50C_EeWwCsb-F2I95Q"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='Attributes']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zLMd6EC_EeWwCsb-F2I95Q" sourceNode="_zLMd00C_EeWwCsb-F2I95Q" targetNode="_zLMd3EC_EeWwCsb-F2I95Q">
+        <target xmi:type="anchor:Anchor" href="My.anchor#//@anchors.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zLMd6UC_EeWwCsb-F2I95Q" targetArrow="NoDecoration" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='Attributes']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zLMd6kC_EeWwCsb-F2I95Q"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='Attributes']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zLMd60C_EeWwCsb-F2I95Q" sourceNode="_zLMd30C_EeWwCsb-F2I95Q" targetNode="_zLMd0EC_EeWwCsb-F2I95Q">
+        <target xmi:type="anchor:AnchorRole" href="My.anchor#//@ties.0/@anchorRoles.0"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="My.anchor#//@ties.0/@anchorRoles.0"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zLMd7EC_EeWwCsb-F2I95Q" targetArrow="NoDecoration" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='AnchorRole']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zLMd7UC_EeWwCsb-F2I95Q" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='AnchorRole']"/>
+      </ownedDiagramElements>
+      <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zLMd7kC_EeWwCsb-F2I95Q" sourceNode="_zLMd30C_EeWwCsb-F2I95Q" targetNode="_zLMd00C_EeWwCsb-F2I95Q">
+        <target xmi:type="anchor:AnchorRole" href="My.anchor#//@ties.0/@anchorRoles.1"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="My.anchor#//@ties.0/@anchorRoles.1"/>
+        <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zLMd70C_EeWwCsb-F2I95Q" targetArrow="NoDecoration" size="2">
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='AnchorRole']/@style"/>
+          <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zLMd8EC_EeWwCsb-F2I95Q" showIcon="false"/>
+        </ownedStyle>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='AnchorRole']"/>
+      </ownedDiagramElements>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_zLMd8UC_EeWwCsb-F2I95Q"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer"/>
+      <target xmi:type="anchor:Model" href="My.anchor#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>

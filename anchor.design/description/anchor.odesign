@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" name="anchor" version="10.0.0.201505222000">
+  <ownedViewpoints name="Anchor" modelFileExtension="anchor">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Model" initialisation="true" domainClass="anchor.Model" enablePopupBars="true">
+      <defaultLayer name="Default">
+        <nodeMappings name="Anchor" semanticCandidatesExpression="feature:anchors" domainClass="anchor.Anchor">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/anchor/images/anchor.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Knot" semanticCandidatesExpression="feature:knots" domainClass="anchor.Knot">
+          <style xsi:type="style:DotDescription" sizeComputationExpression="10" labelPosition="node" strokeSizeComputationExpression="10">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <backgroundColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="StaticAttribute" domainClass="anchor.Attribute">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/anchor/images/static-attribute.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="HistorizedAttribute" domainClass="anchor.HistorizedAttribute">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/anchor/images/historized-attribute.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="Tie" semanticCandidatesExpression="feature:ties" domainClass="anchor.Tie">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" hideLabelByDefault="true" sizeComputationExpression="-1" workspacePath="/anchor/images/static-tie.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="Attributes" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']" targetFinderExpression="feature:attributes">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="AnchorRole" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Tie']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']" targetFinderExpression="feature:anchor" sourceFinderExpression="feature:tie" domainClass="anchor.AnchorRole" useDomainElement="true">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="[(if (self.isIdentifier) then 'qwe' else 'asd' endif)/]">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>

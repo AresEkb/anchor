@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<anchor:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor">
+  <anchors name="Restaurant">
+    <attributes xsi:type="anchor:StaticAttribute"/>
+  </anchors>
+  <anchors name="Dish">
+    <attributes xsi:type="anchor:HistorizedAttribute"/>
+  </anchors>
+  <ties xsi:type="anchor:StaticTie">
+    <anchorRoles name="rest" anchor="//@anchors.0"/>
+    <anchorRoles name="dish" anchor="//@anchors.1"/>
+  </ties>
+</anchor:Model>
