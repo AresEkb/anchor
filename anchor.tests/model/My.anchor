@@ -4,10 +4,18 @@
     <attributes xsi:type="anchor:StaticAttribute"/>
   </anchors>
   <anchors name="Dish">
-    <attributes xsi:type="anchor:HistorizedAttribute"/>
+    <attributes xsi:type="anchor:HistorizedAttribute" name="attr1"/>
   </anchors>
+  <anchors name="qw">
+    <attributes xsi:type="anchor:StaticAttribute"/>
+  </anchors>
+  <anchors>
+    <attributes xsi:type="anchor:StaticAttribute"/>
+  </anchors>
+  <knots/>
   <ties xsi:type="anchor:StaticTie">
     <anchorRoles name="rest" anchor="//@anchors.0"/>
-    <anchorRoles name="dish" anchor="//@anchors.1"/>
+    <anchorRoles name="dish" anchor="//@anchors.1" isIdentifier="true"/>
   </ties>
+  <ties xsi:type="anchor:StaticTie"/>
 </anchor:Model>

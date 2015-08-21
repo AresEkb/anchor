@@ -4,7 +4,9 @@
   <eClassifiers xsi:type="ecore:EClass" name="Named" abstract="true" interface="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Typed" abstract="true" interface="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Typed" abstract="true" interface="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" eType="#//DataType"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Knotted" abstract="true" interface="true">
     <eStructuralFeatures xsi:type="ecore:EReference" name="knot" lowerBound="1" eType="#//Knot"/>
   </eClassifiers>
