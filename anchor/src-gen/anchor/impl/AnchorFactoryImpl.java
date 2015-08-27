@@ -70,7 +70,10 @@ public class AnchorFactoryImpl extends EFactoryImpl implements AnchorFactory {
             case AnchorPackage.KNOTTED_HISTORIZED_TIE: return createKnottedHistorizedTie();
             case AnchorPackage.ANCHOR_ROLE: return createAnchorRole();
             case AnchorPackage.KNOT_ROLE: return createKnotRole();
-            case AnchorPackage.DATA_TYPE: return createDataType();
+            case AnchorPackage.STRING_TYPE: return createStringType();
+            case AnchorPackage.NUMERIC_TYPE: return createNumericType();
+            case AnchorPackage.BOOLEAN_TYPE: return createBooleanType();
+            case AnchorPackage.DATE_TIME_TYPE: return createDateTimeType();
             default:
                 throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
         }
@@ -241,9 +244,39 @@ public class AnchorFactoryImpl extends EFactoryImpl implements AnchorFactory {
      * <!-- end-user-doc -->
      * @generated
      */
-    public DataType createDataType() {
-        DataTypeImpl dataType = new DataTypeImpl();
-        return dataType;
+    public StringType createStringType() {
+        StringTypeImpl stringType = new StringTypeImpl();
+        return stringType;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public NumericType createNumericType() {
+        NumericTypeImpl numericType = new NumericTypeImpl();
+        return numericType;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public BooleanType createBooleanType() {
+        BooleanTypeImpl booleanType = new BooleanTypeImpl();
+        return booleanType;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public DateTimeType createDateTimeType() {
+        DateTimeTypeImpl dateTimeType = new DateTimeTypeImpl();
+        return dateTimeType;
     }
 
     /**

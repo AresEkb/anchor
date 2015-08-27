@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="anchor" version="10.0.0.201505222000">
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="anchor" version="10.0.0.201505222000">
   <ownedViewpoints name="Anchor" modelFileExtension="anchor">
     <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Model" initialisation="true" domainClass="anchor.Model" enablePopupBars="true">
+      <filters xsi:type="filter:CompositeFilterDescription" name="Anchors and ties">
+        <filters xsi:type="filter:MappingFilter" mappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='AttributeEdge'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Knot'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='KnotEdge'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='KnotRoleEdge'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+      </filters>
       <defaultLayer name="Default">
         <nodeMappings name="Anchor" semanticCandidatesExpression="feature:anchors" domainClass="anchor.Anchor">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/anchor.design/icons/Anchor.png">
@@ -21,7 +24,19 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
+        <nodeMappings name="KnottedStaticAttribute" domainClass="anchor.KnottedStaticAttribute">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/anchor.design/icons/StaticAttribute.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
         <nodeMappings name="HistorizedAttribute" domainClass="anchor.HistorizedAttribute">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/anchor.design/icons/HistorizedAttribute.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="KnottedHistorizedAttribute" domainClass="anchor.KnottedHistorizedAttribute">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" sizeComputationExpression="-1" workspacePath="/anchor.design/icons/HistorizedAttribute.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
@@ -33,29 +48,48 @@
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
+        <nodeMappings name="KnottedStaticTie" semanticCandidatesExpression="feature:ties" domainClass="anchor.KnottedStaticTie">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" hideLabelByDefault="true" sizeComputationExpression="-1" workspacePath="/anchor.design/icons/StaticTie.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
         <nodeMappings name="HistorizedTie" semanticCandidatesExpression="feature:ties" domainClass="anchor.HistorizedTie">
           <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" hideLabelByDefault="true" sizeComputationExpression="-1" workspacePath="/anchor.design/icons/HistorizedTie.png">
             <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
           </style>
         </nodeMappings>
-        <edgeMappings name="Attributes" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']" targetFinderExpression="feature:attributes">
+        <nodeMappings name="KnottedHistorizedTie" semanticCandidatesExpression="feature:ties" domainClass="anchor.KnottedHistorizedTie">
+          <style xsi:type="style:WorkspaceImageDescription" showIcon="false" labelExpression="" hideLabelByDefault="true" sizeComputationExpression="-1" workspacePath="/anchor.design/icons/HistorizedTie.png">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="AttributeEdge" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute']" targetFinderExpression="feature:attributes">
           <style targetArrow="NoDecoration" sizeComputationExpression="2" endsCentering="Both">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
-            <centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="KnotEdge" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Knot']" targetFinderExpression="feature:knot">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="AnchorRoleEdge" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticTie'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedTie']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']" targetFinderExpression="feature:anchor" sourceFinderExpression="feature:tie" domainClass="anchor.AnchorRole" useDomainElement="true">
+          <style targetArrow="NoDecoration" sizeComputationExpression="2" endsCentering="Both">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription showIcon="false" labelExpression="ocl:if self.isIdentifier then '1' else 'm' endif">
               <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
             </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <edgeMappings name="AnchorRole" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='StaticTie']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']" targetFinderExpression="feature:anchor" sourceFinderExpression="feature:tie" domainClass="anchor.AnchorRole" useDomainElement="true">
+        <edgeMappings name="KnotRoleEdge" sourceMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedStaticTie'] //@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedHistorizedTie']" targetMapping="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Knot']" targetFinderExpression="feature:knot" sourceFinderExpression="feature:tie" domainClass="anchor.KnotRole" useDomainElement="true">
           <style targetArrow="NoDecoration" sizeComputationExpression="2" endsCentering="Both">
             <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
-            <centerLabelStyleDescription showIcon="false" labelExpression="feature:isIdentifier">
-              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
-            </centerLabelStyleDescription>
           </style>
         </edgeMappings>
-        <toolSections name="Anchor">
+        <toolSections name="Nodes">
           <ownedTools xsi:type="tool:NodeCreationDescription" name="Anchor" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
@@ -83,12 +117,30 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="KnottedStaticAttribute" precondition="[container.oclIsKindOf(Anchor)/]" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute']" extraMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.KnottedStaticAttribute" referenceName="attributes"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
           <ownedTools xsi:type="tool:NodeCreationDescription" name="HistorizedAttribute" precondition="[container.oclIsKindOf(Anchor)/]" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']" extraMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.HistorizedAttribute" referenceName="attributes"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="KnottedHistorizedAttribute" precondition="[container.oclIsKindOf(Anchor)/]" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute']" extraMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.KnottedHistorizedAttribute" referenceName="attributes"/>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
@@ -101,12 +153,67 @@
               </firstModelOperations>
             </initialOperation>
           </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="KnottedStaticTie" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedStaticTie']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.KnottedStaticTie" referenceName="ties"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
           <ownedTools xsi:type="tool:NodeCreationDescription" name="HistorizedTie" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedTie']">
             <variable name="container"/>
             <viewVariable name="containerView"/>
             <initialOperation>
               <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
                 <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.HistorizedTie" referenceName="ties"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="KnottedHistorizedTie" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='KnottedHistorizedTie']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.KnottedHistorizedTie" referenceName="ties"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="HistorizedAttribute" precondition="[container.oclIsKindOf(Anchor)/]" nodeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']" extraMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@nodeMappings[name='Anchor']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.HistorizedAttribute" referenceName="attributes"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="Edges">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="AnchorRole" edgeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.AnchorRole" referenceName="anchorRoles">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="anchor" valueExpression="var:target"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="KnotRole" edgeMappings="//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:source">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="anchor.KnotRole" referenceName="knotRoles">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="knot" valueExpression="var:target"/>
+                </subModelOperations>
               </firstModelOperations>
             </initialOperation>
           </ownedTools>

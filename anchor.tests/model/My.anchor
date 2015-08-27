@@ -5,17 +5,28 @@
   </anchors>
   <anchors name="Dish">
     <attributes xsi:type="anchor:HistorizedAttribute" name="attr1"/>
+    <attributes xsi:type="anchor:KnottedStaticAttribute"/>
   </anchors>
   <anchors name="qw">
     <attributes xsi:type="anchor:StaticAttribute"/>
+    <attributes xsi:type="anchor:KnottedStaticAttribute" knot="//@knots.0" name=""/>
+    <attributes xsi:type="anchor:KnottedHistorizedAttribute"/>
   </anchors>
   <anchors>
     <attributes xsi:type="anchor:StaticAttribute"/>
+    <attributes xsi:type="anchor:StaticAttribute"/>
   </anchors>
-  <knots/>
+  <knots name="qwe"/>
+  <knots name="test"/>
   <ties xsi:type="anchor:StaticTie">
     <anchorRoles name="rest" anchor="//@anchors.0"/>
     <anchorRoles name="dish" anchor="//@anchors.1" isIdentifier="true"/>
+    <anchorRoles anchor="//@anchors.2"/>
   </ties>
   <ties xsi:type="anchor:StaticTie"/>
+  <ties xsi:type="anchor:HistorizedTie"/>
+  <ties xsi:type="anchor:KnottedHistorizedTie" resolution="1.0" resolutionUnit="minute">
+    <knotRoles knot="//@knots.1"/>
+    <knotRoles knot="//@knots.0"/>
+  </ties>
 </anchor:Model>

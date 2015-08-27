@@ -5,6 +5,7 @@ package anchor.impl;
 import anchor.Anchor;
 import anchor.AnchorPackage;
 import anchor.Attribute;
+import anchor.DataType;
 import anchor.HistorizedAttribute;
 import anchor.Named;
 import anchor.Typed;
@@ -31,6 +32,7 @@ import org.eclipse.emf.ecore.util.EcoreUtil;
  * <ul>
  *   <li>{@link anchor.impl.HistorizedAttributeImpl#getResolution <em>Resolution</em>}</li>
  *   <li>{@link anchor.impl.HistorizedAttributeImpl#getResolutionUnit <em>Resolution Unit</em>}</li>
+ *   <li>{@link anchor.impl.HistorizedAttributeImpl#getType <em>Type</em>}</li>
  *   <li>{@link anchor.impl.HistorizedAttributeImpl#getName <em>Name</em>}</li>
  *   <li>{@link anchor.impl.HistorizedAttributeImpl#getAnchor <em>Anchor</em>}</li>
  * </ul>
@@ -77,6 +79,16 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
      * @ordered
      */
     protected UnitOfTime resolutionUnit = RESOLUTION_UNIT_EDEFAULT;
+
+    /**
+     * The cached value of the '{@link #getType() <em>Type</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #getType()
+     * @generated
+     * @ordered
+     */
+    protected DataType type;
 
     /**
      * The default value of the '{@link #getName() <em>Name</em>}' attribute.
@@ -157,6 +169,44 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
         resolutionUnit = newResolutionUnit == null ? RESOLUTION_UNIT_EDEFAULT : newResolutionUnit;
         if (eNotificationRequired())
             eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.HISTORIZED_ATTRIBUTE__RESOLUTION_UNIT, oldResolutionUnit, resolutionUnit));
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public DataType getType() {
+        if (type != null && type.eIsProxy()) {
+            InternalEObject oldType = (InternalEObject)type;
+            type = (DataType)eResolveProxy(oldType);
+            if (type != oldType) {
+                if (eNotificationRequired())
+                    eNotify(new ENotificationImpl(this, Notification.RESOLVE, AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE, oldType, type));
+            }
+        }
+        return type;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public DataType basicGetType() {
+        return type;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setType(DataType newType) {
+        DataType oldType = type;
+        type = newType;
+        if (eNotificationRequired())
+            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE, oldType, type));
     }
 
     /**
@@ -277,6 +327,9 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
                 return getResolution();
             case AnchorPackage.HISTORIZED_ATTRIBUTE__RESOLUTION_UNIT:
                 return getResolutionUnit();
+            case AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE:
+                if (resolve) return getType();
+                return basicGetType();
             case AnchorPackage.HISTORIZED_ATTRIBUTE__NAME:
                 return getName();
             case AnchorPackage.HISTORIZED_ATTRIBUTE__ANCHOR:
@@ -298,6 +351,9 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
                 return;
             case AnchorPackage.HISTORIZED_ATTRIBUTE__RESOLUTION_UNIT:
                 setResolutionUnit((UnitOfTime)newValue);
+                return;
+            case AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE:
+                setType((DataType)newValue);
                 return;
             case AnchorPackage.HISTORIZED_ATTRIBUTE__NAME:
                 setName((String)newValue);
@@ -323,6 +379,9 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
             case AnchorPackage.HISTORIZED_ATTRIBUTE__RESOLUTION_UNIT:
                 setResolutionUnit(RESOLUTION_UNIT_EDEFAULT);
                 return;
+            case AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE:
+                setType((DataType)null);
+                return;
             case AnchorPackage.HISTORIZED_ATTRIBUTE__NAME:
                 setName(NAME_EDEFAULT);
                 return;
@@ -345,6 +404,8 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
                 return resolution != RESOLUTION_EDEFAULT;
             case AnchorPackage.HISTORIZED_ATTRIBUTE__RESOLUTION_UNIT:
                 return resolutionUnit != RESOLUTION_UNIT_EDEFAULT;
+            case AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE:
+                return type != null;
             case AnchorPackage.HISTORIZED_ATTRIBUTE__NAME:
                 return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
             case AnchorPackage.HISTORIZED_ATTRIBUTE__ANCHOR:
@@ -362,6 +423,7 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
     public int eBaseStructuralFeatureID(int derivedFeatureID, Class<?> baseClass) {
         if (baseClass == Typed.class) {
             switch (derivedFeatureID) {
+                case AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE: return AnchorPackage.TYPED__TYPE;
                 default: return -1;
             }
         }
@@ -389,6 +451,7 @@ public class HistorizedAttributeImpl extends MinimalEObjectImpl.Container implem
     public int eDerivedStructuralFeatureID(int baseFeatureID, Class<?> baseClass) {
         if (baseClass == Typed.class) {
             switch (baseFeatureID) {
+                case AnchorPackage.TYPED__TYPE: return AnchorPackage.HISTORIZED_ATTRIBUTE__TYPE;
                 default: return -1;
             }
         }

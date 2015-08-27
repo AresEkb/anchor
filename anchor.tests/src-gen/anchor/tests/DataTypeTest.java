@@ -2,12 +2,9 @@
  */
 package anchor.tests;
 
-import anchor.AnchorFactory;
 import anchor.DataType;
 
 import junit.framework.TestCase;
-
-import junit.textui.TestRunner;
 
 /**
  * <!-- begin-user-doc -->
@@ -15,7 +12,7 @@ import junit.textui.TestRunner;
  * <!-- end-user-doc -->
  * @generated
  */
-public class DataTypeTest extends TestCase {
+public abstract class DataTypeTest extends TestCase {
 
     /**
      * The fixture for this Data Type test case.
@@ -24,15 +21,6 @@ public class DataTypeTest extends TestCase {
      * @generated
      */
     protected DataType fixture = null;
-
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public static void main(String[] args) {
-        TestRunner.run(DataTypeTest.class);
-    }
 
     /**
      * Constructs a new Data Type test case with the given name.
@@ -62,28 +50,6 @@ public class DataTypeTest extends TestCase {
      */
     protected DataType getFixture() {
         return fixture;
-    }
-
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
-    @Override
-    protected void setUp() throws Exception {
-        setFixture(AnchorFactory.eINSTANCE.createDataType());
-    }
-
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
-    @Override
-    protected void tearDown() throws Exception {
-        setFixture(null);
     }
 
 } //DataTypeTest

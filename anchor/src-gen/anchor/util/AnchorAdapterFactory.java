@@ -156,6 +156,22 @@ public class AnchorAdapterFactory extends AdapterFactoryImpl {
                 return createDataTypeAdapter();
             }
             @Override
+            public Adapter caseStringType(StringType object) {
+                return createStringTypeAdapter();
+            }
+            @Override
+            public Adapter caseNumericType(NumericType object) {
+                return createNumericTypeAdapter();
+            }
+            @Override
+            public Adapter caseBooleanType(BooleanType object) {
+                return createBooleanTypeAdapter();
+            }
+            @Override
+            public Adapter caseDateTimeType(DateTimeType object) {
+                return createDateTimeTypeAdapter();
+            }
+            @Override
             public Adapter defaultCase(EObject object) {
                 return createEObjectAdapter();
             }
@@ -480,6 +496,62 @@ public class AnchorAdapterFactory extends AdapterFactoryImpl {
      * @generated
      */
     public Adapter createDataTypeAdapter() {
+        return null;
+    }
+
+    /**
+     * Creates a new adapter for an object of class '{@link anchor.StringType <em>String Type</em>}'.
+     * <!-- begin-user-doc -->
+     * This default implementation returns null so that we can easily ignore cases;
+     * it's useful to ignore a case when inheritance will catch all the cases anyway.
+     * <!-- end-user-doc -->
+     * @return the new adapter.
+     * @see anchor.StringType
+     * @generated
+     */
+    public Adapter createStringTypeAdapter() {
+        return null;
+    }
+
+    /**
+     * Creates a new adapter for an object of class '{@link anchor.NumericType <em>Numeric Type</em>}'.
+     * <!-- begin-user-doc -->
+     * This default implementation returns null so that we can easily ignore cases;
+     * it's useful to ignore a case when inheritance will catch all the cases anyway.
+     * <!-- end-user-doc -->
+     * @return the new adapter.
+     * @see anchor.NumericType
+     * @generated
+     */
+    public Adapter createNumericTypeAdapter() {
+        return null;
+    }
+
+    /**
+     * Creates a new adapter for an object of class '{@link anchor.BooleanType <em>Boolean Type</em>}'.
+     * <!-- begin-user-doc -->
+     * This default implementation returns null so that we can easily ignore cases;
+     * it's useful to ignore a case when inheritance will catch all the cases anyway.
+     * <!-- end-user-doc -->
+     * @return the new adapter.
+     * @see anchor.BooleanType
+     * @generated
+     */
+    public Adapter createBooleanTypeAdapter() {
+        return null;
+    }
+
+    /**
+     * Creates a new adapter for an object of class '{@link anchor.DateTimeType <em>Date Time Type</em>}'.
+     * <!-- begin-user-doc -->
+     * This default implementation returns null so that we can easily ignore cases;
+     * it's useful to ignore a case when inheritance will catch all the cases anyway.
+     * <!-- end-user-doc -->
+     * @return the new adapter.
+     * @see anchor.DateTimeType
+     * @generated
+     */
+    public Adapter createDateTimeTypeAdapter() {
         return null;
     }
 

@@ -218,7 +218,22 @@ public class ModelItemProvider
         newChildDescriptors.add
             (createChildParameter
                 (AnchorPackage.Literals.MODEL__DATA_TYPES,
-                 AnchorFactory.eINSTANCE.createDataType()));
+                 AnchorFactory.eINSTANCE.createStringType()));
+
+        newChildDescriptors.add
+            (createChildParameter
+                (AnchorPackage.Literals.MODEL__DATA_TYPES,
+                 AnchorFactory.eINSTANCE.createNumericType()));
+
+        newChildDescriptors.add
+            (createChildParameter
+                (AnchorPackage.Literals.MODEL__DATA_TYPES,
+                 AnchorFactory.eINSTANCE.createBooleanType()));
+
+        newChildDescriptors.add
+            (createChildParameter
+                (AnchorPackage.Literals.MODEL__DATA_TYPES,
+                 AnchorFactory.eINSTANCE.createDateTimeType()));
     }
 
     /**

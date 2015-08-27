@@ -139,13 +139,40 @@ public interface AnchorFactory extends EFactory {
     KnotRole createKnotRole();
 
     /**
-     * Returns a new object of class '<em>Data Type</em>'.
+     * Returns a new object of class '<em>String Type</em>'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @return a new object of class '<em>Data Type</em>'.
+     * @return a new object of class '<em>String Type</em>'.
      * @generated
      */
-    DataType createDataType();
+    StringType createStringType();
+
+    /**
+     * Returns a new object of class '<em>Numeric Type</em>'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return a new object of class '<em>Numeric Type</em>'.
+     * @generated
+     */
+    NumericType createNumericType();
+
+    /**
+     * Returns a new object of class '<em>Boolean Type</em>'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return a new object of class '<em>Boolean Type</em>'.
+     * @generated
+     */
+    BooleanType createBooleanType();
+
+    /**
+     * Returns a new object of class '<em>Date Time Type</em>'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return a new object of class '<em>Date Time Type</em>'.
+     * @generated
+     */
+    DateTimeType createDateTimeType();
 
     /**
      * Returns the package supported by this factory.

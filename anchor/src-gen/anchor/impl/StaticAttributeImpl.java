@@ -5,6 +5,7 @@ package anchor.impl;
 import anchor.Anchor;
 import anchor.AnchorPackage;
 import anchor.Attribute;
+import anchor.DataType;
 import anchor.Named;
 import anchor.StaticAttribute;
 
@@ -27,6 +28,7 @@ import org.eclipse.emf.ecore.util.EcoreUtil;
  * The following features are implemented:
  * </p>
  * <ul>
+ *   <li>{@link anchor.impl.StaticAttributeImpl#getType <em>Type</em>}</li>
  *   <li>{@link anchor.impl.StaticAttributeImpl#getName <em>Name</em>}</li>
  *   <li>{@link anchor.impl.StaticAttributeImpl#getAnchor <em>Anchor</em>}</li>
  * </ul>
@@ -34,6 +36,16 @@ import org.eclipse.emf.ecore.util.EcoreUtil;
  * @generated
  */
 public class StaticAttributeImpl extends MinimalEObjectImpl.Container implements StaticAttribute {
+    /**
+     * The cached value of the '{@link #getType() <em>Type</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #getType()
+     * @generated
+     * @ordered
+     */
+    protected DataType type;
+
     /**
      * The default value of the '{@link #getName() <em>Name</em>}' attribute.
      * <!-- begin-user-doc -->
@@ -71,6 +83,44 @@ public class StaticAttributeImpl extends MinimalEObjectImpl.Container implements
     @Override
     protected EClass eStaticClass() {
         return AnchorPackage.Literals.STATIC_ATTRIBUTE;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public DataType getType() {
+        if (type != null && type.eIsProxy()) {
+            InternalEObject oldType = (InternalEObject)type;
+            type = (DataType)eResolveProxy(oldType);
+            if (type != oldType) {
+                if (eNotificationRequired())
+                    eNotify(new ENotificationImpl(this, Notification.RESOLVE, AnchorPackage.STATIC_ATTRIBUTE__TYPE, oldType, type));
+            }
+        }
+        return type;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public DataType basicGetType() {
+        return type;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setType(DataType newType) {
+        DataType oldType = type;
+        type = newType;
+        if (eNotificationRequired())
+            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STATIC_ATTRIBUTE__TYPE, oldType, type));
     }
 
     /**
@@ -187,6 +237,9 @@ public class StaticAttributeImpl extends MinimalEObjectImpl.Container implements
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
+            case AnchorPackage.STATIC_ATTRIBUTE__TYPE:
+                if (resolve) return getType();
+                return basicGetType();
             case AnchorPackage.STATIC_ATTRIBUTE__NAME:
                 return getName();
             case AnchorPackage.STATIC_ATTRIBUTE__ANCHOR:
@@ -203,6 +256,9 @@ public class StaticAttributeImpl extends MinimalEObjectImpl.Container implements
     @Override
     public void eSet(int featureID, Object newValue) {
         switch (featureID) {
+            case AnchorPackage.STATIC_ATTRIBUTE__TYPE:
+                setType((DataType)newValue);
+                return;
             case AnchorPackage.STATIC_ATTRIBUTE__NAME:
                 setName((String)newValue);
                 return;
@@ -221,6 +277,9 @@ public class StaticAttributeImpl extends MinimalEObjectImpl.Container implements
     @Override
     public void eUnset(int featureID) {
         switch (featureID) {
+            case AnchorPackage.STATIC_ATTRIBUTE__TYPE:
+                setType((DataType)null);
+                return;
             case AnchorPackage.STATIC_ATTRIBUTE__NAME:
                 setName(NAME_EDEFAULT);
                 return;
@@ -239,6 +298,8 @@ public class StaticAttributeImpl extends MinimalEObjectImpl.Container implements
     @Override
     public boolean eIsSet(int featureID) {
         switch (featureID) {
+            case AnchorPackage.STATIC_ATTRIBUTE__TYPE:
+                return type != null;
             case AnchorPackage.STATIC_ATTRIBUTE__NAME:
                 return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
             case AnchorPackage.STATIC_ATTRIBUTE__ANCHOR:

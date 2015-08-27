@@ -235,6 +235,38 @@ public class AnchorSwitch<T> extends Switch<T> {
                 if (result == null) result = defaultCase(theEObject);
                 return result;
             }
+            case AnchorPackage.STRING_TYPE: {
+                StringType stringType = (StringType)theEObject;
+                T result = caseStringType(stringType);
+                if (result == null) result = caseDataType(stringType);
+                if (result == null) result = caseNamed(stringType);
+                if (result == null) result = defaultCase(theEObject);
+                return result;
+            }
+            case AnchorPackage.NUMERIC_TYPE: {
+                NumericType numericType = (NumericType)theEObject;
+                T result = caseNumericType(numericType);
+                if (result == null) result = caseDataType(numericType);
+                if (result == null) result = caseNamed(numericType);
+                if (result == null) result = defaultCase(theEObject);
+                return result;
+            }
+            case AnchorPackage.BOOLEAN_TYPE: {
+                BooleanType booleanType = (BooleanType)theEObject;
+                T result = caseBooleanType(booleanType);
+                if (result == null) result = caseDataType(booleanType);
+                if (result == null) result = caseNamed(booleanType);
+                if (result == null) result = defaultCase(theEObject);
+                return result;
+            }
+            case AnchorPackage.DATE_TIME_TYPE: {
+                DateTimeType dateTimeType = (DateTimeType)theEObject;
+                T result = caseDateTimeType(dateTimeType);
+                if (result == null) result = caseDataType(dateTimeType);
+                if (result == null) result = caseNamed(dateTimeType);
+                if (result == null) result = defaultCase(theEObject);
+                return result;
+            }
             default: return defaultCase(theEObject);
         }
     }
@@ -566,6 +598,66 @@ public class AnchorSwitch<T> extends Switch<T> {
      * @generated
      */
     public T caseDataType(DataType object) {
+        return null;
+    }
+
+    /**
+     * Returns the result of interpreting the object as an instance of '<em>String Type</em>'.
+     * <!-- begin-user-doc -->
+     * This implementation returns null;
+     * returning a non-null result will terminate the switch.
+     * <!-- end-user-doc -->
+     * @param object the target of the switch.
+     * @return the result of interpreting the object as an instance of '<em>String Type</em>'.
+     * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+     * @generated
+     */
+    public T caseStringType(StringType object) {
+        return null;
+    }
+
+    /**
+     * Returns the result of interpreting the object as an instance of '<em>Numeric Type</em>'.
+     * <!-- begin-user-doc -->
+     * This implementation returns null;
+     * returning a non-null result will terminate the switch.
+     * <!-- end-user-doc -->
+     * @param object the target of the switch.
+     * @return the result of interpreting the object as an instance of '<em>Numeric Type</em>'.
+     * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+     * @generated
+     */
+    public T caseNumericType(NumericType object) {
+        return null;
+    }
+
+    /**
+     * Returns the result of interpreting the object as an instance of '<em>Boolean Type</em>'.
+     * <!-- begin-user-doc -->
+     * This implementation returns null;
+     * returning a non-null result will terminate the switch.
+     * <!-- end-user-doc -->
+     * @param object the target of the switch.
+     * @return the result of interpreting the object as an instance of '<em>Boolean Type</em>'.
+     * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+     * @generated
+     */
+    public T caseBooleanType(BooleanType object) {
+        return null;
+    }
+
+    /**
+     * Returns the result of interpreting the object as an instance of '<em>Date Time Type</em>'.
+     * <!-- begin-user-doc -->
+     * This implementation returns null;
+     * returning a non-null result will terminate the switch.
+     * <!-- end-user-doc -->
+     * @param object the target of the switch.
+     * @return the result of interpreting the object as an instance of '<em>Date Time Type</em>'.
+     * @see #doSwitch(org.eclipse.emf.ecore.EObject) doSwitch(EObject)
+     * @generated
+     */
+    public T caseDateTimeType(DateTimeType object) {
         return null;
     }
 

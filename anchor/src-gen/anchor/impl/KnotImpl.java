@@ -3,12 +3,15 @@
 package anchor.impl;
 
 import anchor.AnchorPackage;
+import anchor.DataType;
 import anchor.Knot;
 
+import anchor.Typed;
 import org.eclipse.emf.common.notify.Notification;
 
 import org.eclipse.emf.ecore.EClass;
 
+import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
@@ -21,6 +24,7 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
  * </p>
  * <ul>
  *   <li>{@link anchor.impl.KnotImpl#getName <em>Name</em>}</li>
+ *   <li>{@link anchor.impl.KnotImpl#getType <em>Type</em>}</li>
  * </ul>
  *
  * @generated
@@ -45,6 +49,16 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
      * @ordered
      */
     protected String name = NAME_EDEFAULT;
+
+    /**
+     * The cached value of the '{@link #getType() <em>Type</em>}' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see #getType()
+     * @generated
+     * @ordered
+     */
+    protected DataType type;
 
     /**
      * <!-- begin-user-doc -->
@@ -91,11 +105,52 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
      * <!-- end-user-doc -->
      * @generated
      */
+    public DataType getType() {
+        if (type != null && type.eIsProxy()) {
+            InternalEObject oldType = (InternalEObject)type;
+            type = (DataType)eResolveProxy(oldType);
+            if (type != oldType) {
+                if (eNotificationRequired())
+                    eNotify(new ENotificationImpl(this, Notification.RESOLVE, AnchorPackage.KNOT__TYPE, oldType, type));
+            }
+        }
+        return type;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public DataType basicGetType() {
+        return type;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public void setType(DataType newType) {
+        DataType oldType = type;
+        type = newType;
+        if (eNotificationRequired())
+            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.KNOT__TYPE, oldType, type));
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
         switch (featureID) {
             case AnchorPackage.KNOT__NAME:
                 return getName();
+            case AnchorPackage.KNOT__TYPE:
+                if (resolve) return getType();
+                return basicGetType();
         }
         return super.eGet(featureID, resolve, coreType);
     }
@@ -110,6 +165,9 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
         switch (featureID) {
             case AnchorPackage.KNOT__NAME:
                 setName((String)newValue);
+                return;
+            case AnchorPackage.KNOT__TYPE:
+                setType((DataType)newValue);
                 return;
         }
         super.eSet(featureID, newValue);
@@ -126,6 +184,9 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
             case AnchorPackage.KNOT__NAME:
                 setName(NAME_EDEFAULT);
                 return;
+            case AnchorPackage.KNOT__TYPE:
+                setType((DataType)null);
+                return;
         }
         super.eUnset(featureID);
     }
@@ -140,8 +201,42 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
         switch (featureID) {
             case AnchorPackage.KNOT__NAME:
                 return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+            case AnchorPackage.KNOT__TYPE:
+                return type != null;
         }
         return super.eIsSet(featureID);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public int eBaseStructuralFeatureID(int derivedFeatureID, Class<?> baseClass) {
+        if (baseClass == Typed.class) {
+            switch (derivedFeatureID) {
+                case AnchorPackage.KNOT__TYPE: return AnchorPackage.TYPED__TYPE;
+                default: return -1;
+            }
+        }
+        return super.eBaseStructuralFeatureID(derivedFeatureID, baseClass);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public int eDerivedStructuralFeatureID(int baseFeatureID, Class<?> baseClass) {
+        if (baseClass == Typed.class) {
+            switch (baseFeatureID) {
+                case AnchorPackage.TYPED__TYPE: return AnchorPackage.KNOT__TYPE;
+                default: return -1;
+            }
+        }
+        return super.eDerivedStructuralFeatureID(baseFeatureID, baseClass);
     }
 
     /**

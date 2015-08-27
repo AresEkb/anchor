@@ -105,13 +105,22 @@ public interface AnchorPackage extends EPackage {
     int TYPED = 1;
 
     /**
+     * The feature id for the '<em><b>Type</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int TYPED__TYPE = 0;
+
+    /**
      * The number of structural features of the '<em>Typed</em>' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      * @ordered
      */
-    int TYPED_FEATURE_COUNT = 0;
+    int TYPED_FEATURE_COUNT = 1;
 
     /**
      * The number of operations of the '<em>Typed</em>' class.
@@ -344,13 +353,22 @@ public interface AnchorPackage extends EPackage {
     int KNOT__NAME = NAMED__NAME;
 
     /**
+     * The feature id for the '<em><b>Type</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int KNOT__TYPE = NAMED_FEATURE_COUNT + 0;
+
+    /**
      * The number of structural features of the '<em>Knot</em>' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      * @ordered
      */
-    int KNOT_FEATURE_COUNT = NAMED_FEATURE_COUNT + 0;
+    int KNOT_FEATURE_COUNT = NAMED_FEATURE_COUNT + 1;
 
     /**
      * The number of operations of the '<em>Knot</em>' class.
@@ -418,6 +436,15 @@ public interface AnchorPackage extends EPackage {
     int STATIC_ATTRIBUTE = 8;
 
     /**
+     * The feature id for the '<em><b>Type</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STATIC_ATTRIBUTE__TYPE = TYPED__TYPE;
+
+    /**
      * The feature id for the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -482,13 +509,22 @@ public interface AnchorPackage extends EPackage {
     int HISTORIZED_ATTRIBUTE__RESOLUTION_UNIT = HISTORIZED__RESOLUTION_UNIT;
 
     /**
+     * The feature id for the '<em><b>Type</b></em>' reference.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int HISTORIZED_ATTRIBUTE__TYPE = HISTORIZED_FEATURE_COUNT + 0;
+
+    /**
      * The feature id for the '<em><b>Name</b></em>' attribute.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      * @ordered
      */
-    int HISTORIZED_ATTRIBUTE__NAME = HISTORIZED_FEATURE_COUNT + 0;
+    int HISTORIZED_ATTRIBUTE__NAME = HISTORIZED_FEATURE_COUNT + 1;
 
     /**
      * The feature id for the '<em><b>Anchor</b></em>' container reference.
@@ -497,7 +533,7 @@ public interface AnchorPackage extends EPackage {
      * @generated
      * @ordered
      */
-    int HISTORIZED_ATTRIBUTE__ANCHOR = HISTORIZED_FEATURE_COUNT + 1;
+    int HISTORIZED_ATTRIBUTE__ANCHOR = HISTORIZED_FEATURE_COUNT + 2;
 
     /**
      * The number of structural features of the '<em>Historized Attribute</em>' class.
@@ -506,7 +542,7 @@ public interface AnchorPackage extends EPackage {
      * @generated
      * @ordered
      */
-    int HISTORIZED_ATTRIBUTE_FEATURE_COUNT = HISTORIZED_FEATURE_COUNT + 2;
+    int HISTORIZED_ATTRIBUTE_FEATURE_COUNT = HISTORIZED_FEATURE_COUNT + 3;
 
     /**
      * The number of operations of the '<em>Historized Attribute</em>' class.
@@ -1124,103 +1160,13 @@ public interface AnchorPackage extends EPackage {
     int DATA_TYPE__NAME = NAMED__NAME;
 
     /**
-     * The feature id for the '<em><b>Length</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__LENGTH = NAMED_FEATURE_COUNT + 0;
-
-    /**
-     * The feature id for the '<em><b>Min Length</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__MIN_LENGTH = NAMED_FEATURE_COUNT + 1;
-
-    /**
-     * The feature id for the '<em><b>Max Length</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__MAX_LENGTH = NAMED_FEATURE_COUNT + 2;
-
-    /**
-     * The feature id for the '<em><b>Pattern</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__PATTERN = NAMED_FEATURE_COUNT + 3;
-
-    /**
-     * The feature id for the '<em><b>Min Inclusive</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__MIN_INCLUSIVE = NAMED_FEATURE_COUNT + 4;
-
-    /**
-     * The feature id for the '<em><b>Min Exclusive</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__MIN_EXCLUSIVE = NAMED_FEATURE_COUNT + 5;
-
-    /**
-     * The feature id for the '<em><b>Max Inclusive</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__MAX_INCLUSIVE = NAMED_FEATURE_COUNT + 6;
-
-    /**
-     * The feature id for the '<em><b>Max Exclusive</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__MAX_EXCLUSIVE = NAMED_FEATURE_COUNT + 7;
-
-    /**
-     * The feature id for the '<em><b>Total Digits</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__TOTAL_DIGITS = NAMED_FEATURE_COUNT + 8;
-
-    /**
-     * The feature id for the '<em><b>Fraction Digits</b></em>' attribute.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     * @ordered
-     */
-    int DATA_TYPE__FRACTION_DIGITS = NAMED_FEATURE_COUNT + 9;
-
-    /**
      * The number of structural features of the '<em>Data Type</em>' class.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      * @ordered
      */
-    int DATA_TYPE_FEATURE_COUNT = NAMED_FEATURE_COUNT + 10;
+    int DATA_TYPE_FEATURE_COUNT = NAMED_FEATURE_COUNT + 0;
 
     /**
      * The number of operations of the '<em>Data Type</em>' class.
@@ -1232,6 +1178,262 @@ public interface AnchorPackage extends EPackage {
     int DATA_TYPE_OPERATION_COUNT = NAMED_OPERATION_COUNT + 0;
 
     /**
+     * The meta object id for the '{@link anchor.impl.StringTypeImpl <em>String Type</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see anchor.impl.StringTypeImpl
+     * @see anchor.impl.AnchorPackageImpl#getStringType()
+     * @generated
+     */
+    int STRING_TYPE = 22;
+
+    /**
+     * The feature id for the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STRING_TYPE__NAME = DATA_TYPE__NAME;
+
+    /**
+     * The feature id for the '<em><b>Length</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STRING_TYPE__LENGTH = DATA_TYPE_FEATURE_COUNT + 0;
+
+    /**
+     * The feature id for the '<em><b>Min Length</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STRING_TYPE__MIN_LENGTH = DATA_TYPE_FEATURE_COUNT + 1;
+
+    /**
+     * The feature id for the '<em><b>Max Length</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STRING_TYPE__MAX_LENGTH = DATA_TYPE_FEATURE_COUNT + 2;
+
+    /**
+     * The feature id for the '<em><b>Pattern</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STRING_TYPE__PATTERN = DATA_TYPE_FEATURE_COUNT + 3;
+
+    /**
+     * The number of structural features of the '<em>String Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STRING_TYPE_FEATURE_COUNT = DATA_TYPE_FEATURE_COUNT + 4;
+
+    /**
+     * The number of operations of the '<em>String Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int STRING_TYPE_OPERATION_COUNT = DATA_TYPE_OPERATION_COUNT + 0;
+
+    /**
+     * The meta object id for the '{@link anchor.impl.NumericTypeImpl <em>Numeric Type</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see anchor.impl.NumericTypeImpl
+     * @see anchor.impl.AnchorPackageImpl#getNumericType()
+     * @generated
+     */
+    int NUMERIC_TYPE = 23;
+
+    /**
+     * The feature id for the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE__NAME = DATA_TYPE__NAME;
+
+    /**
+     * The feature id for the '<em><b>Min Inclusive</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE__MIN_INCLUSIVE = DATA_TYPE_FEATURE_COUNT + 0;
+
+    /**
+     * The feature id for the '<em><b>Min Exclusive</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE__MIN_EXCLUSIVE = DATA_TYPE_FEATURE_COUNT + 1;
+
+    /**
+     * The feature id for the '<em><b>Max Inclusive</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE__MAX_INCLUSIVE = DATA_TYPE_FEATURE_COUNT + 2;
+
+    /**
+     * The feature id for the '<em><b>Max Exclusive</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE__MAX_EXCLUSIVE = DATA_TYPE_FEATURE_COUNT + 3;
+
+    /**
+     * The feature id for the '<em><b>Total Digits</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE__TOTAL_DIGITS = DATA_TYPE_FEATURE_COUNT + 4;
+
+    /**
+     * The feature id for the '<em><b>Fraction Digits</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE__FRACTION_DIGITS = DATA_TYPE_FEATURE_COUNT + 5;
+
+    /**
+     * The number of structural features of the '<em>Numeric Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE_FEATURE_COUNT = DATA_TYPE_FEATURE_COUNT + 6;
+
+    /**
+     * The number of operations of the '<em>Numeric Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int NUMERIC_TYPE_OPERATION_COUNT = DATA_TYPE_OPERATION_COUNT + 0;
+
+    /**
+     * The meta object id for the '{@link anchor.impl.BooleanTypeImpl <em>Boolean Type</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see anchor.impl.BooleanTypeImpl
+     * @see anchor.impl.AnchorPackageImpl#getBooleanType()
+     * @generated
+     */
+    int BOOLEAN_TYPE = 24;
+
+    /**
+     * The feature id for the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int BOOLEAN_TYPE__NAME = DATA_TYPE__NAME;
+
+    /**
+     * The number of structural features of the '<em>Boolean Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int BOOLEAN_TYPE_FEATURE_COUNT = DATA_TYPE_FEATURE_COUNT + 0;
+
+    /**
+     * The number of operations of the '<em>Boolean Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int BOOLEAN_TYPE_OPERATION_COUNT = DATA_TYPE_OPERATION_COUNT + 0;
+
+    /**
+     * The meta object id for the '{@link anchor.impl.DateTimeTypeImpl <em>Date Time Type</em>}' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @see anchor.impl.DateTimeTypeImpl
+     * @see anchor.impl.AnchorPackageImpl#getDateTimeType()
+     * @generated
+     */
+    int DATE_TIME_TYPE = 25;
+
+    /**
+     * The feature id for the '<em><b>Name</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int DATE_TIME_TYPE__NAME = DATA_TYPE__NAME;
+
+    /**
+     * The feature id for the '<em><b>Resolution</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int DATE_TIME_TYPE__RESOLUTION = DATA_TYPE_FEATURE_COUNT + 0;
+
+    /**
+     * The feature id for the '<em><b>Resolution Unit</b></em>' attribute.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int DATE_TIME_TYPE__RESOLUTION_UNIT = DATA_TYPE_FEATURE_COUNT + 1;
+
+    /**
+     * The number of structural features of the '<em>Date Time Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int DATE_TIME_TYPE_FEATURE_COUNT = DATA_TYPE_FEATURE_COUNT + 2;
+
+    /**
+     * The number of operations of the '<em>Date Time Type</em>' class.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     * @ordered
+     */
+    int DATE_TIME_TYPE_OPERATION_COUNT = DATA_TYPE_OPERATION_COUNT + 0;
+
+    /**
      * The meta object id for the '{@link anchor.UnitOfTime <em>Unit Of Time</em>}' enum.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -1239,7 +1441,7 @@ public interface AnchorPackage extends EPackage {
      * @see anchor.impl.AnchorPackageImpl#getUnitOfTime()
      * @generated
      */
-    int UNIT_OF_TIME = 22;
+    int UNIT_OF_TIME = 26;
 
 
     /**
@@ -1272,6 +1474,17 @@ public interface AnchorPackage extends EPackage {
      * @generated
      */
     EClass getTyped();
+
+    /**
+     * Returns the meta object for the reference '{@link anchor.Typed#getType <em>Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for the reference '<em>Type</em>'.
+     * @see anchor.Typed#getType()
+     * @see #getTyped()
+     * @generated
+     */
+    EReference getTyped_Type();
 
     /**
      * Returns the meta object for class '{@link anchor.Knotted <em>Knotted</em>}'.
@@ -1639,114 +1852,176 @@ public interface AnchorPackage extends EPackage {
     EClass getDataType();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getLength <em>Length</em>}'.
+     * Returns the meta object for class '{@link anchor.StringType <em>String Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for class '<em>String Type</em>'.
+     * @see anchor.StringType
+     * @generated
+     */
+    EClass getStringType();
+
+    /**
+     * Returns the meta object for the attribute '{@link anchor.StringType#getLength <em>Length</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Length</em>'.
-     * @see anchor.DataType#getLength()
-     * @see #getDataType()
+     * @see anchor.StringType#getLength()
+     * @see #getStringType()
      * @generated
      */
-    EAttribute getDataType_Length();
+    EAttribute getStringType_Length();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getMinLength <em>Min Length</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.StringType#getMinLength <em>Min Length</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Min Length</em>'.
-     * @see anchor.DataType#getMinLength()
-     * @see #getDataType()
+     * @see anchor.StringType#getMinLength()
+     * @see #getStringType()
      * @generated
      */
-    EAttribute getDataType_MinLength();
+    EAttribute getStringType_MinLength();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getMaxLength <em>Max Length</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.StringType#getMaxLength <em>Max Length</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Max Length</em>'.
-     * @see anchor.DataType#getMaxLength()
-     * @see #getDataType()
+     * @see anchor.StringType#getMaxLength()
+     * @see #getStringType()
      * @generated
      */
-    EAttribute getDataType_MaxLength();
+    EAttribute getStringType_MaxLength();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getPattern <em>Pattern</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.StringType#getPattern <em>Pattern</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Pattern</em>'.
-     * @see anchor.DataType#getPattern()
-     * @see #getDataType()
+     * @see anchor.StringType#getPattern()
+     * @see #getStringType()
      * @generated
      */
-    EAttribute getDataType_Pattern();
+    EAttribute getStringType_Pattern();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getMinInclusive <em>Min Inclusive</em>}'.
+     * Returns the meta object for class '{@link anchor.NumericType <em>Numeric Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for class '<em>Numeric Type</em>'.
+     * @see anchor.NumericType
+     * @generated
+     */
+    EClass getNumericType();
+
+    /**
+     * Returns the meta object for the attribute '{@link anchor.NumericType#getMinInclusive <em>Min Inclusive</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Min Inclusive</em>'.
-     * @see anchor.DataType#getMinInclusive()
-     * @see #getDataType()
+     * @see anchor.NumericType#getMinInclusive()
+     * @see #getNumericType()
      * @generated
      */
-    EAttribute getDataType_MinInclusive();
+    EAttribute getNumericType_MinInclusive();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getMinExclusive <em>Min Exclusive</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.NumericType#getMinExclusive <em>Min Exclusive</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Min Exclusive</em>'.
-     * @see anchor.DataType#getMinExclusive()
-     * @see #getDataType()
+     * @see anchor.NumericType#getMinExclusive()
+     * @see #getNumericType()
      * @generated
      */
-    EAttribute getDataType_MinExclusive();
+    EAttribute getNumericType_MinExclusive();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getMaxInclusive <em>Max Inclusive</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.NumericType#getMaxInclusive <em>Max Inclusive</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Max Inclusive</em>'.
-     * @see anchor.DataType#getMaxInclusive()
-     * @see #getDataType()
+     * @see anchor.NumericType#getMaxInclusive()
+     * @see #getNumericType()
      * @generated
      */
-    EAttribute getDataType_MaxInclusive();
+    EAttribute getNumericType_MaxInclusive();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getMaxExclusive <em>Max Exclusive</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.NumericType#getMaxExclusive <em>Max Exclusive</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Max Exclusive</em>'.
-     * @see anchor.DataType#getMaxExclusive()
-     * @see #getDataType()
+     * @see anchor.NumericType#getMaxExclusive()
+     * @see #getNumericType()
      * @generated
      */
-    EAttribute getDataType_MaxExclusive();
+    EAttribute getNumericType_MaxExclusive();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getTotalDigits <em>Total Digits</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.NumericType#getTotalDigits <em>Total Digits</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Total Digits</em>'.
-     * @see anchor.DataType#getTotalDigits()
-     * @see #getDataType()
+     * @see anchor.NumericType#getTotalDigits()
+     * @see #getNumericType()
      * @generated
      */
-    EAttribute getDataType_TotalDigits();
+    EAttribute getNumericType_TotalDigits();
 
     /**
-     * Returns the meta object for the attribute '{@link anchor.DataType#getFractionDigits <em>Fraction Digits</em>}'.
+     * Returns the meta object for the attribute '{@link anchor.NumericType#getFractionDigits <em>Fraction Digits</em>}'.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @return the meta object for the attribute '<em>Fraction Digits</em>'.
-     * @see anchor.DataType#getFractionDigits()
-     * @see #getDataType()
+     * @see anchor.NumericType#getFractionDigits()
+     * @see #getNumericType()
      * @generated
      */
-    EAttribute getDataType_FractionDigits();
+    EAttribute getNumericType_FractionDigits();
+
+    /**
+     * Returns the meta object for class '{@link anchor.BooleanType <em>Boolean Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for class '<em>Boolean Type</em>'.
+     * @see anchor.BooleanType
+     * @generated
+     */
+    EClass getBooleanType();
+
+    /**
+     * Returns the meta object for class '{@link anchor.DateTimeType <em>Date Time Type</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for class '<em>Date Time Type</em>'.
+     * @see anchor.DateTimeType
+     * @generated
+     */
+    EClass getDateTimeType();
+
+    /**
+     * Returns the meta object for the attribute '{@link anchor.DateTimeType#getResolution <em>Resolution</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for the attribute '<em>Resolution</em>'.
+     * @see anchor.DateTimeType#getResolution()
+     * @see #getDateTimeType()
+     * @generated
+     */
+    EAttribute getDateTimeType_Resolution();
+
+    /**
+     * Returns the meta object for the attribute '{@link anchor.DateTimeType#getResolutionUnit <em>Resolution Unit</em>}'.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @return the meta object for the attribute '<em>Resolution Unit</em>'.
+     * @see anchor.DateTimeType#getResolutionUnit()
+     * @see #getDateTimeType()
+     * @generated
+     */
+    EAttribute getDateTimeType_ResolutionUnit();
 
     /**
      * Returns the meta object for enum '{@link anchor.UnitOfTime <em>Unit Of Time</em>}'.
@@ -1808,6 +2083,14 @@ public interface AnchorPackage extends EPackage {
          * @generated
          */
         EClass TYPED = eINSTANCE.getTyped();
+
+        /**
+         * The meta object literal for the '<em><b>Type</b></em>' reference feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @generated
+         */
+        EReference TYPED__TYPE = eINSTANCE.getTyped_Type();
 
         /**
          * The meta object literal for the '{@link anchor.Knotted <em>Knotted</em>}' class.
@@ -2130,12 +2413,22 @@ public interface AnchorPackage extends EPackage {
         EClass DATA_TYPE = eINSTANCE.getDataType();
 
         /**
+         * The meta object literal for the '{@link anchor.impl.StringTypeImpl <em>String Type</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @see anchor.impl.StringTypeImpl
+         * @see anchor.impl.AnchorPackageImpl#getStringType()
+         * @generated
+         */
+        EClass STRING_TYPE = eINSTANCE.getStringType();
+
+        /**
          * The meta object literal for the '<em><b>Length</b></em>' attribute feature.
          * <!-- begin-user-doc -->
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__LENGTH = eINSTANCE.getDataType_Length();
+        EAttribute STRING_TYPE__LENGTH = eINSTANCE.getStringType_Length();
 
         /**
          * The meta object literal for the '<em><b>Min Length</b></em>' attribute feature.
@@ -2143,7 +2436,7 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__MIN_LENGTH = eINSTANCE.getDataType_MinLength();
+        EAttribute STRING_TYPE__MIN_LENGTH = eINSTANCE.getStringType_MinLength();
 
         /**
          * The meta object literal for the '<em><b>Max Length</b></em>' attribute feature.
@@ -2151,7 +2444,7 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__MAX_LENGTH = eINSTANCE.getDataType_MaxLength();
+        EAttribute STRING_TYPE__MAX_LENGTH = eINSTANCE.getStringType_MaxLength();
 
         /**
          * The meta object literal for the '<em><b>Pattern</b></em>' attribute feature.
@@ -2159,7 +2452,17 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__PATTERN = eINSTANCE.getDataType_Pattern();
+        EAttribute STRING_TYPE__PATTERN = eINSTANCE.getStringType_Pattern();
+
+        /**
+         * The meta object literal for the '{@link anchor.impl.NumericTypeImpl <em>Numeric Type</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @see anchor.impl.NumericTypeImpl
+         * @see anchor.impl.AnchorPackageImpl#getNumericType()
+         * @generated
+         */
+        EClass NUMERIC_TYPE = eINSTANCE.getNumericType();
 
         /**
          * The meta object literal for the '<em><b>Min Inclusive</b></em>' attribute feature.
@@ -2167,7 +2470,7 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__MIN_INCLUSIVE = eINSTANCE.getDataType_MinInclusive();
+        EAttribute NUMERIC_TYPE__MIN_INCLUSIVE = eINSTANCE.getNumericType_MinInclusive();
 
         /**
          * The meta object literal for the '<em><b>Min Exclusive</b></em>' attribute feature.
@@ -2175,7 +2478,7 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__MIN_EXCLUSIVE = eINSTANCE.getDataType_MinExclusive();
+        EAttribute NUMERIC_TYPE__MIN_EXCLUSIVE = eINSTANCE.getNumericType_MinExclusive();
 
         /**
          * The meta object literal for the '<em><b>Max Inclusive</b></em>' attribute feature.
@@ -2183,7 +2486,7 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__MAX_INCLUSIVE = eINSTANCE.getDataType_MaxInclusive();
+        EAttribute NUMERIC_TYPE__MAX_INCLUSIVE = eINSTANCE.getNumericType_MaxInclusive();
 
         /**
          * The meta object literal for the '<em><b>Max Exclusive</b></em>' attribute feature.
@@ -2191,7 +2494,7 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__MAX_EXCLUSIVE = eINSTANCE.getDataType_MaxExclusive();
+        EAttribute NUMERIC_TYPE__MAX_EXCLUSIVE = eINSTANCE.getNumericType_MaxExclusive();
 
         /**
          * The meta object literal for the '<em><b>Total Digits</b></em>' attribute feature.
@@ -2199,7 +2502,7 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__TOTAL_DIGITS = eINSTANCE.getDataType_TotalDigits();
+        EAttribute NUMERIC_TYPE__TOTAL_DIGITS = eINSTANCE.getNumericType_TotalDigits();
 
         /**
          * The meta object literal for the '<em><b>Fraction Digits</b></em>' attribute feature.
@@ -2207,7 +2510,43 @@ public interface AnchorPackage extends EPackage {
          * <!-- end-user-doc -->
          * @generated
          */
-        EAttribute DATA_TYPE__FRACTION_DIGITS = eINSTANCE.getDataType_FractionDigits();
+        EAttribute NUMERIC_TYPE__FRACTION_DIGITS = eINSTANCE.getNumericType_FractionDigits();
+
+        /**
+         * The meta object literal for the '{@link anchor.impl.BooleanTypeImpl <em>Boolean Type</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @see anchor.impl.BooleanTypeImpl
+         * @see anchor.impl.AnchorPackageImpl#getBooleanType()
+         * @generated
+         */
+        EClass BOOLEAN_TYPE = eINSTANCE.getBooleanType();
+
+        /**
+         * The meta object literal for the '{@link anchor.impl.DateTimeTypeImpl <em>Date Time Type</em>}' class.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @see anchor.impl.DateTimeTypeImpl
+         * @see anchor.impl.AnchorPackageImpl#getDateTimeType()
+         * @generated
+         */
+        EClass DATE_TIME_TYPE = eINSTANCE.getDateTimeType();
+
+        /**
+         * The meta object literal for the '<em><b>Resolution</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @generated
+         */
+        EAttribute DATE_TIME_TYPE__RESOLUTION = eINSTANCE.getDateTimeType_Resolution();
+
+        /**
+         * The meta object literal for the '<em><b>Resolution Unit</b></em>' attribute feature.
+         * <!-- begin-user-doc -->
+         * <!-- end-user-doc -->
+         * @generated
+         */
+        EAttribute DATE_TIME_TYPE__RESOLUTION_UNIT = eINSTANCE.getDateTimeType_ResolutionUnit();
 
         /**
          * The meta object literal for the '{@link anchor.UnitOfTime <em>Unit Of Time</em>}' enum.

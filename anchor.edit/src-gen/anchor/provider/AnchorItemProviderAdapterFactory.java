@@ -371,26 +371,95 @@ public class AnchorItemProviderAdapterFactory extends AnchorAdapterFactory imple
     }
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.DataType} instances.
+     * This keeps track of the one adapter used for all {@link anchor.StringType} instances.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
-    protected DataTypeItemProvider dataTypeItemProvider;
+    protected StringTypeItemProvider stringTypeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.DataType}.
+     * This creates an adapter for a {@link anchor.StringType}.
      * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
      * @generated
      */
     @Override
-    public Adapter createDataTypeAdapter() {
-        if (dataTypeItemProvider == null) {
-            dataTypeItemProvider = new DataTypeItemProvider(this);
+    public Adapter createStringTypeAdapter() {
+        if (stringTypeItemProvider == null) {
+            stringTypeItemProvider = new StringTypeItemProvider(this);
         }
 
-        return dataTypeItemProvider;
+        return stringTypeItemProvider;
+    }
+
+    /**
+     * This keeps track of the one adapter used for all {@link anchor.NumericType} instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected NumericTypeItemProvider numericTypeItemProvider;
+
+    /**
+     * This creates an adapter for a {@link anchor.NumericType}.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public Adapter createNumericTypeAdapter() {
+        if (numericTypeItemProvider == null) {
+            numericTypeItemProvider = new NumericTypeItemProvider(this);
+        }
+
+        return numericTypeItemProvider;
+    }
+
+    /**
+     * This keeps track of the one adapter used for all {@link anchor.BooleanType} instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected BooleanTypeItemProvider booleanTypeItemProvider;
+
+    /**
+     * This creates an adapter for a {@link anchor.BooleanType}.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public Adapter createBooleanTypeAdapter() {
+        if (booleanTypeItemProvider == null) {
+            booleanTypeItemProvider = new BooleanTypeItemProvider(this);
+        }
+
+        return booleanTypeItemProvider;
+    }
+
+    /**
+     * This keeps track of the one adapter used for all {@link anchor.DateTimeType} instances.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected DateTimeTypeItemProvider dateTimeTypeItemProvider;
+
+    /**
+     * This creates an adapter for a {@link anchor.DateTimeType}.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    @Override
+    public Adapter createDateTimeTypeAdapter() {
+        if (dateTimeTypeItemProvider == null) {
+            dateTimeTypeItemProvider = new DateTimeTypeItemProvider(this);
+        }
+
+        return dateTimeTypeItemProvider;
     }
 
     /**
@@ -505,7 +574,10 @@ public class AnchorItemProviderAdapterFactory extends AnchorAdapterFactory imple
         if (knottedHistorizedTieItemProvider != null) knottedHistorizedTieItemProvider.dispose();
         if (anchorRoleItemProvider != null) anchorRoleItemProvider.dispose();
         if (knotRoleItemProvider != null) knotRoleItemProvider.dispose();
-        if (dataTypeItemProvider != null) dataTypeItemProvider.dispose();
+        if (stringTypeItemProvider != null) stringTypeItemProvider.dispose();
+        if (numericTypeItemProvider != null) numericTypeItemProvider.dispose();
+        if (booleanTypeItemProvider != null) booleanTypeItemProvider.dispose();
+        if (dateTimeTypeItemProvider != null) dateTimeTypeItemProvider.dispose();
     }
 
 }

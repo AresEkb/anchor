@@ -61,6 +61,7 @@ public class KnotItemProvider
             super.getPropertyDescriptors(object);
 
             addNamePropertyDescriptor(object);
+            addTypePropertyDescriptor(object);
         }
         return itemPropertyDescriptors;
     }
@@ -83,6 +84,28 @@ public class KnotItemProvider
                  false,
                  false,
                  ItemPropertyDescriptor.GENERIC_VALUE_IMAGE,
+                 null,
+                 null));
+    }
+
+    /**
+     * This adds a property descriptor for the Type feature.
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    protected void addTypePropertyDescriptor(Object object) {
+        itemPropertyDescriptors.add
+            (createItemPropertyDescriptor
+                (((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+                 getResourceLocator(),
+                 getString("_UI_Typed_type_feature"),
+                 getString("_UI_PropertyDescriptor_description", "_UI_Typed_type_feature", "_UI_Typed_type"),
+                 AnchorPackage.Literals.TYPED__TYPE,
+                 true,
+                 false,
+                 true,
+                 null,
                  null,
                  null));
     }

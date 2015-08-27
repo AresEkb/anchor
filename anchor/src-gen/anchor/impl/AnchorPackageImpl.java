@@ -7,7 +7,9 @@ import anchor.AnchorFactory;
 import anchor.AnchorPackage;
 import anchor.AnchorRole;
 import anchor.Attribute;
+import anchor.BooleanType;
 import anchor.DataType;
+import anchor.DateTimeType;
 import anchor.Historized;
 import anchor.HistorizedAttribute;
 import anchor.HistorizedTie;
@@ -22,8 +24,10 @@ import anchor.KnottedStaticTie;
 import anchor.KnottedTie;
 import anchor.Model;
 import anchor.Named;
+import anchor.NumericType;
 import anchor.StaticAttribute;
 import anchor.StaticTie;
+import anchor.StringType;
 import anchor.Tie;
 import anchor.Typed;
 import anchor.UnitOfTime;
@@ -202,6 +206,34 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
+    private EClass stringTypeEClass = null;
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private EClass numericTypeEClass = null;
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private EClass booleanTypeEClass = null;
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    private EClass dateTimeTypeEClass = null;
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
     private EEnum unitOfTimeEEnum = null;
 
     /**
@@ -290,6 +322,15 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      */
     public EClass getTyped() {
         return typedEClass;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EReference getTyped_Type() {
+        return (EReference)typedEClass.getEStructuralFeatures().get(0);
     }
 
     /**
@@ -612,8 +653,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_Length() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(0);
+    public EClass getStringType() {
+        return stringTypeEClass;
     }
 
     /**
@@ -621,8 +662,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_MinLength() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(1);
+    public EAttribute getStringType_Length() {
+        return (EAttribute)stringTypeEClass.getEStructuralFeatures().get(0);
     }
 
     /**
@@ -630,8 +671,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_MaxLength() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(2);
+    public EAttribute getStringType_MinLength() {
+        return (EAttribute)stringTypeEClass.getEStructuralFeatures().get(1);
     }
 
     /**
@@ -639,8 +680,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_Pattern() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(3);
+    public EAttribute getStringType_MaxLength() {
+        return (EAttribute)stringTypeEClass.getEStructuralFeatures().get(2);
     }
 
     /**
@@ -648,8 +689,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_MinInclusive() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(4);
+    public EAttribute getStringType_Pattern() {
+        return (EAttribute)stringTypeEClass.getEStructuralFeatures().get(3);
     }
 
     /**
@@ -657,8 +698,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_MinExclusive() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(5);
+    public EClass getNumericType() {
+        return numericTypeEClass;
     }
 
     /**
@@ -666,8 +707,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_MaxInclusive() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(6);
+    public EAttribute getNumericType_MinInclusive() {
+        return (EAttribute)numericTypeEClass.getEStructuralFeatures().get(0);
     }
 
     /**
@@ -675,8 +716,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_MaxExclusive() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(7);
+    public EAttribute getNumericType_MinExclusive() {
+        return (EAttribute)numericTypeEClass.getEStructuralFeatures().get(1);
     }
 
     /**
@@ -684,8 +725,8 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_TotalDigits() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(8);
+    public EAttribute getNumericType_MaxInclusive() {
+        return (EAttribute)numericTypeEClass.getEStructuralFeatures().get(2);
     }
 
     /**
@@ -693,8 +734,62 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
      * <!-- end-user-doc -->
      * @generated
      */
-    public EAttribute getDataType_FractionDigits() {
-        return (EAttribute)dataTypeEClass.getEStructuralFeatures().get(9);
+    public EAttribute getNumericType_MaxExclusive() {
+        return (EAttribute)numericTypeEClass.getEStructuralFeatures().get(3);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EAttribute getNumericType_TotalDigits() {
+        return (EAttribute)numericTypeEClass.getEStructuralFeatures().get(4);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EAttribute getNumericType_FractionDigits() {
+        return (EAttribute)numericTypeEClass.getEStructuralFeatures().get(5);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EClass getBooleanType() {
+        return booleanTypeEClass;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EClass getDateTimeType() {
+        return dateTimeTypeEClass;
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EAttribute getDateTimeType_Resolution() {
+        return (EAttribute)dateTimeTypeEClass.getEStructuralFeatures().get(0);
+    }
+
+    /**
+     * <!-- begin-user-doc -->
+     * <!-- end-user-doc -->
+     * @generated
+     */
+    public EAttribute getDateTimeType_ResolutionUnit() {
+        return (EAttribute)dateTimeTypeEClass.getEStructuralFeatures().get(1);
     }
 
     /**
@@ -738,6 +833,7 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
         createEAttribute(namedEClass, NAMED__NAME);
 
         typedEClass = createEClass(TYPED);
+        createEReference(typedEClass, TYPED__TYPE);
 
         knottedEClass = createEClass(KNOTTED);
         createEReference(knottedEClass, KNOTTED__KNOT);
@@ -793,16 +889,26 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
         createEReference(knotRoleEClass, KNOT_ROLE__TIE);
 
         dataTypeEClass = createEClass(DATA_TYPE);
-        createEAttribute(dataTypeEClass, DATA_TYPE__LENGTH);
-        createEAttribute(dataTypeEClass, DATA_TYPE__MIN_LENGTH);
-        createEAttribute(dataTypeEClass, DATA_TYPE__MAX_LENGTH);
-        createEAttribute(dataTypeEClass, DATA_TYPE__PATTERN);
-        createEAttribute(dataTypeEClass, DATA_TYPE__MIN_INCLUSIVE);
-        createEAttribute(dataTypeEClass, DATA_TYPE__MIN_EXCLUSIVE);
-        createEAttribute(dataTypeEClass, DATA_TYPE__MAX_INCLUSIVE);
-        createEAttribute(dataTypeEClass, DATA_TYPE__MAX_EXCLUSIVE);
-        createEAttribute(dataTypeEClass, DATA_TYPE__TOTAL_DIGITS);
-        createEAttribute(dataTypeEClass, DATA_TYPE__FRACTION_DIGITS);
+
+        stringTypeEClass = createEClass(STRING_TYPE);
+        createEAttribute(stringTypeEClass, STRING_TYPE__LENGTH);
+        createEAttribute(stringTypeEClass, STRING_TYPE__MIN_LENGTH);
+        createEAttribute(stringTypeEClass, STRING_TYPE__MAX_LENGTH);
+        createEAttribute(stringTypeEClass, STRING_TYPE__PATTERN);
+
+        numericTypeEClass = createEClass(NUMERIC_TYPE);
+        createEAttribute(numericTypeEClass, NUMERIC_TYPE__MIN_INCLUSIVE);
+        createEAttribute(numericTypeEClass, NUMERIC_TYPE__MIN_EXCLUSIVE);
+        createEAttribute(numericTypeEClass, NUMERIC_TYPE__MAX_INCLUSIVE);
+        createEAttribute(numericTypeEClass, NUMERIC_TYPE__MAX_EXCLUSIVE);
+        createEAttribute(numericTypeEClass, NUMERIC_TYPE__TOTAL_DIGITS);
+        createEAttribute(numericTypeEClass, NUMERIC_TYPE__FRACTION_DIGITS);
+
+        booleanTypeEClass = createEClass(BOOLEAN_TYPE);
+
+        dateTimeTypeEClass = createEClass(DATE_TIME_TYPE);
+        createEAttribute(dateTimeTypeEClass, DATE_TIME_TYPE__RESOLUTION);
+        createEAttribute(dateTimeTypeEClass, DATE_TIME_TYPE__RESOLUTION_UNIT);
 
         // Create enums
         unitOfTimeEEnum = createEEnum(UNIT_OF_TIME);
@@ -862,12 +968,17 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
         knotRoleEClass.getESuperTypes().add(this.getNamed());
         knotRoleEClass.getESuperTypes().add(this.getKnotted());
         dataTypeEClass.getESuperTypes().add(this.getNamed());
+        stringTypeEClass.getESuperTypes().add(this.getDataType());
+        numericTypeEClass.getESuperTypes().add(this.getDataType());
+        booleanTypeEClass.getESuperTypes().add(this.getDataType());
+        dateTimeTypeEClass.getESuperTypes().add(this.getDataType());
 
         // Initialize classes, features, and operations; add parameters
         initEClass(namedEClass, Named.class, "Named", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
         initEAttribute(getNamed_Name(), ecorePackage.getEString(), "name", null, 1, 1, Named.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
         initEClass(typedEClass, Typed.class, "Typed", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+        initEReference(getTyped_Type(), this.getDataType(), null, "type", null, 0, 1, Typed.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
         initEClass(knottedEClass, Knotted.class, "Knotted", IS_ABSTRACT, IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
         initEReference(getKnotted_Knot(), this.getKnot(), null, "knot", null, 1, 1, Knotted.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -922,17 +1033,27 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
         initEClass(knotRoleEClass, KnotRole.class, "KnotRole", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
         initEReference(getKnotRole_Tie(), this.getKnottedTie(), this.getKnottedTie_KnotRoles(), "tie", null, 1, 1, KnotRole.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
-        initEClass(dataTypeEClass, DataType.class, "DataType", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-        initEAttribute(getDataType_Length(), ecorePackage.getEInt(), "length", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_MinLength(), ecorePackage.getEInt(), "minLength", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_MaxLength(), ecorePackage.getEInt(), "maxLength", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_Pattern(), ecorePackage.getEString(), "pattern", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_MinInclusive(), ecorePackage.getEInt(), "minInclusive", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_MinExclusive(), ecorePackage.getEInt(), "minExclusive", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_MaxInclusive(), ecorePackage.getEInt(), "maxInclusive", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_MaxExclusive(), ecorePackage.getEInt(), "maxExclusive", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_TotalDigits(), ecorePackage.getEInt(), "totalDigits", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
-        initEAttribute(getDataType_FractionDigits(), ecorePackage.getEInt(), "fractionDigits", null, 0, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEClass(dataTypeEClass, DataType.class, "DataType", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+        initEClass(stringTypeEClass, StringType.class, "StringType", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+        initEAttribute(getStringType_Length(), ecorePackage.getEInt(), "length", null, 0, 1, StringType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getStringType_MinLength(), ecorePackage.getEInt(), "minLength", null, 0, 1, StringType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getStringType_MaxLength(), ecorePackage.getEInt(), "maxLength", null, 0, 1, StringType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getStringType_Pattern(), ecorePackage.getEString(), "pattern", null, 0, 1, StringType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+        initEClass(numericTypeEClass, NumericType.class, "NumericType", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+        initEAttribute(getNumericType_MinInclusive(), ecorePackage.getEInt(), "minInclusive", null, 0, 1, NumericType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getNumericType_MinExclusive(), ecorePackage.getEInt(), "minExclusive", null, 0, 1, NumericType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getNumericType_MaxInclusive(), ecorePackage.getEInt(), "maxInclusive", null, 0, 1, NumericType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getNumericType_MaxExclusive(), ecorePackage.getEInt(), "maxExclusive", null, 0, 1, NumericType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getNumericType_TotalDigits(), ecorePackage.getEInt(), "totalDigits", null, 0, 1, NumericType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getNumericType_FractionDigits(), ecorePackage.getEInt(), "fractionDigits", null, 0, 1, NumericType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+        initEClass(booleanTypeEClass, BooleanType.class, "BooleanType", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+
+        initEClass(dateTimeTypeEClass, DateTimeType.class, "DateTimeType", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+        initEAttribute(getDateTimeType_Resolution(), ecorePackage.getEDouble(), "resolution", null, 1, 1, DateTimeType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+        initEAttribute(getDateTimeType_ResolutionUnit(), this.getUnitOfTime(), "resolutionUnit", null, 1, 1, DateTimeType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
         // Initialize enums and add enum literals
         initEEnum(unitOfTimeEEnum, UnitOfTime.class, "UnitOfTime");
