@@ -62,6 +62,7 @@ public class KnotRoleItemProvider
 
 			addNamePropertyDescriptor(object);
 			addKnotPropertyDescriptor(object);
+			addIsIdentifierPropertyDescriptor(object);
 		}
 		return itemPropertyDescriptors;
 	}
@@ -111,6 +112,28 @@ public class KnotRoleItemProvider
 	}
 
     /**
+	 * This adds a property descriptor for the Is Identifier feature.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	protected void addIsIdentifierPropertyDescriptor(Object object) {
+		itemPropertyDescriptors.add
+			(createItemPropertyDescriptor
+				(((ComposeableAdapterFactory)adapterFactory).getRootAdapterFactory(),
+				 getResourceLocator(),
+				 getString("_UI_KnotRole_isIdentifier_feature"),
+				 getString("_UI_PropertyDescriptor_description", "_UI_KnotRole_isIdentifier_feature", "_UI_KnotRole_type"),
+				 AnchorPackage.Literals.KNOT_ROLE__IS_IDENTIFIER,
+				 true,
+				 false,
+				 false,
+				 ItemPropertyDescriptor.BOOLEAN_VALUE_IMAGE,
+				 null,
+				 null));
+	}
+
+				/**
 	 * This returns KnotRole.gif.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -149,6 +172,7 @@ public class KnotRoleItemProvider
 
 		switch (notification.getFeatureID(KnotRole.class)) {
 			case AnchorPackage.KNOT_ROLE__NAME:
+			case AnchorPackage.KNOT_ROLE__IS_IDENTIFIER:
 				fireNotifyChanged(new ViewerNotification(notification, notification.getNotifier(), false, true));
 				return;
 		}

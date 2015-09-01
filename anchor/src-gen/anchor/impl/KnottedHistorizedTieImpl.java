@@ -24,7 +24,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
-import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
@@ -143,37 +142,6 @@ public class KnottedHistorizedTieImpl extends MinimalEObjectImpl.Container imple
 
 				/**
 	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetModel(Model newModel, NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject)newModel, AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL, msgs);
-		return msgs;
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setModel(Model newModel) {
-		if (newModel != eInternalContainer() || (eContainerFeatureID() != AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL && newModel != null)) {
-			if (EcoreUtil.isAncestor(this, newModel))
-				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
-			NotificationChain msgs = null;
-			if (eInternalContainer() != null)
-				msgs = eBasicRemoveFromContainer(msgs);
-			if (newModel != null)
-				msgs = ((InternalEObject)newModel).eInverseAdd(this, AnchorPackage.MODEL__TIES, Model.class, msgs);
-			msgs = basicSetModel(newModel, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL, newModel, newModel));
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -208,7 +176,7 @@ public class KnottedHistorizedTieImpl extends MinimalEObjectImpl.Container imple
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL:
 				if (eInternalContainer() != null)
 					msgs = eBasicRemoveFromContainer(msgs);
-				return basicSetModel((Model)otherEnd, msgs);
+				return eBasicSetContainer(otherEnd, AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL, msgs);
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__ANCHOR_ROLES:
 				return ((InternalEList<InternalEObject>)(InternalEList<?>)getAnchorRoles()).basicAdd(otherEnd, msgs);
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__KNOT_ROLES:
@@ -226,7 +194,7 @@ public class KnottedHistorizedTieImpl extends MinimalEObjectImpl.Container imple
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL:
-				return basicSetModel(null, msgs);
+				return eBasicSetContainer(null, AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL, msgs);
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__ANCHOR_ROLES:
 				return ((InternalEList<?>)getAnchorRoles()).basicRemove(otherEnd, msgs);
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__KNOT_ROLES:
@@ -282,9 +250,6 @@ public class KnottedHistorizedTieImpl extends MinimalEObjectImpl.Container imple
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__DATE_TIME_TYPE:
 				setDateTimeType((DateTimeType)newValue);
 				return;
-			case AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL:
-				setModel((Model)newValue);
-				return;
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__ANCHOR_ROLES:
 				getAnchorRoles().clear();
 				getAnchorRoles().addAll((Collection<? extends AnchorRole>)newValue);
@@ -307,9 +272,6 @@ public class KnottedHistorizedTieImpl extends MinimalEObjectImpl.Container imple
 		switch (featureID) {
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__DATE_TIME_TYPE:
 				setDateTimeType((DateTimeType)null);
-				return;
-			case AnchorPackage.KNOTTED_HISTORIZED_TIE__MODEL:
-				setModel((Model)null);
 				return;
 			case AnchorPackage.KNOTTED_HISTORIZED_TIE__ANCHOR_ROLES:
 				getAnchorRoles().clear();

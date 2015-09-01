@@ -13,24 +13,24 @@ import anchor.KnottedTie;
 public abstract class KnottedTieTest extends TieTest {
 
     /**
-     * Constructs a new Knotted Tie test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Knotted Tie test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public KnottedTieTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Returns the fixture for this Knotted Tie test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Knotted Tie test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected KnottedTie getFixture() {
-        return (KnottedTie)fixture;
-    }
+		return (KnottedTie)fixture;
+	}
 
 } //KnottedTieTest

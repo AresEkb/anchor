@@ -31,21 +31,10 @@ public interface Knot extends Named, Typed {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Model</em>' container reference.
-	 * @see #setModel(Model)
 	 * @see anchor.AnchorPackage#getKnot_Model()
 	 * @see anchor.Model#getKnots
-	 * @model opposite="knots" required="true" transient="false"
+	 * @model opposite="knots" required="true" transient="false" changeable="false"
 	 * @generated
 	 */
 	Model getModel();
-
-	/**
-	 * Sets the value of the '{@link anchor.Knot#getModel <em>Model</em>}' container reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Model</em>' container reference.
-	 * @see #getModel()
-	 * @generated
-	 */
-	void setModel(Model value);
 } // Knot

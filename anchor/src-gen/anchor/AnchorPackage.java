@@ -1150,13 +1150,22 @@ public interface AnchorPackage extends EPackage {
     int KNOT_ROLE__TIE = NAMED_FEATURE_COUNT + 1;
 
     /**
+	 * The feature id for the '<em><b>Is Identifier</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int KNOT_ROLE__IS_IDENTIFIER = NAMED_FEATURE_COUNT + 2;
+
+				/**
 	 * The number of structural features of the '<em>Knot Role</em>' class.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-    int KNOT_ROLE_FEATURE_COUNT = NAMED_FEATURE_COUNT + 2;
+    int KNOT_ROLE_FEATURE_COUNT = NAMED_FEATURE_COUNT + 3;
 
     /**
 	 * The number of operations of the '<em>Knot Role</em>' class.
@@ -1963,6 +1972,17 @@ public interface AnchorPackage extends EPackage {
     EReference getKnotRole_Tie();
 
     /**
+	 * Returns the meta object for the attribute '{@link anchor.KnotRole#isIsIdentifier <em>Is Identifier</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Is Identifier</em>'.
+	 * @see anchor.KnotRole#isIsIdentifier()
+	 * @see #getKnotRole()
+	 * @generated
+	 */
+	EAttribute getKnotRole_IsIdentifier();
+
+				/**
 	 * Returns the meta object for class '{@link anchor.DataType <em>Data Type</em>}'.
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
@@ -2584,6 +2604,14 @@ public interface AnchorPackage extends EPackage {
         EReference KNOT_ROLE__TIE = eINSTANCE.getKnotRole_Tie();
 
         /**
+		 * The meta object literal for the '<em><b>Is Identifier</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute KNOT_ROLE__IS_IDENTIFIER = eINSTANCE.getKnotRole_IsIdentifier();
+
+								/**
 		 * The meta object literal for the '{@link anchor.impl.DataTypeImpl <em>Data Type</em>}' class.
 		 * <!-- begin-user-doc -->
          * <!-- end-user-doc -->

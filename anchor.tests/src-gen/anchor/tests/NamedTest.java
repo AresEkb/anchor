@@ -15,41 +15,41 @@ import junit.framework.TestCase;
 public abstract class NamedTest extends TestCase {
 
     /**
-     * The fixture for this Named test case.
-     * <!-- begin-user-doc -->
+	 * The fixture for this Named test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Named fixture = null;
 
     /**
-     * Constructs a new Named test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Named test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public NamedTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Sets the fixture for this Named test case.
-     * <!-- begin-user-doc -->
+	 * Sets the fixture for this Named test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void setFixture(Named fixture) {
-        this.fixture = fixture;
-    }
+		this.fixture = fixture;
+	}
 
     /**
-     * Returns the fixture for this Named test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Named test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Named getFixture() {
-        return fixture;
-    }
+		return fixture;
+	}
 
 } //NamedTest

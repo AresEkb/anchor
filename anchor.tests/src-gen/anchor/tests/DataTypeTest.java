@@ -15,41 +15,41 @@ import junit.framework.TestCase;
 public abstract class DataTypeTest extends TestCase {
 
     /**
-     * The fixture for this Data Type test case.
-     * <!-- begin-user-doc -->
+	 * The fixture for this Data Type test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected DataType fixture = null;
 
     /**
-     * Constructs a new Data Type test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Data Type test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public DataTypeTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Sets the fixture for this Data Type test case.
-     * <!-- begin-user-doc -->
+	 * Sets the fixture for this Data Type test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void setFixture(DataType fixture) {
-        this.fixture = fixture;
-    }
+		this.fixture = fixture;
+	}
 
     /**
-     * Returns the fixture for this Data Type test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Data Type test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected DataType getFixture() {
-        return fixture;
-    }
+		return fixture;
+	}
 
 } //DataTypeTest

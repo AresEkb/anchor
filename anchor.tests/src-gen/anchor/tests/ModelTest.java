@@ -18,72 +18,72 @@ import junit.textui.TestRunner;
 public class ModelTest extends TestCase {
 
     /**
-     * The fixture for this Model test case.
-     * <!-- begin-user-doc -->
+	 * The fixture for this Model test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Model fixture = null;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public static void main(String[] args) {
-        TestRunner.run(ModelTest.class);
-    }
+		TestRunner.run(ModelTest.class);
+	}
 
     /**
-     * Constructs a new Model test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Model test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ModelTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Sets the fixture for this Model test case.
-     * <!-- begin-user-doc -->
+	 * Sets the fixture for this Model test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void setFixture(Model fixture) {
-        this.fixture = fixture;
-    }
+		this.fixture = fixture;
+	}
 
     /**
-     * Returns the fixture for this Model test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Model test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Model getFixture() {
-        return fixture;
-    }
+		return fixture;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
     @Override
     protected void setUp() throws Exception {
-        setFixture(AnchorFactory.eINSTANCE.createModel());
-    }
+		setFixture(AnchorFactory.eINSTANCE.createModel());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
     @Override
     protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+		setFixture(null);
+	}
 
 } //ModelTest

@@ -18,72 +18,72 @@ import junit.textui.TestRunner;
 public class KnotTest extends TestCase {
 
     /**
-     * The fixture for this Knot test case.
-     * <!-- begin-user-doc -->
+	 * The fixture for this Knot test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Knot fixture = null;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public static void main(String[] args) {
-        TestRunner.run(KnotTest.class);
-    }
+		TestRunner.run(KnotTest.class);
+	}
 
     /**
-     * Constructs a new Knot test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Knot test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public KnotTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Sets the fixture for this Knot test case.
-     * <!-- begin-user-doc -->
+	 * Sets the fixture for this Knot test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void setFixture(Knot fixture) {
-        this.fixture = fixture;
-    }
+		this.fixture = fixture;
+	}
 
     /**
-     * Returns the fixture for this Knot test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Knot test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Knot getFixture() {
-        return fixture;
-    }
+		return fixture;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
     @Override
     protected void setUp() throws Exception {
-        setFixture(AnchorFactory.eINSTANCE.createKnot());
-    }
+		setFixture(AnchorFactory.eINSTANCE.createKnot());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
     @Override
     protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+		setFixture(null);
+	}
 
 } //KnotTest

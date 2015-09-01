@@ -8,20 +8,15 @@ import anchor.Model;
 import anchor.Tie;
 
 import java.util.Collection;
-
-import org.eclipse.emf.common.notify.Notification;
 import org.eclipse.emf.common.notify.NotificationChain;
 
 import org.eclipse.emf.common.util.EList;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
-
-import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
-import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
@@ -80,37 +75,6 @@ public abstract class TieImpl extends MinimalEObjectImpl.Container implements Ti
 
 				/**
 	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetModel(Model newModel, NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject)newModel, AnchorPackage.TIE__MODEL, msgs);
-		return msgs;
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setModel(Model newModel) {
-		if (newModel != eInternalContainer() || (eContainerFeatureID() != AnchorPackage.TIE__MODEL && newModel != null)) {
-			if (EcoreUtil.isAncestor(this, newModel))
-				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
-			NotificationChain msgs = null;
-			if (eInternalContainer() != null)
-				msgs = eBasicRemoveFromContainer(msgs);
-			if (newModel != null)
-				msgs = ((InternalEObject)newModel).eInverseAdd(this, AnchorPackage.MODEL__TIES, Model.class, msgs);
-			msgs = basicSetModel(newModel, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.TIE__MODEL, newModel, newModel));
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -133,7 +97,7 @@ public abstract class TieImpl extends MinimalEObjectImpl.Container implements Ti
 			case AnchorPackage.TIE__MODEL:
 				if (eInternalContainer() != null)
 					msgs = eBasicRemoveFromContainer(msgs);
-				return basicSetModel((Model)otherEnd, msgs);
+				return eBasicSetContainer(otherEnd, AnchorPackage.TIE__MODEL, msgs);
 			case AnchorPackage.TIE__ANCHOR_ROLES:
 				return ((InternalEList<InternalEObject>)(InternalEList<?>)getAnchorRoles()).basicAdd(otherEnd, msgs);
 		}
@@ -149,7 +113,7 @@ public abstract class TieImpl extends MinimalEObjectImpl.Container implements Ti
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case AnchorPackage.TIE__MODEL:
-				return basicSetModel(null, msgs);
+				return eBasicSetContainer(null, AnchorPackage.TIE__MODEL, msgs);
 			case AnchorPackage.TIE__ANCHOR_ROLES:
 				return ((InternalEList<?>)getAnchorRoles()).basicRemove(otherEnd, msgs);
 		}
@@ -195,9 +159,6 @@ public abstract class TieImpl extends MinimalEObjectImpl.Container implements Ti
     @Override
     public void eSet(int featureID, Object newValue) {
 		switch (featureID) {
-			case AnchorPackage.TIE__MODEL:
-				setModel((Model)newValue);
-				return;
 			case AnchorPackage.TIE__ANCHOR_ROLES:
 				getAnchorRoles().clear();
 				getAnchorRoles().addAll((Collection<? extends AnchorRole>)newValue);
@@ -214,9 +175,6 @@ public abstract class TieImpl extends MinimalEObjectImpl.Container implements Ti
     @Override
     public void eUnset(int featureID) {
 		switch (featureID) {
-			case AnchorPackage.TIE__MODEL:
-				setModel((Model)null);
-				return;
 			case AnchorPackage.TIE__ANCHOR_ROLES:
 				getAnchorRoles().clear();
 				return;

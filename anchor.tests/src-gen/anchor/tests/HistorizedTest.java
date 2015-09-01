@@ -15,41 +15,41 @@ import junit.framework.TestCase;
 public abstract class HistorizedTest extends TestCase {
 
     /**
-     * The fixture for this Historized test case.
-     * <!-- begin-user-doc -->
+	 * The fixture for this Historized test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Historized fixture = null;
 
     /**
-     * Constructs a new Historized test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Historized test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public HistorizedTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Sets the fixture for this Historized test case.
-     * <!-- begin-user-doc -->
+	 * Sets the fixture for this Historized test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void setFixture(Historized fixture) {
-        this.fixture = fixture;
-    }
+		this.fixture = fixture;
+	}
 
     /**
-     * Returns the fixture for this Historized test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Historized test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Historized getFixture() {
-        return fixture;
-    }
+		return fixture;
+	}
 
 } //HistorizedTest

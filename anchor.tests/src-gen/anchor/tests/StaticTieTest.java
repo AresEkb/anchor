@@ -16,55 +16,55 @@ import junit.textui.TestRunner;
 public class StaticTieTest extends TieTest {
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public static void main(String[] args) {
-        TestRunner.run(StaticTieTest.class);
-    }
+		TestRunner.run(StaticTieTest.class);
+	}
 
     /**
-     * Constructs a new Static Tie test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Static Tie test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public StaticTieTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Returns the fixture for this Static Tie test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Static Tie test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected StaticTie getFixture() {
-        return (StaticTie)fixture;
-    }
+		return (StaticTie)fixture;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
     @Override
     protected void setUp() throws Exception {
-        setFixture(AnchorFactory.eINSTANCE.createStaticTie());
-    }
+		setFixture(AnchorFactory.eINSTANCE.createStaticTie());
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
     @Override
     protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+		setFixture(null);
+	}
 
 } //StaticTieTest

@@ -21,7 +21,6 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 
 import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
-import org.eclipse.emf.ecore.util.EcoreUtil;
 import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
@@ -122,37 +121,6 @@ public class AnchorImpl extends MinimalEObjectImpl.Container implements Anchor {
 
 				/**
 	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public NotificationChain basicSetModel(Model newModel, NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject)newModel, AnchorPackage.ANCHOR__MODEL, msgs);
-		return msgs;
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setModel(Model newModel) {
-		if (newModel != eInternalContainer() || (eContainerFeatureID() != AnchorPackage.ANCHOR__MODEL && newModel != null)) {
-			if (EcoreUtil.isAncestor(this, newModel))
-				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
-			NotificationChain msgs = null;
-			if (eInternalContainer() != null)
-				msgs = eBasicRemoveFromContainer(msgs);
-			if (newModel != null)
-				msgs = ((InternalEObject)newModel).eInverseAdd(this, AnchorPackage.MODEL__ANCHORS, Model.class, msgs);
-			msgs = basicSetModel(newModel, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.ANCHOR__MODEL, newModel, newModel));
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -175,7 +143,7 @@ public class AnchorImpl extends MinimalEObjectImpl.Container implements Anchor {
 			case AnchorPackage.ANCHOR__MODEL:
 				if (eInternalContainer() != null)
 					msgs = eBasicRemoveFromContainer(msgs);
-				return basicSetModel((Model)otherEnd, msgs);
+				return eBasicSetContainer(otherEnd, AnchorPackage.ANCHOR__MODEL, msgs);
 			case AnchorPackage.ANCHOR__ATTRIBUTES:
 				return ((InternalEList<InternalEObject>)(InternalEList<?>)getAttributes()).basicAdd(otherEnd, msgs);
 		}
@@ -191,7 +159,7 @@ public class AnchorImpl extends MinimalEObjectImpl.Container implements Anchor {
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case AnchorPackage.ANCHOR__MODEL:
-				return basicSetModel(null, msgs);
+				return eBasicSetContainer(null, AnchorPackage.ANCHOR__MODEL, msgs);
 			case AnchorPackage.ANCHOR__ATTRIBUTES:
 				return ((InternalEList<?>)getAttributes()).basicRemove(otherEnd, msgs);
 		}
@@ -242,9 +210,6 @@ public class AnchorImpl extends MinimalEObjectImpl.Container implements Anchor {
 			case AnchorPackage.ANCHOR__NAME:
 				setName((String)newValue);
 				return;
-			case AnchorPackage.ANCHOR__MODEL:
-				setModel((Model)newValue);
-				return;
 			case AnchorPackage.ANCHOR__ATTRIBUTES:
 				getAttributes().clear();
 				getAttributes().addAll((Collection<? extends Attribute>)newValue);
@@ -263,9 +228,6 @@ public class AnchorImpl extends MinimalEObjectImpl.Container implements Anchor {
 		switch (featureID) {
 			case AnchorPackage.ANCHOR__NAME:
 				setName(NAME_EDEFAULT);
-				return;
-			case AnchorPackage.ANCHOR__MODEL:
-				setModel((Model)null);
 				return;
 			case AnchorPackage.ANCHOR__ATTRIBUTES:
 				getAttributes().clear();

@@ -15,56 +15,56 @@ import junit.textui.TestRunner;
  */
 public class BooleanTypeTest extends DataTypeTest {
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public static void main(String[] args) {
-        TestRunner.run(BooleanTypeTest.class);
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public static void main(String[] args) {
+		TestRunner.run(BooleanTypeTest.class);
+	}
 
-    /**
-     * Constructs a new Boolean Type test case with the given name.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public BooleanTypeTest(String name) {
-        super(name);
-    }
+	/**
+	 * Constructs a new Boolean Type test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public BooleanTypeTest(String name) {
+		super(name);
+	}
 
-    /**
-     * Returns the fixture for this Boolean Type test case.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    @Override
-    protected BooleanType getFixture() {
-        return (BooleanType)fixture;
-    }
+	/**
+	 * Returns the fixture for this Boolean Type test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected BooleanType getFixture() {
+		return (BooleanType)fixture;
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
-    @Override
-    protected void setUp() throws Exception {
-        setFixture(AnchorFactory.eINSTANCE.createBooleanType());
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
+	@Override
+	protected void setUp() throws Exception {
+		setFixture(AnchorFactory.eINSTANCE.createBooleanType());
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
-    @Override
-    protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
+	@Override
+	protected void tearDown() throws Exception {
+		setFixture(null);
+	}
 
 } //BooleanTypeTest

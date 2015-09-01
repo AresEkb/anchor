@@ -15,41 +15,41 @@ import junit.framework.TestCase;
 public abstract class TypedTest extends TestCase {
 
     /**
-     * The fixture for this Typed test case.
-     * <!-- begin-user-doc -->
+	 * The fixture for this Typed test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Typed fixture = null;
 
     /**
-     * Constructs a new Typed test case with the given name.
-     * <!-- begin-user-doc -->
+	 * Constructs a new Typed test case with the given name.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public TypedTest(String name) {
-        super(name);
-    }
+		super(name);
+	}
 
     /**
-     * Sets the fixture for this Typed test case.
-     * <!-- begin-user-doc -->
+	 * Sets the fixture for this Typed test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected void setFixture(Typed fixture) {
-        this.fixture = fixture;
-    }
+		this.fixture = fixture;
+	}
 
     /**
-     * Returns the fixture for this Typed test case.
-     * <!-- begin-user-doc -->
+	 * Returns the fixture for this Typed test case.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Typed getFixture() {
-        return fixture;
-    }
+		return fixture;
+	}
 
 } //TypedTest

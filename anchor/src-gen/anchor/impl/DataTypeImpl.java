@@ -14,7 +14,6 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-import org.eclipse.emf.ecore.util.EcoreUtil;
 
 /**
  * <!-- begin-user-doc -->
@@ -106,44 +105,13 @@ public abstract class DataTypeImpl extends MinimalEObjectImpl.Container implemen
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetModel(Model newModel, NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject)newModel, AnchorPackage.DATA_TYPE__MODEL, msgs);
-		return msgs;
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setModel(Model newModel) {
-		if (newModel != eInternalContainer() || (eContainerFeatureID() != AnchorPackage.DATA_TYPE__MODEL && newModel != null)) {
-			if (EcoreUtil.isAncestor(this, newModel))
-				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
-			NotificationChain msgs = null;
-			if (eInternalContainer() != null)
-				msgs = eBasicRemoveFromContainer(msgs);
-			if (newModel != null)
-				msgs = ((InternalEObject)newModel).eInverseAdd(this, AnchorPackage.MODEL__DATA_TYPES, Model.class, msgs);
-			msgs = basicSetModel(newModel, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.DATA_TYPE__MODEL, newModel, newModel));
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case AnchorPackage.DATA_TYPE__MODEL:
 				if (eInternalContainer() != null)
 					msgs = eBasicRemoveFromContainer(msgs);
-				return basicSetModel((Model)otherEnd, msgs);
+				return eBasicSetContainer(otherEnd, AnchorPackage.DATA_TYPE__MODEL, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -157,7 +125,7 @@ public abstract class DataTypeImpl extends MinimalEObjectImpl.Container implemen
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case AnchorPackage.DATA_TYPE__MODEL:
-				return basicSetModel(null, msgs);
+				return eBasicSetContainer(null, AnchorPackage.DATA_TYPE__MODEL, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -203,9 +171,6 @@ public abstract class DataTypeImpl extends MinimalEObjectImpl.Container implemen
 			case AnchorPackage.DATA_TYPE__NAME:
 				setName((String)newValue);
 				return;
-			case AnchorPackage.DATA_TYPE__MODEL:
-				setModel((Model)newValue);
-				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -220,9 +185,6 @@ public abstract class DataTypeImpl extends MinimalEObjectImpl.Container implemen
 		switch (featureID) {
 			case AnchorPackage.DATA_TYPE__NAME:
 				setName(NAME_EDEFAULT);
-				return;
-			case AnchorPackage.DATA_TYPE__MODEL:
-				setModel((Model)null);
 				return;
 		}
 		super.eUnset(featureID);

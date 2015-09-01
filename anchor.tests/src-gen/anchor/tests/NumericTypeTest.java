@@ -15,56 +15,56 @@ import junit.textui.TestRunner;
  */
 public class NumericTypeTest extends DataTypeTest {
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public static void main(String[] args) {
-        TestRunner.run(NumericTypeTest.class);
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public static void main(String[] args) {
+		TestRunner.run(NumericTypeTest.class);
+	}
 
-    /**
-     * Constructs a new Numeric Type test case with the given name.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public NumericTypeTest(String name) {
-        super(name);
-    }
+	/**
+	 * Constructs a new Numeric Type test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public NumericTypeTest(String name) {
+		super(name);
+	}
 
-    /**
-     * Returns the fixture for this Numeric Type test case.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    @Override
-    protected NumericType getFixture() {
-        return (NumericType)fixture;
-    }
+	/**
+	 * Returns the fixture for this Numeric Type test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected NumericType getFixture() {
+		return (NumericType)fixture;
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
-    @Override
-    protected void setUp() throws Exception {
-        setFixture(AnchorFactory.eINSTANCE.createNumericType());
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
+	@Override
+	protected void setUp() throws Exception {
+		setFixture(AnchorFactory.eINSTANCE.createNumericType());
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
-    @Override
-    protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
+	@Override
+	protected void tearDown() throws Exception {
+		setFixture(null);
+	}
 
 } //NumericTypeTest

@@ -34,25 +34,14 @@ public interface Tie extends EObject {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Model</em>' container reference.
-	 * @see #setModel(Model)
 	 * @see anchor.AnchorPackage#getTie_Model()
 	 * @see anchor.Model#getTies
-	 * @model opposite="ties" required="true" transient="false"
+	 * @model opposite="ties" required="true" transient="false" changeable="false"
 	 * @generated
 	 */
 	Model getModel();
 
 	/**
-	 * Sets the value of the '{@link anchor.Tie#getModel <em>Model</em>}' container reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Model</em>' container reference.
-	 * @see #getModel()
-	 * @generated
-	 */
-	void setModel(Model value);
-
-				/**
 	 * Returns the value of the '<em><b>Anchor Roles</b></em>' containment reference list.
 	 * The list contents are of type {@link anchor.AnchorRole}.
 	 * It is bidirectional and its opposite is '{@link anchor.AnchorRole#getTie <em>Tie</em>}'.

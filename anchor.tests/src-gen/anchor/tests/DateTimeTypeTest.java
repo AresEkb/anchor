@@ -15,56 +15,56 @@ import junit.textui.TestRunner;
  */
 public class DateTimeTypeTest extends DataTypeTest {
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public static void main(String[] args) {
-        TestRunner.run(DateTimeTypeTest.class);
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public static void main(String[] args) {
+		TestRunner.run(DateTimeTypeTest.class);
+	}
 
-    /**
-     * Constructs a new Date Time Type test case with the given name.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public DateTimeTypeTest(String name) {
-        super(name);
-    }
+	/**
+	 * Constructs a new Date Time Type test case with the given name.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public DateTimeTypeTest(String name) {
+		super(name);
+	}
 
-    /**
-     * Returns the fixture for this Date Time Type test case.
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    @Override
-    protected DateTimeType getFixture() {
-        return (DateTimeType)fixture;
-    }
+	/**
+	 * Returns the fixture for this Date Time Type test case.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	protected DateTimeType getFixture() {
+		return (DateTimeType)fixture;
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#setUp()
-     * @generated
-     */
-    @Override
-    protected void setUp() throws Exception {
-        setFixture(AnchorFactory.eINSTANCE.createDateTimeType());
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#setUp()
+	 * @generated
+	 */
+	@Override
+	protected void setUp() throws Exception {
+		setFixture(AnchorFactory.eINSTANCE.createDateTimeType());
+	}
 
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @see junit.framework.TestCase#tearDown()
-     * @generated
-     */
-    @Override
-    protected void tearDown() throws Exception {
-        setFixture(null);
-    }
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see junit.framework.TestCase#tearDown()
+	 * @generated
+	 */
+	@Override
+	protected void tearDown() throws Exception {
+		setFixture(null);
+	}
 
 } //DateTimeTypeTest

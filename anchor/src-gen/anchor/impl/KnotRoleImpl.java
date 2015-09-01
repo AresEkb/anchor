@@ -30,6 +30,7 @@ import org.eclipse.emf.ecore.util.EcoreUtil;
  *   <li>{@link anchor.impl.KnotRoleImpl#getName <em>Name</em>}</li>
  *   <li>{@link anchor.impl.KnotRoleImpl#getKnot <em>Knot</em>}</li>
  *   <li>{@link anchor.impl.KnotRoleImpl#getTie <em>Tie</em>}</li>
+ *   <li>{@link anchor.impl.KnotRoleImpl#isIsIdentifier <em>Is Identifier</em>}</li>
  * </ul>
  *
  * @generated
@@ -66,6 +67,26 @@ public class KnotRoleImpl extends MinimalEObjectImpl.Container implements KnotRo
     protected Knot knot;
 
     /**
+	 * The default value of the '{@link #isIsIdentifier() <em>Is Identifier</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #isIsIdentifier()
+	 * @generated
+	 * @ordered
+	 */
+	protected static final boolean IS_IDENTIFIER_EDEFAULT = false;
+
+				/**
+	 * The cached value of the '{@link #isIsIdentifier() <em>Is Identifier</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see #isIsIdentifier()
+	 * @generated
+	 * @ordered
+	 */
+	protected boolean isIdentifier = IS_IDENTIFIER_EDEFAULT;
+
+				/**
 	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
@@ -186,6 +207,27 @@ public class KnotRoleImpl extends MinimalEObjectImpl.Container implements KnotRo
 
     /**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public boolean isIsIdentifier() {
+		return isIdentifier;
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setIsIdentifier(boolean newIsIdentifier) {
+		boolean oldIsIdentifier = isIdentifier;
+		isIdentifier = newIsIdentifier;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.KNOT_ROLE__IS_IDENTIFIER, oldIsIdentifier, isIdentifier));
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -243,6 +285,8 @@ public class KnotRoleImpl extends MinimalEObjectImpl.Container implements KnotRo
 				return basicGetKnot();
 			case AnchorPackage.KNOT_ROLE__TIE:
 				return getTie();
+			case AnchorPackage.KNOT_ROLE__IS_IDENTIFIER:
+				return isIsIdentifier();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -263,6 +307,9 @@ public class KnotRoleImpl extends MinimalEObjectImpl.Container implements KnotRo
 				return;
 			case AnchorPackage.KNOT_ROLE__TIE:
 				setTie((KnottedTie)newValue);
+				return;
+			case AnchorPackage.KNOT_ROLE__IS_IDENTIFIER:
+				setIsIdentifier((Boolean)newValue);
 				return;
 		}
 		super.eSet(featureID, newValue);
@@ -285,6 +332,9 @@ public class KnotRoleImpl extends MinimalEObjectImpl.Container implements KnotRo
 			case AnchorPackage.KNOT_ROLE__TIE:
 				setTie((KnottedTie)null);
 				return;
+			case AnchorPackage.KNOT_ROLE__IS_IDENTIFIER:
+				setIsIdentifier(IS_IDENTIFIER_EDEFAULT);
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -303,6 +353,8 @@ public class KnotRoleImpl extends MinimalEObjectImpl.Container implements KnotRo
 				return knot != null;
 			case AnchorPackage.KNOT_ROLE__TIE:
 				return getTie() != null;
+			case AnchorPackage.KNOT_ROLE__IS_IDENTIFIER:
+				return isIdentifier != IS_IDENTIFIER_EDEFAULT;
 		}
 		return super.eIsSet(featureID);
 	}
@@ -351,6 +403,8 @@ public class KnotRoleImpl extends MinimalEObjectImpl.Container implements KnotRo
 		StringBuffer result = new StringBuffer(super.toString());
 		result.append(" (name: ");
 		result.append(name);
+		result.append(", isIdentifier: ");
+		result.append(isIdentifier);
 		result.append(')');
 		return result.toString();
 	}

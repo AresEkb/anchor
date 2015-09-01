@@ -16,7 +16,6 @@ import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.InternalEObject;
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-import org.eclipse.emf.ecore.util.EcoreUtil;
 
 /**
  * <!-- begin-user-doc -->
@@ -157,44 +156,13 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	public NotificationChain basicSetModel(Model newModel, NotificationChain msgs) {
-		msgs = eBasicSetContainer((InternalEObject)newModel, AnchorPackage.KNOT__MODEL, msgs);
-		return msgs;
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
-	public void setModel(Model newModel) {
-		if (newModel != eInternalContainer() || (eContainerFeatureID() != AnchorPackage.KNOT__MODEL && newModel != null)) {
-			if (EcoreUtil.isAncestor(this, newModel))
-				throw new IllegalArgumentException("Recursive containment not allowed for " + toString());
-			NotificationChain msgs = null;
-			if (eInternalContainer() != null)
-				msgs = eBasicRemoveFromContainer(msgs);
-			if (newModel != null)
-				msgs = ((InternalEObject)newModel).eInverseAdd(this, AnchorPackage.MODEL__KNOTS, Model.class, msgs);
-			msgs = basicSetModel(newModel, msgs);
-			if (msgs != null) msgs.dispatch();
-		}
-		else if (eNotificationRequired())
-			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.KNOT__MODEL, newModel, newModel));
-	}
-
-				/**
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @generated
-	 */
 	@Override
 	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case AnchorPackage.KNOT__MODEL:
 				if (eInternalContainer() != null)
 					msgs = eBasicRemoveFromContainer(msgs);
-				return basicSetModel((Model)otherEnd, msgs);
+				return eBasicSetContainer(otherEnd, AnchorPackage.KNOT__MODEL, msgs);
 		}
 		return super.eInverseAdd(otherEnd, featureID, msgs);
 	}
@@ -208,7 +176,7 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
 			case AnchorPackage.KNOT__MODEL:
-				return basicSetModel(null, msgs);
+				return eBasicSetContainer(null, AnchorPackage.KNOT__MODEL, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -260,9 +228,6 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
 			case AnchorPackage.KNOT__TYPE:
 				setType((DataType)newValue);
 				return;
-			case AnchorPackage.KNOT__MODEL:
-				setModel((Model)newValue);
-				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -280,9 +245,6 @@ public class KnotImpl extends MinimalEObjectImpl.Container implements Knot {
 				return;
 			case AnchorPackage.KNOT__TYPE:
 				setType((DataType)null);
-				return;
-			case AnchorPackage.KNOT__MODEL:
-				setModel((Model)null);
 				return;
 		}
 		super.eUnset(featureID);

@@ -659,6 +659,15 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
 
     /**
 	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public EAttribute getKnotRole_IsIdentifier() {
+		return (EAttribute)knotRoleEClass.getEStructuralFeatures().get(1);
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
 	 * @generated
 	 */
@@ -943,6 +952,7 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
 
 		knotRoleEClass = createEClass(KNOT_ROLE);
 		createEReference(knotRoleEClass, KNOT_ROLE__TIE);
+		createEAttribute(knotRoleEClass, KNOT_ROLE__IS_IDENTIFIER);
 
 		dataTypeEClass = createEClass(DATA_TYPE);
 		createEReference(dataTypeEClass, DATA_TYPE__MODEL);
@@ -1053,11 +1063,11 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
 		initEReference(getModel_DataTypes(), this.getDataType(), this.getDataType_Model(), "dataTypes", null, 0, -1, Model.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(anchorEClass, Anchor.class, "Anchor", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getAnchor_Model(), this.getModel(), this.getModel_Anchors(), "model", null, 1, 1, Anchor.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getAnchor_Model(), this.getModel(), this.getModel_Anchors(), "model", null, 1, 1, Anchor.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getAnchor_Attributes(), this.getAttribute(), this.getAttribute_Anchor(), "attributes", null, 1, -1, Anchor.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(knotEClass, Knot.class, "Knot", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getKnot_Model(), this.getModel(), this.getModel_Knots(), "model", null, 1, 1, Knot.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getKnot_Model(), this.getModel(), this.getModel_Knots(), "model", null, 1, 1, Knot.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(attributeEClass, Attribute.class, "Attribute", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getAttribute_Anchor(), this.getAnchor(), this.getAnchor_Attributes(), "anchor", null, 1, 1, Attribute.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
@@ -1073,7 +1083,7 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
 		initEClass(knottedHistorizedAttributeEClass, KnottedHistorizedAttribute.class, "KnottedHistorizedAttribute", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
 		initEClass(tieEClass, Tie.class, "Tie", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getTie_Model(), this.getModel(), this.getModel_Ties(), "model", null, 1, 1, Tie.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getTie_Model(), this.getModel(), this.getModel_Ties(), "model", null, 1, 1, Tie.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getTie_AnchorRoles(), this.getAnchorRole(), this.getAnchorRole_Tie(), "anchorRoles", null, 2, -1, Tie.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(staticTieEClass, StaticTie.class, "StaticTie", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
@@ -1094,9 +1104,10 @@ public class AnchorPackageImpl extends EPackageImpl implements AnchorPackage {
 
 		initEClass(knotRoleEClass, KnotRole.class, "KnotRole", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEReference(getKnotRole_Tie(), this.getKnottedTie(), this.getKnottedTie_KnotRoles(), "tie", null, 1, 1, KnotRole.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getKnotRole_IsIdentifier(), ecorePackage.getEBoolean(), "isIdentifier", "false", 1, 1, KnotRole.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(dataTypeEClass, DataType.class, "DataType", IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
-		initEReference(getDataType_Model(), this.getModel(), this.getModel_DataTypes(), "model", null, 1, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getDataType_Model(), this.getModel(), this.getModel_DataTypes(), "model", null, 1, 1, DataType.class, !IS_TRANSIENT, !IS_VOLATILE, !IS_CHANGEABLE, !IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		initEClass(stringTypeEClass, StringType.class, "StringType", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 		initEAttribute(getStringType_Length(), ecorePackage.getEIntegerObject(), "length", null, 0, 1, StringType.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);

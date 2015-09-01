@@ -13,6 +13,7 @@ package anchor;
  * </p>
  * <ul>
  *   <li>{@link anchor.KnotRole#getTie <em>Tie</em>}</li>
+ *   <li>{@link anchor.KnotRole#isIsIdentifier <em>Is Identifier</em>}</li>
  * </ul>
  *
  * @see anchor.AnchorPackage#getKnotRole()
@@ -47,5 +48,32 @@ public interface KnotRole extends Named, Knotted {
 	 * @generated
 	 */
     void setTie(KnottedTie value);
+
+				/**
+	 * Returns the value of the '<em><b>Is Identifier</b></em>' attribute.
+	 * The default value is <code>"false"</code>.
+	 * <!-- begin-user-doc -->
+	 * <p>
+	 * If the meaning of the '<em>Is Identifier</em>' attribute isn't clear,
+	 * there really should be more of a description here...
+	 * </p>
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Is Identifier</em>' attribute.
+	 * @see #setIsIdentifier(boolean)
+	 * @see anchor.AnchorPackage#getKnotRole_IsIdentifier()
+	 * @model default="false" required="true"
+	 * @generated
+	 */
+	boolean isIsIdentifier();
+
+				/**
+	 * Sets the value of the '{@link anchor.KnotRole#isIsIdentifier <em>Is Identifier</em>}' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @param value the new value of the '<em>Is Identifier</em>' attribute.
+	 * @see #isIsIdentifier()
+	 * @generated
+	 */
+	void setIsIdentifier(boolean value);
 
 } // KnotRole

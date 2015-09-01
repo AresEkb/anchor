@@ -31,22 +31,11 @@ public interface DataType extends Named {
 	 * </p>
 	 * <!-- end-user-doc -->
 	 * @return the value of the '<em>Model</em>' container reference.
-	 * @see #setModel(Model)
 	 * @see anchor.AnchorPackage#getDataType_Model()
 	 * @see anchor.Model#getDataTypes
-	 * @model opposite="dataTypes" required="true" transient="false"
+	 * @model opposite="dataTypes" required="true" transient="false" changeable="false"
 	 * @generated
 	 */
 	Model getModel();
-
-	/**
-	 * Sets the value of the '{@link anchor.DataType#getModel <em>Model</em>}' container reference.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @param value the new value of the '<em>Model</em>' container reference.
-	 * @see #getModel()
-	 * @generated
-	 */
-	void setModel(Model value);
 
 } // DataType
