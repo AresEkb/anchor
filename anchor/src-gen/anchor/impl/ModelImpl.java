@@ -21,8 +21,7 @@ import org.eclipse.emf.ecore.InternalEObject;
 
 import org.eclipse.emf.ecore.impl.ENotificationImpl;
 import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
-
-import org.eclipse.emf.ecore.util.EObjectContainmentEList;
+import org.eclipse.emf.ecore.util.EObjectContainmentWithInverseEList;
 import org.eclipse.emf.ecore.util.InternalEList;
 
 /**
@@ -44,290 +43,311 @@ import org.eclipse.emf.ecore.util.InternalEList;
  */
 public class ModelImpl extends MinimalEObjectImpl.Container implements Model {
     /**
-     * The default value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String NAME_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getName() <em>Name</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getName()
-     * @generated
-     * @ordered
-     */
+	 * @see #getName()
+	 * @generated
+	 * @ordered
+	 */
     protected String name = NAME_EDEFAULT;
 
     /**
-     * The cached value of the '{@link #getAnchors() <em>Anchors</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getAnchors() <em>Anchors</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getAnchors()
-     * @generated
-     * @ordered
-     */
+	 * @see #getAnchors()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Anchor> anchors;
 
     /**
-     * The cached value of the '{@link #getKnots() <em>Knots</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getKnots() <em>Knots</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getKnots()
-     * @generated
-     * @ordered
-     */
+	 * @see #getKnots()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Knot> knots;
 
     /**
-     * The cached value of the '{@link #getTies() <em>Ties</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getTies() <em>Ties</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getTies()
-     * @generated
-     * @ordered
-     */
+	 * @see #getTies()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<Tie> ties;
 
     /**
-     * The cached value of the '{@link #getDataTypes() <em>Data Types</em>}' containment reference list.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getDataTypes() <em>Data Types</em>}' containment reference list.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getDataTypes()
-     * @generated
-     * @ordered
-     */
+	 * @see #getDataTypes()
+	 * @generated
+	 * @ordered
+	 */
     protected EList<DataType> dataTypes;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ModelImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return AnchorPackage.Literals.MODEL;
-    }
+		return AnchorPackage.Literals.MODEL;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getName() {
-        return name;
-    }
+		return name;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setName(String newName) {
-        String oldName = name;
-        name = newName;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.MODEL__NAME, oldName, name));
-    }
+		String oldName = name;
+		name = newName;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.MODEL__NAME, oldName, name));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Anchor> getAnchors() {
-        if (anchors == null) {
-            anchors = new EObjectContainmentEList<Anchor>(Anchor.class, this, AnchorPackage.MODEL__ANCHORS);
-        }
-        return anchors;
-    }
+		if (anchors == null) {
+			anchors = new EObjectContainmentWithInverseEList<Anchor>(Anchor.class, this, AnchorPackage.MODEL__ANCHORS, AnchorPackage.ANCHOR__MODEL);
+		}
+		return anchors;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Knot> getKnots() {
-        if (knots == null) {
-            knots = new EObjectContainmentEList<Knot>(Knot.class, this, AnchorPackage.MODEL__KNOTS);
-        }
-        return knots;
-    }
+		if (knots == null) {
+			knots = new EObjectContainmentWithInverseEList<Knot>(Knot.class, this, AnchorPackage.MODEL__KNOTS, AnchorPackage.KNOT__MODEL);
+		}
+		return knots;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<Tie> getTies() {
-        if (ties == null) {
-            ties = new EObjectContainmentEList<Tie>(Tie.class, this, AnchorPackage.MODEL__TIES);
-        }
-        return ties;
-    }
+		if (ties == null) {
+			ties = new EObjectContainmentWithInverseEList<Tie>(Tie.class, this, AnchorPackage.MODEL__TIES, AnchorPackage.TIE__MODEL);
+		}
+		return ties;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public EList<DataType> getDataTypes() {
-        if (dataTypes == null) {
-            dataTypes = new EObjectContainmentEList<DataType>(DataType.class, this, AnchorPackage.MODEL__DATA_TYPES);
-        }
-        return dataTypes;
-    }
+		if (dataTypes == null) {
+			dataTypes = new EObjectContainmentWithInverseEList<DataType>(DataType.class, this, AnchorPackage.MODEL__DATA_TYPES, AnchorPackage.DATA_TYPE__MODEL);
+		}
+		return dataTypes;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@SuppressWarnings("unchecked")
+	@Override
+	public NotificationChain eInverseAdd(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
+		switch (featureID) {
+			case AnchorPackage.MODEL__ANCHORS:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getAnchors()).basicAdd(otherEnd, msgs);
+			case AnchorPackage.MODEL__KNOTS:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getKnots()).basicAdd(otherEnd, msgs);
+			case AnchorPackage.MODEL__TIES:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getTies()).basicAdd(otherEnd, msgs);
+			case AnchorPackage.MODEL__DATA_TYPES:
+				return ((InternalEList<InternalEObject>)(InternalEList<?>)getDataTypes()).basicAdd(otherEnd, msgs);
+		}
+		return super.eInverseAdd(otherEnd, featureID, msgs);
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
-        switch (featureID) {
-            case AnchorPackage.MODEL__ANCHORS:
-                return ((InternalEList<?>)getAnchors()).basicRemove(otherEnd, msgs);
-            case AnchorPackage.MODEL__KNOTS:
-                return ((InternalEList<?>)getKnots()).basicRemove(otherEnd, msgs);
-            case AnchorPackage.MODEL__TIES:
-                return ((InternalEList<?>)getTies()).basicRemove(otherEnd, msgs);
-            case AnchorPackage.MODEL__DATA_TYPES:
-                return ((InternalEList<?>)getDataTypes()).basicRemove(otherEnd, msgs);
-        }
-        return super.eInverseRemove(otherEnd, featureID, msgs);
-    }
+		switch (featureID) {
+			case AnchorPackage.MODEL__ANCHORS:
+				return ((InternalEList<?>)getAnchors()).basicRemove(otherEnd, msgs);
+			case AnchorPackage.MODEL__KNOTS:
+				return ((InternalEList<?>)getKnots()).basicRemove(otherEnd, msgs);
+			case AnchorPackage.MODEL__TIES:
+				return ((InternalEList<?>)getTies()).basicRemove(otherEnd, msgs);
+			case AnchorPackage.MODEL__DATA_TYPES:
+				return ((InternalEList<?>)getDataTypes()).basicRemove(otherEnd, msgs);
+		}
+		return super.eInverseRemove(otherEnd, featureID, msgs);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case AnchorPackage.MODEL__NAME:
-                return getName();
-            case AnchorPackage.MODEL__ANCHORS:
-                return getAnchors();
-            case AnchorPackage.MODEL__KNOTS:
-                return getKnots();
-            case AnchorPackage.MODEL__TIES:
-                return getTies();
-            case AnchorPackage.MODEL__DATA_TYPES:
-                return getDataTypes();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case AnchorPackage.MODEL__NAME:
+				return getName();
+			case AnchorPackage.MODEL__ANCHORS:
+				return getAnchors();
+			case AnchorPackage.MODEL__KNOTS:
+				return getKnots();
+			case AnchorPackage.MODEL__TIES:
+				return getTies();
+			case AnchorPackage.MODEL__DATA_TYPES:
+				return getDataTypes();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @SuppressWarnings("unchecked")
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case AnchorPackage.MODEL__NAME:
-                setName((String)newValue);
-                return;
-            case AnchorPackage.MODEL__ANCHORS:
-                getAnchors().clear();
-                getAnchors().addAll((Collection<? extends Anchor>)newValue);
-                return;
-            case AnchorPackage.MODEL__KNOTS:
-                getKnots().clear();
-                getKnots().addAll((Collection<? extends Knot>)newValue);
-                return;
-            case AnchorPackage.MODEL__TIES:
-                getTies().clear();
-                getTies().addAll((Collection<? extends Tie>)newValue);
-                return;
-            case AnchorPackage.MODEL__DATA_TYPES:
-                getDataTypes().clear();
-                getDataTypes().addAll((Collection<? extends DataType>)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case AnchorPackage.MODEL__NAME:
+				setName((String)newValue);
+				return;
+			case AnchorPackage.MODEL__ANCHORS:
+				getAnchors().clear();
+				getAnchors().addAll((Collection<? extends Anchor>)newValue);
+				return;
+			case AnchorPackage.MODEL__KNOTS:
+				getKnots().clear();
+				getKnots().addAll((Collection<? extends Knot>)newValue);
+				return;
+			case AnchorPackage.MODEL__TIES:
+				getTies().clear();
+				getTies().addAll((Collection<? extends Tie>)newValue);
+				return;
+			case AnchorPackage.MODEL__DATA_TYPES:
+				getDataTypes().clear();
+				getDataTypes().addAll((Collection<? extends DataType>)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case AnchorPackage.MODEL__NAME:
-                setName(NAME_EDEFAULT);
-                return;
-            case AnchorPackage.MODEL__ANCHORS:
-                getAnchors().clear();
-                return;
-            case AnchorPackage.MODEL__KNOTS:
-                getKnots().clear();
-                return;
-            case AnchorPackage.MODEL__TIES:
-                getTies().clear();
-                return;
-            case AnchorPackage.MODEL__DATA_TYPES:
-                getDataTypes().clear();
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case AnchorPackage.MODEL__NAME:
+				setName(NAME_EDEFAULT);
+				return;
+			case AnchorPackage.MODEL__ANCHORS:
+				getAnchors().clear();
+				return;
+			case AnchorPackage.MODEL__KNOTS:
+				getKnots().clear();
+				return;
+			case AnchorPackage.MODEL__TIES:
+				getTies().clear();
+				return;
+			case AnchorPackage.MODEL__DATA_TYPES:
+				getDataTypes().clear();
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case AnchorPackage.MODEL__NAME:
-                return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
-            case AnchorPackage.MODEL__ANCHORS:
-                return anchors != null && !anchors.isEmpty();
-            case AnchorPackage.MODEL__KNOTS:
-                return knots != null && !knots.isEmpty();
-            case AnchorPackage.MODEL__TIES:
-                return ties != null && !ties.isEmpty();
-            case AnchorPackage.MODEL__DATA_TYPES:
-                return dataTypes != null && !dataTypes.isEmpty();
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case AnchorPackage.MODEL__NAME:
+				return NAME_EDEFAULT == null ? name != null : !NAME_EDEFAULT.equals(name);
+			case AnchorPackage.MODEL__ANCHORS:
+				return anchors != null && !anchors.isEmpty();
+			case AnchorPackage.MODEL__KNOTS:
+				return knots != null && !knots.isEmpty();
+			case AnchorPackage.MODEL__TIES:
+				return ties != null && !ties.isEmpty();
+			case AnchorPackage.MODEL__DATA_TYPES:
+				return dataTypes != null && !dataTypes.isEmpty();
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (name: ");
-        result.append(name);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (name: ");
+		result.append(name);
+		result.append(')');
+		return result.toString();
+	}
 
 } //ModelImpl

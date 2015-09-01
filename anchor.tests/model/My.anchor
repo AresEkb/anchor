@@ -1,32 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<anchor:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor">
-  <anchors name="Restaurant">
-    <attributes xsi:type="anchor:StaticAttribute"/>
+<anchor:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor" name="Performance">
+  <anchors name="Actor">
+    <attributes xsi:type="anchor:KnottedStaticAttribute" knot="//@knots.3" name="Gender"/>
+    <attributes xsi:type="anchor:KnottedHistorizedAttribute" knot="//@knots.2" name="ProfessionalLevel"/>
+    <attributes xsi:type="anchor:HistorizedAttribute" name="Name"/>
   </anchors>
-  <anchors name="Dish">
-    <attributes xsi:type="anchor:HistorizedAttribute" name="attr1"/>
-    <attributes xsi:type="anchor:KnottedStaticAttribute"/>
+  <anchors name="Program">
+    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.0" name="Name"/>
   </anchors>
-  <anchors name="qw">
-    <attributes xsi:type="anchor:StaticAttribute"/>
-    <attributes xsi:type="anchor:KnottedStaticAttribute" knot="//@knots.0" name=""/>
-    <attributes xsi:type="anchor:KnottedHistorizedAttribute"/>
+  <anchors name="Performance">
+    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.6" name="Date"/>
+    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.3" name="Audience"/>
+    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.4" name="Revenue"/>
   </anchors>
-  <anchors>
-    <attributes xsi:type="anchor:StaticAttribute"/>
-    <attributes xsi:type="anchor:StaticAttribute"/>
+  <anchors name="Event">
+    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.0" name="Name"/>
   </anchors>
-  <knots name="qwe"/>
-  <knots name="test"/>
+  <anchors name="Stage">
+    <attributes xsi:type="anchor:StaticAttribute" name="Location"/>
+    <attributes xsi:type="anchor:HistorizedAttribute" dateTimeType="//@dataTypes.6" type="//@dataTypes.0" name="Name"/>
+  </anchors>
+  <knots name="Rating"/>
+  <knots name="ParentalType"/>
+  <knots name="ProfessionalLevel"/>
+  <knots name="Gender"/>
+  <ties xsi:type="anchor:KnottedHistorizedTie">
+    <anchorRoles name="part" anchor="//@anchors.0"/>
+    <anchorRoles name="in" anchor="//@anchors.1"/>
+    <knotRoles name="got" knot="//@knots.0"/>
+  </ties>
   <ties xsi:type="anchor:StaticTie">
-    <anchorRoles name="rest" anchor="//@anchors.0"/>
-    <anchorRoles name="dish" anchor="//@anchors.1" isIdentifier="true"/>
-    <anchorRoles anchor="//@anchors.2"/>
+    <anchorRoles name="in" anchor="//@anchors.2"/>
+    <anchorRoles name="wasCast" anchor="//@anchors.0"/>
   </ties>
-  <ties xsi:type="anchor:StaticTie"/>
-  <ties xsi:type="anchor:HistorizedTie"/>
-  <ties xsi:type="anchor:KnottedHistorizedTie" resolution="1.0" resolutionUnit="minute">
-    <knotRoles knot="//@knots.1"/>
-    <knotRoles knot="//@knots.0"/>
+  <ties xsi:type="anchor:StaticTie">
+    <anchorRoles name="subset" anchor="//@anchors.2" isIdentifier="true"/>
+    <anchorRoles name="of" anchor="//@anchors.3" isIdentifier="true"/>
   </ties>
+  <ties xsi:type="anchor:StaticTie">
+    <anchorRoles name="at" anchor="//@anchors.2"/>
+    <anchorRoles name="wasHeld" anchor="//@anchors.4" isIdentifier="true"/>
+    <anchorRoles name="wasPlayed" anchor="//@anchors.1" isIdentifier="true"/>
+  </ties>
+  <ties xsi:type="anchor:StaticTie">
+    <anchorRoles name="at" anchor="//@anchors.4" isIdentifier="true"/>
+    <anchorRoles name="wasHeld" anchor="//@anchors.2"/>
+  </ties>
+  <ties xsi:type="anchor:HistorizedTie">
+    <anchorRoles name="isPlaying" anchor="//@anchors.1"/>
+    <anchorRoles name="at" anchor="//@anchors.4"/>
+  </ties>
+  <ties xsi:type="anchor:StaticTie">
+    <anchorRoles name="wasPlayed" anchor="//@anchors.1" isIdentifier="true"/>
+    <anchorRoles name="at" anchor="//@anchors.2"/>
+  </ties>
+  <ties xsi:type="anchor:HistorizedTie">
+    <anchorRoles name="with" anchor="//@anchors.0" isIdentifier="true"/>
+    <anchorRoles name="exclusive" anchor="//@anchors.0" isIdentifier="true"/>
+  </ties>
+  <ties xsi:type="anchor:KnottedStaticTie">
+    <anchorRoles name="parent" anchor="//@anchors.0"/>
+    <anchorRoles name="child" anchor="//@anchors.0"/>
+    <knotRoles name="having" knot="//@knots.1"/>
+  </ties>
+  <dataTypes xsi:type="anchor:StringType" name="String100" minLength="1" maxLength="100" pattern=""/>
+  <dataTypes xsi:type="anchor:NumericType" name="Decimal10.2" totalDigits="12" fractionDigits="2"/>
+  <dataTypes xsi:type="anchor:NumericType" name="UInt16" minInclusive="0.0" maxInclusive="65535.0"/>
+  <dataTypes xsi:type="anchor:NumericType" name="Quantity" minInclusive="0.0" maxInclusive="65535.0"/>
+  <dataTypes xsi:type="anchor:NumericType" name="Amount" totalDigits="19" fractionDigits="4"/>
+  <dataTypes xsi:type="anchor:DateTimeType" name="Date" resolution="1.0" resolutionUnit="day"/>
+  <dataTypes xsi:type="anchor:DateTimeType" name="DateTime" resolution="1.0" resolutionUnit="second"/>
 </anchor:Model>

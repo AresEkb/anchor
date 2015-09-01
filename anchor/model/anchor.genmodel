@@ -21,13 +21,14 @@
     <genClasses image="false" ecoreClass="anchor.ecore#//Named">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//Named/name"/>
     </genClasses>
-    <genClasses image="false" ecoreClass="anchor.ecore#//Typed"/>
+    <genClasses image="false" ecoreClass="anchor.ecore#//Typed">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference anchor.ecore#//Typed/type"/>
+    </genClasses>
     <genClasses image="false" ecoreClass="anchor.ecore#//Knotted">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference anchor.ecore#//Knotted/knot"/>
     </genClasses>
     <genClasses image="false" ecoreClass="anchor.ecore#//Historized">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//Historized/resolution"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//Historized/resolutionUnit"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference anchor.ecore#//Historized/dateTimeType"/>
     </genClasses>
     <genClasses ecoreClass="anchor.ecore#//Model">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference anchor.ecore#//Model/anchors"/>
@@ -36,9 +37,12 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference anchor.ecore#//Model/dataTypes"/>
     </genClasses>
     <genClasses ecoreClass="anchor.ecore#//Anchor">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference anchor.ecore#//Anchor/model"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference anchor.ecore#//Anchor/attributes"/>
     </genClasses>
-    <genClasses ecoreClass="anchor.ecore#//Knot"/>
+    <genClasses ecoreClass="anchor.ecore#//Knot">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference anchor.ecore#//Knot/model"/>
+    </genClasses>
     <genClasses image="false" ecoreClass="anchor.ecore#//Attribute">
       <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference anchor.ecore#//Attribute/anchor"/>
     </genClasses>
@@ -48,6 +52,7 @@
     <genClasses ecoreClass="anchor.ecore#//KnottedStaticAttribute"/>
     <genClasses ecoreClass="anchor.ecore#//KnottedHistorizedAttribute"/>
     <genClasses image="false" ecoreClass="anchor.ecore#//Tie">
+      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference anchor.ecore#//Tie/model"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference anchor.ecore#//Tie/anchorRoles"/>
     </genClasses>
     <genClasses ecoreClass="anchor.ecore#//StaticTie"/>
@@ -66,16 +71,30 @@
       <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference anchor.ecore#//KnotRole/tie"/>
     </genClasses>
     <genClasses ecoreClass="anchor.ecore#//DataType">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/length"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/minLength"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/maxLength"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/pattern"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/minInclusive"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/minExclusive"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/maxInclusive"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/maxExclusive"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/totalDigits"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//DataType/fractionDigits"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference anchor.ecore#//DataType/model"/>
+    </genClasses>
+    <genClasses ecoreClass="anchor.ecore#//StringType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//StringType/length"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//StringType/minLength"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//StringType/maxLength"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//StringType/pattern"/>
+    </genClasses>
+    <genClasses ecoreClass="anchor.ecore#//NumericType">
+      <genFeatures createChild="false" propertyCategory="" propertyDescription=""
+          ecoreFeature="ecore:EAttribute anchor.ecore#//NumericType/minInclusive"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//NumericType/minExclusive"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//NumericType/maxInclusive"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//NumericType/maxExclusive"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//NumericType/totalDigits"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute anchor.ecore#//NumericType/fractionDigits"/>
+    </genClasses>
+    <genClasses ecoreClass="anchor.ecore#//BooleanType"/>
+    <genClasses ecoreClass="anchor.ecore#//DateTimeType">
+      <genFeatures createChild="false" propertyCategory="Resolution" ecoreFeature="ecore:EAttribute anchor.ecore#//DateTimeType/resolution"/>
+      <genFeatures createChild="false" propertyCategory="Resolution" ecoreFeature="ecore:EAttribute anchor.ecore#//DateTimeType/resolutionUnit"/>
+      <genFeatures createChild="false" propertyCategory="Max" ecoreFeature="ecore:EAttribute anchor.ecore#//DateTimeType/maxInclusive"/>
+      <genFeatures createChild="false" propertyCategory="Max" ecoreFeature="ecore:EAttribute anchor.ecore#//DateTimeType/maxExclusive"/>
+      <genFeatures createChild="false" propertyCategory="Max" ecoreFeature="ecore:EAttribute anchor.ecore#//DateTimeType/maxUnit"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

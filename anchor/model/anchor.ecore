@@ -11,26 +11,28 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="knot" lowerBound="1" eType="#//Knot"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Historized" abstract="true" interface="true">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="resolution" lowerBound="1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="resolutionUnit" lowerBound="1"
-        eType="#//UnitOfTime"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="dateTimeType" eType="#//DateTimeType"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Model" eSuperTypes="#//Named">
     <eStructuralFeatures xsi:type="ecore:EReference" name="anchors" upperBound="-1"
-        eType="#//Anchor" containment="true"/>
+        eType="#//Anchor" containment="true" eOpposite="#//Anchor/model"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="knots" upperBound="-1"
-        eType="#//Knot" containment="true"/>
+        eType="#//Knot" containment="true" eOpposite="#//Knot/model"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="ties" upperBound="-1" eType="#//Tie"
-        containment="true"/>
+        containment="true" eOpposite="#//Tie/model"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="dataTypes" upperBound="-1"
-        eType="#//DataType" containment="true"/>
+        eType="#//DataType" containment="true" eOpposite="#//DataType/model"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Anchor" eSuperTypes="#//Named">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model"
+        changeable="false" eOpposite="#//Model/anchors"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="attributes" lowerBound="1"
         upperBound="-1" eType="#//Attribute" containment="true" eOpposite="#//Attribute/anchor"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Knot" eSuperTypes="#//Named #//Typed"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Knot" eSuperTypes="#//Named #//Typed">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model"
+        changeable="false" eOpposite="#//Model/knots"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Attribute" abstract="true" eSuperTypes="#//Named">
     <eStructuralFeatures xsi:type="ecore:EReference" name="anchor" lowerBound="1"
         eType="#//Anchor" eOpposite="#//Anchor/attributes"/>
@@ -41,6 +43,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="KnottedStaticAttribute" eSuperTypes="#//KnottedAttribute"/>
   <eClassifiers xsi:type="ecore:EClass" name="KnottedHistorizedAttribute" eSuperTypes="#//Historized #//KnottedAttribute"/>
   <eClassifiers xsi:type="ecore:EClass" name="Tie" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model"
+        changeable="false" eOpposite="#//Model/ties"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="anchorRoles" lowerBound="2"
         upperBound="-1" eType="#//AnchorRole" containment="true" eOpposite="#//AnchorRole/tie"/>
   </eClassifiers>
@@ -63,6 +67,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="KnotRole" eSuperTypes="#//Named #//Knotted">
     <eStructuralFeatures xsi:type="ecore:EReference" name="tie" lowerBound="1" eType="#//KnottedTie"
         eOpposite="#//KnottedTie/knotRoles"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="isIdentifier" lowerBound="1"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean" defaultValueLiteral="false"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="UnitOfTime">
     <eLiterals name="microsecond" value="1"/>
@@ -75,26 +81,34 @@
     <eLiterals name="month" value="8"/>
     <eLiterals name="year" value="9"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DataType" abstract="true" eSuperTypes="#//Named"/>
+  <eClassifiers xsi:type="ecore:EClass" name="DataType" abstract="true" eSuperTypes="#//Named">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="model" lowerBound="1" eType="#//Model"
+        changeable="false" eOpposite="#//Model/dataTypes"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="StringType" eSuperTypes="#//DataType">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="length" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EIntegerObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EIntegerObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxLength" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EIntegerObject"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="pattern" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="NumericType" eSuperTypes="#//DataType">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minInclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minExclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxInclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxExclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalDigits" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fractionDigits" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minInclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"
+        unsettable="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minExclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxInclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxExclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="totalDigits" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EShortObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="fractionDigits" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EShortObject"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="BooleanType" eSuperTypes="#//DataType"/>
   <eClassifiers xsi:type="ecore:EClass" name="DateTimeType" eSuperTypes="#//DataType">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="resolution" lowerBound="1"
-        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="resolutionUnit" lowerBound="1"
+        eType="#//UnitOfTime"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxInclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxExclusive" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDoubleObject"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxUnit" lowerBound="1"
         eType="#//UnitOfTime"/>
   </eClassifiers>
 </ecore:EPackage>

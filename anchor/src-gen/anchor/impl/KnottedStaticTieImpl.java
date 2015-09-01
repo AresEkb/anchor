@@ -16,22 +16,22 @@ import org.eclipse.emf.ecore.EClass;
  */
 public class KnottedStaticTieImpl extends KnottedTieImpl implements KnottedStaticTie {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnottedStaticTieImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return AnchorPackage.Literals.KNOTTED_STATIC_TIE;
-    }
+		return AnchorPackage.Literals.KNOTTED_STATIC_TIE;
+	}
 
 } //KnottedStaticTieImpl

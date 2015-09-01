@@ -16,22 +16,22 @@ import org.eclipse.emf.ecore.EClass;
  */
 public class KnottedStaticAttributeImpl extends KnottedAttributeImpl implements KnottedStaticAttribute {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnottedStaticAttributeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return AnchorPackage.Literals.KNOTTED_STATIC_ATTRIBUTE;
-    }
+		return AnchorPackage.Literals.KNOTTED_STATIC_ATTRIBUTE;
+	}
 
 } //KnottedStaticAttributeImpl

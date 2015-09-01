@@ -16,22 +16,22 @@ import org.eclipse.emf.ecore.EClass;
  */
 public class StaticTieImpl extends TieImpl implements StaticTie {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected StaticTieImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return AnchorPackage.Literals.STATIC_TIE;
-    }
+		return AnchorPackage.Literals.STATIC_TIE;
+	}
 
 } //StaticTieImpl

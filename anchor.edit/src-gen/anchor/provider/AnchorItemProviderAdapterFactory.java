@@ -34,550 +34,550 @@ import org.eclipse.emf.edit.provider.ITreeItemContentProvider;
  */
 public class AnchorItemProviderAdapterFactory extends AnchorAdapterFactory implements ComposeableAdapterFactory, IChangeNotifier, IDisposable {
     /**
-     * This keeps track of the root adapter factory that delegates to this adapter factory.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the root adapter factory that delegates to this adapter factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ComposedAdapterFactory parentAdapterFactory;
 
     /**
-     * This is used to implement {@link org.eclipse.emf.edit.provider.IChangeNotifier}.
-     * <!-- begin-user-doc -->
+	 * This is used to implement {@link org.eclipse.emf.edit.provider.IChangeNotifier}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected IChangeNotifier changeNotifier = new ChangeNotifier();
 
     /**
-     * This keeps track of all the supported types checked by {@link #isFactoryForType isFactoryForType}.
-     * <!-- begin-user-doc -->
+	 * This keeps track of all the supported types checked by {@link #isFactoryForType isFactoryForType}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected Collection<Object> supportedTypes = new ArrayList<Object>();
 
     /**
-     * This constructs an instance.
-     * <!-- begin-user-doc -->
+	 * This constructs an instance.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public AnchorItemProviderAdapterFactory() {
-        supportedTypes.add(IEditingDomainItemProvider.class);
-        supportedTypes.add(IStructuredItemContentProvider.class);
-        supportedTypes.add(ITreeItemContentProvider.class);
-        supportedTypes.add(IItemLabelProvider.class);
-        supportedTypes.add(IItemPropertySource.class);
-    }
+		supportedTypes.add(IEditingDomainItemProvider.class);
+		supportedTypes.add(IStructuredItemContentProvider.class);
+		supportedTypes.add(ITreeItemContentProvider.class);
+		supportedTypes.add(IItemLabelProvider.class);
+		supportedTypes.add(IItemPropertySource.class);
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.Model} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.Model} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected ModelItemProvider modelItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.Model}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.Model}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createModelAdapter() {
-        if (modelItemProvider == null) {
-            modelItemProvider = new ModelItemProvider(this);
-        }
+		if (modelItemProvider == null) {
+			modelItemProvider = new ModelItemProvider(this);
+		}
 
-        return modelItemProvider;
-    }
+		return modelItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.Anchor} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.Anchor} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected AnchorItemProvider anchorItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.Anchor}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.Anchor}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createAnchorAdapter() {
-        if (anchorItemProvider == null) {
-            anchorItemProvider = new AnchorItemProvider(this);
-        }
+		if (anchorItemProvider == null) {
+			anchorItemProvider = new AnchorItemProvider(this);
+		}
 
-        return anchorItemProvider;
-    }
+		return anchorItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.Knot} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.Knot} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnotItemProvider knotItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.Knot}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.Knot}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createKnotAdapter() {
-        if (knotItemProvider == null) {
-            knotItemProvider = new KnotItemProvider(this);
-        }
+		if (knotItemProvider == null) {
+			knotItemProvider = new KnotItemProvider(this);
+		}
 
-        return knotItemProvider;
-    }
+		return knotItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.StaticAttribute} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.StaticAttribute} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected StaticAttributeItemProvider staticAttributeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.StaticAttribute}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.StaticAttribute}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createStaticAttributeAdapter() {
-        if (staticAttributeItemProvider == null) {
-            staticAttributeItemProvider = new StaticAttributeItemProvider(this);
-        }
+		if (staticAttributeItemProvider == null) {
+			staticAttributeItemProvider = new StaticAttributeItemProvider(this);
+		}
 
-        return staticAttributeItemProvider;
-    }
+		return staticAttributeItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.HistorizedAttribute} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.HistorizedAttribute} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected HistorizedAttributeItemProvider historizedAttributeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.HistorizedAttribute}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.HistorizedAttribute}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createHistorizedAttributeAdapter() {
-        if (historizedAttributeItemProvider == null) {
-            historizedAttributeItemProvider = new HistorizedAttributeItemProvider(this);
-        }
+		if (historizedAttributeItemProvider == null) {
+			historizedAttributeItemProvider = new HistorizedAttributeItemProvider(this);
+		}
 
-        return historizedAttributeItemProvider;
-    }
+		return historizedAttributeItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.KnottedStaticAttribute} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.KnottedStaticAttribute} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnottedStaticAttributeItemProvider knottedStaticAttributeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.KnottedStaticAttribute}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.KnottedStaticAttribute}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createKnottedStaticAttributeAdapter() {
-        if (knottedStaticAttributeItemProvider == null) {
-            knottedStaticAttributeItemProvider = new KnottedStaticAttributeItemProvider(this);
-        }
+		if (knottedStaticAttributeItemProvider == null) {
+			knottedStaticAttributeItemProvider = new KnottedStaticAttributeItemProvider(this);
+		}
 
-        return knottedStaticAttributeItemProvider;
-    }
+		return knottedStaticAttributeItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.KnottedHistorizedAttribute} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.KnottedHistorizedAttribute} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnottedHistorizedAttributeItemProvider knottedHistorizedAttributeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.KnottedHistorizedAttribute}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.KnottedHistorizedAttribute}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createKnottedHistorizedAttributeAdapter() {
-        if (knottedHistorizedAttributeItemProvider == null) {
-            knottedHistorizedAttributeItemProvider = new KnottedHistorizedAttributeItemProvider(this);
-        }
+		if (knottedHistorizedAttributeItemProvider == null) {
+			knottedHistorizedAttributeItemProvider = new KnottedHistorizedAttributeItemProvider(this);
+		}
 
-        return knottedHistorizedAttributeItemProvider;
-    }
+		return knottedHistorizedAttributeItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.StaticTie} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.StaticTie} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected StaticTieItemProvider staticTieItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.StaticTie}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.StaticTie}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createStaticTieAdapter() {
-        if (staticTieItemProvider == null) {
-            staticTieItemProvider = new StaticTieItemProvider(this);
-        }
+		if (staticTieItemProvider == null) {
+			staticTieItemProvider = new StaticTieItemProvider(this);
+		}
 
-        return staticTieItemProvider;
-    }
+		return staticTieItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.HistorizedTie} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.HistorizedTie} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected HistorizedTieItemProvider historizedTieItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.HistorizedTie}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.HistorizedTie}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createHistorizedTieAdapter() {
-        if (historizedTieItemProvider == null) {
-            historizedTieItemProvider = new HistorizedTieItemProvider(this);
-        }
+		if (historizedTieItemProvider == null) {
+			historizedTieItemProvider = new HistorizedTieItemProvider(this);
+		}
 
-        return historizedTieItemProvider;
-    }
+		return historizedTieItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.KnottedStaticTie} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.KnottedStaticTie} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnottedStaticTieItemProvider knottedStaticTieItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.KnottedStaticTie}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.KnottedStaticTie}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createKnottedStaticTieAdapter() {
-        if (knottedStaticTieItemProvider == null) {
-            knottedStaticTieItemProvider = new KnottedStaticTieItemProvider(this);
-        }
+		if (knottedStaticTieItemProvider == null) {
+			knottedStaticTieItemProvider = new KnottedStaticTieItemProvider(this);
+		}
 
-        return knottedStaticTieItemProvider;
-    }
+		return knottedStaticTieItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.KnottedHistorizedTie} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.KnottedHistorizedTie} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnottedHistorizedTieItemProvider knottedHistorizedTieItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.KnottedHistorizedTie}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.KnottedHistorizedTie}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createKnottedHistorizedTieAdapter() {
-        if (knottedHistorizedTieItemProvider == null) {
-            knottedHistorizedTieItemProvider = new KnottedHistorizedTieItemProvider(this);
-        }
+		if (knottedHistorizedTieItemProvider == null) {
+			knottedHistorizedTieItemProvider = new KnottedHistorizedTieItemProvider(this);
+		}
 
-        return knottedHistorizedTieItemProvider;
-    }
+		return knottedHistorizedTieItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.AnchorRole} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.AnchorRole} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected AnchorRoleItemProvider anchorRoleItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.AnchorRole}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.AnchorRole}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createAnchorRoleAdapter() {
-        if (anchorRoleItemProvider == null) {
-            anchorRoleItemProvider = new AnchorRoleItemProvider(this);
-        }
+		if (anchorRoleItemProvider == null) {
+			anchorRoleItemProvider = new AnchorRoleItemProvider(this);
+		}
 
-        return anchorRoleItemProvider;
-    }
+		return anchorRoleItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.KnotRole} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.KnotRole} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected KnotRoleItemProvider knotRoleItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.KnotRole}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.KnotRole}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createKnotRoleAdapter() {
-        if (knotRoleItemProvider == null) {
-            knotRoleItemProvider = new KnotRoleItemProvider(this);
-        }
+		if (knotRoleItemProvider == null) {
+			knotRoleItemProvider = new KnotRoleItemProvider(this);
+		}
 
-        return knotRoleItemProvider;
-    }
+		return knotRoleItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.StringType} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.StringType} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected StringTypeItemProvider stringTypeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.StringType}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.StringType}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createStringTypeAdapter() {
-        if (stringTypeItemProvider == null) {
-            stringTypeItemProvider = new StringTypeItemProvider(this);
-        }
+		if (stringTypeItemProvider == null) {
+			stringTypeItemProvider = new StringTypeItemProvider(this);
+		}
 
-        return stringTypeItemProvider;
-    }
+		return stringTypeItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.NumericType} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.NumericType} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected NumericTypeItemProvider numericTypeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.NumericType}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.NumericType}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createNumericTypeAdapter() {
-        if (numericTypeItemProvider == null) {
-            numericTypeItemProvider = new NumericTypeItemProvider(this);
-        }
+		if (numericTypeItemProvider == null) {
+			numericTypeItemProvider = new NumericTypeItemProvider(this);
+		}
 
-        return numericTypeItemProvider;
-    }
+		return numericTypeItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.BooleanType} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.BooleanType} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected BooleanTypeItemProvider booleanTypeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.BooleanType}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.BooleanType}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createBooleanTypeAdapter() {
-        if (booleanTypeItemProvider == null) {
-            booleanTypeItemProvider = new BooleanTypeItemProvider(this);
-        }
+		if (booleanTypeItemProvider == null) {
+			booleanTypeItemProvider = new BooleanTypeItemProvider(this);
+		}
 
-        return booleanTypeItemProvider;
-    }
+		return booleanTypeItemProvider;
+	}
 
     /**
-     * This keeps track of the one adapter used for all {@link anchor.DateTimeType} instances.
-     * <!-- begin-user-doc -->
+	 * This keeps track of the one adapter used for all {@link anchor.DateTimeType} instances.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected DateTimeTypeItemProvider dateTimeTypeItemProvider;
 
     /**
-     * This creates an adapter for a {@link anchor.DateTimeType}.
-     * <!-- begin-user-doc -->
+	 * This creates an adapter for a {@link anchor.DateTimeType}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter createDateTimeTypeAdapter() {
-        if (dateTimeTypeItemProvider == null) {
-            dateTimeTypeItemProvider = new DateTimeTypeItemProvider(this);
-        }
+		if (dateTimeTypeItemProvider == null) {
+			dateTimeTypeItemProvider = new DateTimeTypeItemProvider(this);
+		}
 
-        return dateTimeTypeItemProvider;
-    }
+		return dateTimeTypeItemProvider;
+	}
 
     /**
-     * This returns the root adapter factory that contains this factory.
-     * <!-- begin-user-doc -->
+	 * This returns the root adapter factory that contains this factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public ComposeableAdapterFactory getRootAdapterFactory() {
-        return parentAdapterFactory == null ? this : parentAdapterFactory.getRootAdapterFactory();
-    }
+		return parentAdapterFactory == null ? this : parentAdapterFactory.getRootAdapterFactory();
+	}
 
     /**
-     * This sets the composed adapter factory that contains this factory.
-     * <!-- begin-user-doc -->
+	 * This sets the composed adapter factory that contains this factory.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setParentAdapterFactory(ComposedAdapterFactory parentAdapterFactory) {
-        this.parentAdapterFactory = parentAdapterFactory;
-    }
+		this.parentAdapterFactory = parentAdapterFactory;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean isFactoryForType(Object type) {
-        return supportedTypes.contains(type) || super.isFactoryForType(type);
-    }
+		return supportedTypes.contains(type) || super.isFactoryForType(type);
+	}
 
     /**
-     * This implementation substitutes the factory itself as the key for the adapter.
-     * <!-- begin-user-doc -->
+	 * This implementation substitutes the factory itself as the key for the adapter.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Adapter adapt(Notifier notifier, Object type) {
-        return super.adapt(notifier, this);
-    }
+		return super.adapt(notifier, this);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object adapt(Object object, Object type) {
-        if (isFactoryForType(type)) {
-            Object adapter = super.adapt(object, type);
-            if (!(type instanceof Class<?>) || (((Class<?>)type).isInstance(adapter))) {
-                return adapter;
-            }
-        }
+		if (isFactoryForType(type)) {
+			Object adapter = super.adapt(object, type);
+			if (!(type instanceof Class<?>) || (((Class<?>)type).isInstance(adapter))) {
+				return adapter;
+			}
+		}
 
-        return null;
-    }
+		return null;
+	}
 
     /**
-     * This adds a listener.
-     * <!-- begin-user-doc -->
+	 * This adds a listener.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void addListener(INotifyChangedListener notifyChangedListener) {
-        changeNotifier.addListener(notifyChangedListener);
-    }
+		changeNotifier.addListener(notifyChangedListener);
+	}
 
     /**
-     * This removes a listener.
-     * <!-- begin-user-doc -->
+	 * This removes a listener.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void removeListener(INotifyChangedListener notifyChangedListener) {
-        changeNotifier.removeListener(notifyChangedListener);
-    }
+		changeNotifier.removeListener(notifyChangedListener);
+	}
 
     /**
-     * This delegates to {@link #changeNotifier} and to {@link #parentAdapterFactory}.
-     * <!-- begin-user-doc -->
+	 * This delegates to {@link #changeNotifier} and to {@link #parentAdapterFactory}.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void fireNotifyChanged(Notification notification) {
-        changeNotifier.fireNotifyChanged(notification);
+		changeNotifier.fireNotifyChanged(notification);
 
-        if (parentAdapterFactory != null) {
-            parentAdapterFactory.fireNotifyChanged(notification);
-        }
-    }
+		if (parentAdapterFactory != null) {
+			parentAdapterFactory.fireNotifyChanged(notification);
+		}
+	}
 
     /**
-     * This disposes all of the item providers created by this factory. 
-     * <!-- begin-user-doc -->
+	 * This disposes all of the item providers created by this factory. 
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void dispose() {
-        if (modelItemProvider != null) modelItemProvider.dispose();
-        if (anchorItemProvider != null) anchorItemProvider.dispose();
-        if (knotItemProvider != null) knotItemProvider.dispose();
-        if (staticAttributeItemProvider != null) staticAttributeItemProvider.dispose();
-        if (historizedAttributeItemProvider != null) historizedAttributeItemProvider.dispose();
-        if (knottedStaticAttributeItemProvider != null) knottedStaticAttributeItemProvider.dispose();
-        if (knottedHistorizedAttributeItemProvider != null) knottedHistorizedAttributeItemProvider.dispose();
-        if (staticTieItemProvider != null) staticTieItemProvider.dispose();
-        if (historizedTieItemProvider != null) historizedTieItemProvider.dispose();
-        if (knottedStaticTieItemProvider != null) knottedStaticTieItemProvider.dispose();
-        if (knottedHistorizedTieItemProvider != null) knottedHistorizedTieItemProvider.dispose();
-        if (anchorRoleItemProvider != null) anchorRoleItemProvider.dispose();
-        if (knotRoleItemProvider != null) knotRoleItemProvider.dispose();
-        if (stringTypeItemProvider != null) stringTypeItemProvider.dispose();
-        if (numericTypeItemProvider != null) numericTypeItemProvider.dispose();
-        if (booleanTypeItemProvider != null) booleanTypeItemProvider.dispose();
-        if (dateTimeTypeItemProvider != null) dateTimeTypeItemProvider.dispose();
-    }
+		if (modelItemProvider != null) modelItemProvider.dispose();
+		if (anchorItemProvider != null) anchorItemProvider.dispose();
+		if (knotItemProvider != null) knotItemProvider.dispose();
+		if (staticAttributeItemProvider != null) staticAttributeItemProvider.dispose();
+		if (historizedAttributeItemProvider != null) historizedAttributeItemProvider.dispose();
+		if (knottedStaticAttributeItemProvider != null) knottedStaticAttributeItemProvider.dispose();
+		if (knottedHistorizedAttributeItemProvider != null) knottedHistorizedAttributeItemProvider.dispose();
+		if (staticTieItemProvider != null) staticTieItemProvider.dispose();
+		if (historizedTieItemProvider != null) historizedTieItemProvider.dispose();
+		if (knottedStaticTieItemProvider != null) knottedStaticTieItemProvider.dispose();
+		if (knottedHistorizedTieItemProvider != null) knottedHistorizedTieItemProvider.dispose();
+		if (anchorRoleItemProvider != null) anchorRoleItemProvider.dispose();
+		if (knotRoleItemProvider != null) knotRoleItemProvider.dispose();
+		if (stringTypeItemProvider != null) stringTypeItemProvider.dispose();
+		if (numericTypeItemProvider != null) numericTypeItemProvider.dispose();
+		if (booleanTypeItemProvider != null) booleanTypeItemProvider.dispose();
+		if (dateTimeTypeItemProvider != null) dateTimeTypeItemProvider.dispose();
+	}
 
 }

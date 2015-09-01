@@ -29,296 +29,296 @@ import org.eclipse.emf.ecore.impl.ENotificationImpl;
  */
 public class StringTypeImpl extends DataTypeImpl implements StringType {
     /**
-     * The default value of the '{@link #getLength() <em>Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getLength() <em>Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getLength()
-     * @generated
-     * @ordered
-     */
-    protected static final int LENGTH_EDEFAULT = 0;
+	 * @see #getLength()
+	 * @generated
+	 * @ordered
+	 */
+    protected static final Integer LENGTH_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getLength() <em>Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getLength() <em>Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getLength()
-     * @generated
-     * @ordered
-     */
-    protected int length = LENGTH_EDEFAULT;
+	 * @see #getLength()
+	 * @generated
+	 * @ordered
+	 */
+    protected Integer length = LENGTH_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getMinLength() <em>Min Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getMinLength() <em>Min Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getMinLength()
-     * @generated
-     * @ordered
-     */
-    protected static final int MIN_LENGTH_EDEFAULT = 0;
+	 * @see #getMinLength()
+	 * @generated
+	 * @ordered
+	 */
+    protected static final Integer MIN_LENGTH_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getMinLength() <em>Min Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getMinLength() <em>Min Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getMinLength()
-     * @generated
-     * @ordered
-     */
-    protected int minLength = MIN_LENGTH_EDEFAULT;
+	 * @see #getMinLength()
+	 * @generated
+	 * @ordered
+	 */
+    protected Integer minLength = MIN_LENGTH_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getMaxLength() <em>Max Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getMaxLength() <em>Max Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getMaxLength()
-     * @generated
-     * @ordered
-     */
-    protected static final int MAX_LENGTH_EDEFAULT = 0;
+	 * @see #getMaxLength()
+	 * @generated
+	 * @ordered
+	 */
+    protected static final Integer MAX_LENGTH_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getMaxLength() <em>Max Length</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getMaxLength() <em>Max Length</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getMaxLength()
-     * @generated
-     * @ordered
-     */
-    protected int maxLength = MAX_LENGTH_EDEFAULT;
+	 * @see #getMaxLength()
+	 * @generated
+	 * @ordered
+	 */
+    protected Integer maxLength = MAX_LENGTH_EDEFAULT;
 
     /**
-     * The default value of the '{@link #getPattern() <em>Pattern</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The default value of the '{@link #getPattern() <em>Pattern</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getPattern()
-     * @generated
-     * @ordered
-     */
+	 * @see #getPattern()
+	 * @generated
+	 * @ordered
+	 */
     protected static final String PATTERN_EDEFAULT = null;
 
     /**
-     * The cached value of the '{@link #getPattern() <em>Pattern</em>}' attribute.
-     * <!-- begin-user-doc -->
+	 * The cached value of the '{@link #getPattern() <em>Pattern</em>}' attribute.
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @see #getPattern()
-     * @generated
-     * @ordered
-     */
+	 * @see #getPattern()
+	 * @generated
+	 * @ordered
+	 */
     protected String pattern = PATTERN_EDEFAULT;
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected StringTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return AnchorPackage.Literals.STRING_TYPE;
-    }
+		return AnchorPackage.Literals.STRING_TYPE;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
-    public int getLength() {
-        return length;
-    }
+	 * @generated
+	 */
+    public Integer getLength() {
+		return length;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setLength(Integer newLength) {
+		Integer oldLength = length;
+		length = newLength;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__LENGTH, oldLength, length));
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
-    public void setLength(int newLength) {
-        int oldLength = length;
-        length = newLength;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__LENGTH, oldLength, length));
-    }
+	 * @generated
+	 */
+    public Integer getMinLength() {
+		return minLength;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setMinLength(Integer newMinLength) {
+		Integer oldMinLength = minLength;
+		minLength = newMinLength;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__MIN_LENGTH, oldMinLength, minLength));
+	}
+
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
-    public int getMinLength() {
-        return minLength;
-    }
+	 * @generated
+	 */
+    public Integer getMaxLength() {
+		return maxLength;
+	}
 
     /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public void setMinLength(int newMinLength) {
-        int oldMinLength = minLength;
-        minLength = newMinLength;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__MIN_LENGTH, oldMinLength, minLength));
-    }
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	public void setMaxLength(Integer newMaxLength) {
+		Integer oldMaxLength = maxLength;
+		maxLength = newMaxLength;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__MAX_LENGTH, oldMaxLength, maxLength));
+	}
 
-    /**
-     * <!-- begin-user-doc -->
+				/**
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
-    public int getMaxLength() {
-        return maxLength;
-    }
-
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
-    public void setMaxLength(int newMaxLength) {
-        int oldMaxLength = maxLength;
-        maxLength = newMaxLength;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__MAX_LENGTH, oldMaxLength, maxLength));
-    }
-
-    /**
-     * <!-- begin-user-doc -->
-     * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public String getPattern() {
-        return pattern;
-    }
+		return pattern;
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     public void setPattern(String newPattern) {
-        String oldPattern = pattern;
-        pattern = newPattern;
-        if (eNotificationRequired())
-            eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__PATTERN, oldPattern, pattern));
-    }
+		String oldPattern = pattern;
+		pattern = newPattern;
+		if (eNotificationRequired())
+			eNotify(new ENotificationImpl(this, Notification.SET, AnchorPackage.STRING_TYPE__PATTERN, oldPattern, pattern));
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public Object eGet(int featureID, boolean resolve, boolean coreType) {
-        switch (featureID) {
-            case AnchorPackage.STRING_TYPE__LENGTH:
-                return getLength();
-            case AnchorPackage.STRING_TYPE__MIN_LENGTH:
-                return getMinLength();
-            case AnchorPackage.STRING_TYPE__MAX_LENGTH:
-                return getMaxLength();
-            case AnchorPackage.STRING_TYPE__PATTERN:
-                return getPattern();
-        }
-        return super.eGet(featureID, resolve, coreType);
-    }
+		switch (featureID) {
+			case AnchorPackage.STRING_TYPE__LENGTH:
+				return getLength();
+			case AnchorPackage.STRING_TYPE__MIN_LENGTH:
+				return getMinLength();
+			case AnchorPackage.STRING_TYPE__MAX_LENGTH:
+				return getMaxLength();
+			case AnchorPackage.STRING_TYPE__PATTERN:
+				return getPattern();
+		}
+		return super.eGet(featureID, resolve, coreType);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eSet(int featureID, Object newValue) {
-        switch (featureID) {
-            case AnchorPackage.STRING_TYPE__LENGTH:
-                setLength((Integer)newValue);
-                return;
-            case AnchorPackage.STRING_TYPE__MIN_LENGTH:
-                setMinLength((Integer)newValue);
-                return;
-            case AnchorPackage.STRING_TYPE__MAX_LENGTH:
-                setMaxLength((Integer)newValue);
-                return;
-            case AnchorPackage.STRING_TYPE__PATTERN:
-                setPattern((String)newValue);
-                return;
-        }
-        super.eSet(featureID, newValue);
-    }
+		switch (featureID) {
+			case AnchorPackage.STRING_TYPE__LENGTH:
+				setLength((Integer)newValue);
+				return;
+			case AnchorPackage.STRING_TYPE__MIN_LENGTH:
+				setMinLength((Integer)newValue);
+				return;
+			case AnchorPackage.STRING_TYPE__MAX_LENGTH:
+				setMaxLength((Integer)newValue);
+				return;
+			case AnchorPackage.STRING_TYPE__PATTERN:
+				setPattern((String)newValue);
+				return;
+		}
+		super.eSet(featureID, newValue);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public void eUnset(int featureID) {
-        switch (featureID) {
-            case AnchorPackage.STRING_TYPE__LENGTH:
-                setLength(LENGTH_EDEFAULT);
-                return;
-            case AnchorPackage.STRING_TYPE__MIN_LENGTH:
-                setMinLength(MIN_LENGTH_EDEFAULT);
-                return;
-            case AnchorPackage.STRING_TYPE__MAX_LENGTH:
-                setMaxLength(MAX_LENGTH_EDEFAULT);
-                return;
-            case AnchorPackage.STRING_TYPE__PATTERN:
-                setPattern(PATTERN_EDEFAULT);
-                return;
-        }
-        super.eUnset(featureID);
-    }
+		switch (featureID) {
+			case AnchorPackage.STRING_TYPE__LENGTH:
+				setLength(LENGTH_EDEFAULT);
+				return;
+			case AnchorPackage.STRING_TYPE__MIN_LENGTH:
+				setMinLength(MIN_LENGTH_EDEFAULT);
+				return;
+			case AnchorPackage.STRING_TYPE__MAX_LENGTH:
+				setMaxLength(MAX_LENGTH_EDEFAULT);
+				return;
+			case AnchorPackage.STRING_TYPE__PATTERN:
+				setPattern(PATTERN_EDEFAULT);
+				return;
+		}
+		super.eUnset(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public boolean eIsSet(int featureID) {
-        switch (featureID) {
-            case AnchorPackage.STRING_TYPE__LENGTH:
-                return length != LENGTH_EDEFAULT;
-            case AnchorPackage.STRING_TYPE__MIN_LENGTH:
-                return minLength != MIN_LENGTH_EDEFAULT;
-            case AnchorPackage.STRING_TYPE__MAX_LENGTH:
-                return maxLength != MAX_LENGTH_EDEFAULT;
-            case AnchorPackage.STRING_TYPE__PATTERN:
-                return PATTERN_EDEFAULT == null ? pattern != null : !PATTERN_EDEFAULT.equals(pattern);
-        }
-        return super.eIsSet(featureID);
-    }
+		switch (featureID) {
+			case AnchorPackage.STRING_TYPE__LENGTH:
+				return LENGTH_EDEFAULT == null ? length != null : !LENGTH_EDEFAULT.equals(length);
+			case AnchorPackage.STRING_TYPE__MIN_LENGTH:
+				return MIN_LENGTH_EDEFAULT == null ? minLength != null : !MIN_LENGTH_EDEFAULT.equals(minLength);
+			case AnchorPackage.STRING_TYPE__MAX_LENGTH:
+				return MAX_LENGTH_EDEFAULT == null ? maxLength != null : !MAX_LENGTH_EDEFAULT.equals(maxLength);
+			case AnchorPackage.STRING_TYPE__PATTERN:
+				return PATTERN_EDEFAULT == null ? pattern != null : !PATTERN_EDEFAULT.equals(pattern);
+		}
+		return super.eIsSet(featureID);
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     public String toString() {
-        if (eIsProxy()) return super.toString();
+		if (eIsProxy()) return super.toString();
 
-        StringBuffer result = new StringBuffer(super.toString());
-        result.append(" (length: ");
-        result.append(length);
-        result.append(", minLength: ");
-        result.append(minLength);
-        result.append(", maxLength: ");
-        result.append(maxLength);
-        result.append(", pattern: ");
-        result.append(pattern);
-        result.append(')');
-        return result.toString();
-    }
+		StringBuffer result = new StringBuffer(super.toString());
+		result.append(" (length: ");
+		result.append(length);
+		result.append(", minLength: ");
+		result.append(minLength);
+		result.append(", maxLength: ");
+		result.append(maxLength);
+		result.append(", pattern: ");
+		result.append(pattern);
+		result.append(')');
+		return result.toString();
+	}
 
 } //StringTypeImpl

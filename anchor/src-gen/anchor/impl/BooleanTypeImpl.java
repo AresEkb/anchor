@@ -16,22 +16,22 @@ import org.eclipse.emf.ecore.EClass;
  */
 public class BooleanTypeImpl extends DataTypeImpl implements BooleanType {
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     protected BooleanTypeImpl() {
-        super();
-    }
+		super();
+	}
 
     /**
-     * <!-- begin-user-doc -->
+	 * <!-- begin-user-doc -->
      * <!-- end-user-doc -->
-     * @generated
-     */
+	 * @generated
+	 */
     @Override
     protected EClass eStaticClass() {
-        return AnchorPackage.Literals.BOOLEAN_TYPE;
-    }
+		return AnchorPackage.Literals.BOOLEAN_TYPE;
+	}
 
 } //BooleanTypeImpl
