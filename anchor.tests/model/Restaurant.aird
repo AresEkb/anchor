@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description" xmi:id="_SEteEFB2EeWpdeEogmqhFg" selectedViews="_SgIOwFB2EeWpdeEogmqhFg" version="10.0.0.201505222000">
+  <semanticResources>Restaurant.anchor</semanticResources>
+  <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_SgIOwFB2EeWpdeEogmqhFg">
+    <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_Sgwg4FB2EeWpdeEogmqhFg" name="Model">
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Sgwg4VB2EeWpdeEogmqhFg" source="DANNOTATION_CUSTOMIZATION_KEY">
+        <data xmi:type="diagram:ComputedStyleDescriptionRegistry" xmi:id="_Sgwg4lB2EeWpdeEogmqhFg"/>
+      </ownedAnnotationEntries>
+      <ownedAnnotationEntries xmi:type="description:AnnotationEntry" xmi:id="_Sg4csFB2EeWpdeEogmqhFg" source="GMF_DIAGRAMS">
+        <data xmi:type="notation:Diagram" xmi:id="_Sg4csVB2EeWpdeEogmqhFg" type="Sirius" element="_Sgwg4FB2EeWpdeEogmqhFg" measurementUnit="Pixel">
+          <styles xmi:type="notation:DiagramStyle" xmi:id="_Sg4cslB2EeWpdeEogmqhFg"/>
+        </data>
+      </ownedAnnotationEntries>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']"/>
+      <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_Sgwg41B2EeWpdeEogmqhFg"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Model']/@defaultLayer"/>
+      <target xmi:type="anchor:Model" href="Restaurant.anchor#/"/>
+    </ownedRepresentations>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']"/>
+  </ownedViews>
+</viewpoint:DAnalysis>
