@@ -11,5 +11,6 @@ Export-Package: anchor,
  anchor.impl,
  anchor.util
 Require-Bundle: org.eclipse.core.runtime,
- org.eclipse.emf.ecore;visibility:=reexport
+ org.eclipse.emf.ecore;visibility:=reexport,
+ org.eclipse.emf.ecore.xmi
 Bundle-ActivationPolicy: lazy

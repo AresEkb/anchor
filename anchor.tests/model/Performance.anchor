@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<anchor:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor" name="Performance">
-  <anchors name="Actor">
-    <attributes xsi:type="anchor:KnottedStaticAttribute" knot="//@knots.3" name="Gender"/>
-    <attributes xsi:type="anchor:KnottedHistorizedAttribute" knot="//@knots.2" name="ProfessionalLevel"/>
-    <attributes xsi:type="anchor:HistorizedAttribute" name="Name"/>
+<anchor:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor" xmi:id="_bOSs4IeZEeWCVuuQuBR2Gg" name="Performance">
+  <anchors xmi:id="_bOTT8IeZEeWCVuuQuBR2Gg" name="Actor">
+    <attributes xsi:type="anchor:KnottedStaticAttribute" xmi:id="_bOTT8YeZEeWCVuuQuBR2Gg" knot="_bOT7EIeZEeWCVuuQuBR2Gg" name="Gender"/>
+    <attributes xsi:type="anchor:KnottedHistorizedAttribute" xmi:id="_bOT7AIeZEeWCVuuQuBR2Gg" knot="_bOT7D4eZEeWCVuuQuBR2Gg" name="ProfessionalLevel"/>
+    <attributes xsi:type="anchor:HistorizedAttribute" xmi:id="_bOT7AYeZEeWCVuuQuBR2Gg" name="Name"/>
   </anchors>
-  <anchors name="Program">
-    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.0" name="Name"/>
+  <anchors xmi:id="_bOT7AoeZEeWCVuuQuBR2Gg" name="Program">
+    <attributes xsi:type="anchor:StaticAttribute" xmi:id="_bOT7A4eZEeWCVuuQuBR2Gg" type="_bOUiI4eZEeWCVuuQuBR2Gg" name="Name"/>
   </anchors>
-  <anchors name="Performance">
-    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.6" name="Date"/>
-    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.3" name="Audience"/>
-    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.4" name="Revenue"/>
+  <anchors xmi:id="_bOT7BIeZEeWCVuuQuBR2Gg" name="Performance">
+    <attributes xsi:type="anchor:StaticAttribute" xmi:id="_bOT7BYeZEeWCVuuQuBR2Gg" type="_bOVJIYeZEeWCVuuQuBR2Gg" name="Date"/>
+    <attributes xsi:type="anchor:StaticAttribute" xmi:id="_bOT7BoeZEeWCVuuQuBR2Gg" type="_bOUiJoeZEeWCVuuQuBR2Gg" name="Audience"/>
+    <attributes xsi:type="anchor:StaticAttribute" xmi:id="_bOT7B4eZEeWCVuuQuBR2Gg" type="_bOUiJ4eZEeWCVuuQuBR2Gg" name="Revenue"/>
   </anchors>
-  <anchors name="Event">
-    <attributes xsi:type="anchor:StaticAttribute" type="//@dataTypes.0" name="Name"/>
+  <anchors xmi:id="_bOT7CIeZEeWCVuuQuBR2Gg" name="Event">
+    <attributes xsi:type="anchor:StaticAttribute" xmi:id="_bOT7CYeZEeWCVuuQuBR2Gg" type="_bOUiI4eZEeWCVuuQuBR2Gg" name="Name"/>
   </anchors>
-  <anchors name="Stage">
-    <attributes xsi:type="anchor:StaticAttribute" name="Location"/>
-    <attributes xsi:type="anchor:HistorizedAttribute" dateTimeType="//@dataTypes.6" type="//@dataTypes.0" name="Name"/>
+  <anchors xmi:id="_bOT7CoeZEeWCVuuQuBR2Gg" name="Stage">
+    <attributes xsi:type="anchor:StaticAttribute" xmi:id="_bOT7C4eZEeWCVuuQuBR2Gg" name="Location"/>
+    <attributes xsi:type="anchor:HistorizedAttribute" xmi:id="_bOT7DIeZEeWCVuuQuBR2Gg" dateTimeType="_bOVJIYeZEeWCVuuQuBR2Gg" type="_bOUiI4eZEeWCVuuQuBR2Gg" name="Name"/>
   </anchors>
-  <knots name="Rating"/>
-  <knots name="ParentalType"/>
-  <knots name="ProfessionalLevel"/>
-  <knots name="Gender"/>
-  <ties xsi:type="anchor:KnottedHistorizedTie">
-    <anchorRoles name="part" anchor="//@anchors.0"/>
-    <anchorRoles name="in" anchor="//@anchors.1"/>
-    <knotRoles name="got" knot="//@knots.0"/>
+  <knots xmi:id="_bOT7DYeZEeWCVuuQuBR2Gg" name="Rating"/>
+  <knots xmi:id="_bOT7DoeZEeWCVuuQuBR2Gg" name="ParentalType"/>
+  <knots xmi:id="_bOT7D4eZEeWCVuuQuBR2Gg" name="ProfessionalLevel"/>
+  <knots xmi:id="_bOT7EIeZEeWCVuuQuBR2Gg" name="Gender"/>
+  <ties xsi:type="anchor:KnottedHistorizedTie" xmi:id="_bOT7EYeZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOT7EoeZEeWCVuuQuBR2Gg" name="part" anchor="_bOTT8IeZEeWCVuuQuBR2Gg"/>
+    <anchorRoles xmi:id="_bOT7E4eZEeWCVuuQuBR2Gg" name="in" anchor="_bOT7AoeZEeWCVuuQuBR2Gg"/>
+    <knotRoles xmi:id="_bOT7FIeZEeWCVuuQuBR2Gg" name="got" knot="_bOT7DYeZEeWCVuuQuBR2Gg"/>
   </ties>
-  <ties xsi:type="anchor:StaticTie">
-    <anchorRoles name="in" anchor="//@anchors.2"/>
-    <anchorRoles name="wasCast" anchor="//@anchors.0"/>
+  <ties xsi:type="anchor:StaticTie" xmi:id="_bOT7FYeZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOT7FoeZEeWCVuuQuBR2Gg" name="in" anchor="_bOT7BIeZEeWCVuuQuBR2Gg"/>
+    <anchorRoles xmi:id="_bOT7F4eZEeWCVuuQuBR2Gg" name="wasCast" anchor="_bOTT8IeZEeWCVuuQuBR2Gg"/>
   </ties>
-  <ties xsi:type="anchor:StaticTie">
-    <anchorRoles name="subset" anchor="//@anchors.2" isIdentifier="true"/>
-    <anchorRoles name="of" anchor="//@anchors.3" isIdentifier="true"/>
+  <ties xsi:type="anchor:StaticTie" xmi:id="_bOT7GIeZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOT7GYeZEeWCVuuQuBR2Gg" name="subset" anchor="_bOT7BIeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
+    <anchorRoles xmi:id="_bOT7GoeZEeWCVuuQuBR2Gg" name="of" anchor="_bOT7CIeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
   </ties>
-  <ties xsi:type="anchor:StaticTie">
-    <anchorRoles name="at" anchor="//@anchors.2"/>
-    <anchorRoles name="wasHeld" anchor="//@anchors.4" isIdentifier="true"/>
-    <anchorRoles name="wasPlayed" anchor="//@anchors.1" isIdentifier="true"/>
+  <ties xsi:type="anchor:StaticTie" xmi:id="_bOT7G4eZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOUiEIeZEeWCVuuQuBR2Gg" name="at" anchor="_bOT7BIeZEeWCVuuQuBR2Gg"/>
+    <anchorRoles xmi:id="_bOUiEYeZEeWCVuuQuBR2Gg" name="wasHeld" anchor="_bOT7CoeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
+    <anchorRoles xmi:id="_bOUiEoeZEeWCVuuQuBR2Gg" name="wasPlayed" anchor="_bOT7AoeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
   </ties>
-  <ties xsi:type="anchor:StaticTie">
-    <anchorRoles name="at" anchor="//@anchors.4" isIdentifier="true"/>
-    <anchorRoles name="wasHeld" anchor="//@anchors.2"/>
+  <ties xsi:type="anchor:StaticTie" xmi:id="_bOUiE4eZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOUiFIeZEeWCVuuQuBR2Gg" name="at" anchor="_bOT7CoeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
+    <anchorRoles xmi:id="_bOUiFYeZEeWCVuuQuBR2Gg" name="wasHeld" anchor="_bOT7BIeZEeWCVuuQuBR2Gg"/>
   </ties>
-  <ties xsi:type="anchor:HistorizedTie">
-    <anchorRoles name="isPlaying" anchor="//@anchors.1"/>
-    <anchorRoles name="at" anchor="//@anchors.4"/>
+  <ties xsi:type="anchor:HistorizedTie" xmi:id="_bOUiFoeZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOUiF4eZEeWCVuuQuBR2Gg" name="isPlaying" anchor="_bOT7AoeZEeWCVuuQuBR2Gg"/>
+    <anchorRoles xmi:id="_bOUiGIeZEeWCVuuQuBR2Gg" name="at" anchor="_bOT7CoeZEeWCVuuQuBR2Gg"/>
   </ties>
-  <ties xsi:type="anchor:StaticTie">
-    <anchorRoles name="wasPlayed" anchor="//@anchors.1" isIdentifier="true"/>
-    <anchorRoles name="at" anchor="//@anchors.2"/>
+  <ties xsi:type="anchor:StaticTie" xmi:id="_bOUiGYeZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOUiGoeZEeWCVuuQuBR2Gg" name="wasPlayed" anchor="_bOT7AoeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
+    <anchorRoles xmi:id="_bOUiG4eZEeWCVuuQuBR2Gg" name="at" anchor="_bOT7BIeZEeWCVuuQuBR2Gg"/>
   </ties>
-  <ties xsi:type="anchor:HistorizedTie">
-    <anchorRoles name="with" anchor="//@anchors.0" isIdentifier="true"/>
-    <anchorRoles name="exclusive" anchor="//@anchors.0" isIdentifier="true"/>
+  <ties xsi:type="anchor:HistorizedTie" xmi:id="_bOUiHIeZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOUiHYeZEeWCVuuQuBR2Gg" name="with" anchor="_bOTT8IeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
+    <anchorRoles xmi:id="_bOUiHoeZEeWCVuuQuBR2Gg" name="exclusive" anchor="_bOTT8IeZEeWCVuuQuBR2Gg" isIdentifier="true"/>
   </ties>
-  <ties xsi:type="anchor:KnottedStaticTie">
-    <anchorRoles name="parent" anchor="//@anchors.0"/>
-    <anchorRoles name="child" anchor="//@anchors.0"/>
-    <knotRoles name="having" knot="//@knots.1"/>
+  <ties xsi:type="anchor:KnottedStaticTie" xmi:id="_bOUiH4eZEeWCVuuQuBR2Gg">
+    <anchorRoles xmi:id="_bOUiIIeZEeWCVuuQuBR2Gg" name="parent" anchor="_bOTT8IeZEeWCVuuQuBR2Gg"/>
+    <anchorRoles xmi:id="_bOUiIYeZEeWCVuuQuBR2Gg" name="child" anchor="_bOTT8IeZEeWCVuuQuBR2Gg"/>
+    <knotRoles xmi:id="_bOUiIoeZEeWCVuuQuBR2Gg" name="having" knot="_bOT7DoeZEeWCVuuQuBR2Gg"/>
   </ties>
-  <dataTypes xsi:type="anchor:StringType" name="String100" minLength="1" maxLength="100" pattern=""/>
-  <dataTypes xsi:type="anchor:NumericType" name="Decimal10.2" totalDigits="12" fractionDigits="2"/>
-  <dataTypes xsi:type="anchor:NumericType" name="UInt16" minInclusive="0.0" maxInclusive="65535.0"/>
-  <dataTypes xsi:type="anchor:NumericType" name="Quantity" minInclusive="0.0" maxInclusive="65535.0"/>
-  <dataTypes xsi:type="anchor:NumericType" name="Amount" totalDigits="19" fractionDigits="4"/>
-  <dataTypes xsi:type="anchor:DateTimeType" name="Date" resolution="1.0" resolutionUnit="day"/>
-  <dataTypes xsi:type="anchor:DateTimeType" name="DateTime" resolution="1.0" resolutionUnit="second"/>
+  <dataTypes xsi:type="anchor:StringType" xmi:id="_bOUiI4eZEeWCVuuQuBR2Gg" name="String100" minLength="1" maxLength="100" pattern=""/>
+  <dataTypes xsi:type="anchor:NumericType" xmi:id="_bOUiJIeZEeWCVuuQuBR2Gg" name="Decimal10.2" totalDigits="12" fractionDigits="2"/>
+  <dataTypes xsi:type="anchor:NumericType" xmi:id="_bOUiJYeZEeWCVuuQuBR2Gg" name="UInt16" minInclusive="0.0" maxInclusive="65535.0"/>
+  <dataTypes xsi:type="anchor:NumericType" xmi:id="_bOUiJoeZEeWCVuuQuBR2Gg" name="Quantity" minInclusive="0.0" maxInclusive="65535.0"/>
+  <dataTypes xsi:type="anchor:NumericType" xmi:id="_bOUiJ4eZEeWCVuuQuBR2Gg" name="Amount" totalDigits="19" fractionDigits="4"/>
+  <dataTypes xsi:type="anchor:DateTimeType" xmi:id="_bOVJIIeZEeWCVuuQuBR2Gg" name="Date" resolution="1.0" resolutionUnit="day"/>
+  <dataTypes xsi:type="anchor:DateTimeType" xmi:id="_bOVJIYeZEeWCVuuQuBR2Gg" name="DateTime" resolution="1.0" resolutionUnit="second"/>
 </anchor:Model>

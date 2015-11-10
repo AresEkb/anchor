@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_tT3LMFhyEeWYzIJ5DlH_tw" selectedViews="_vB2XAFhyEeWYzIJ5DlH_tw" version="10.0.0.201505222000">
+<viewpoint:DAnalysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:anchor="http://example.com/anchor" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style" xmi:id="_tT3LMFhyEeWYzIJ5DlH_tw" selectedViews="_vB2XAFhyEeWYzIJ5DlH_tw" version="10.1.0.201509162000">
   <semanticResources>Performance.anchor</semanticResources>
   <ownedViews xmi:type="viewpoint:DRepresentationContainer" xmi:id="_vB2XAFhyEeWYzIJ5DlH_tw">
     <ownedRepresentations xmi:type="diagram:DSemanticDiagram" xmi:id="_22vuUFiAEeWYzIJ5DlH_tw" name="new Anchor Diagram">
@@ -848,612 +848,612 @@
         </data>
       </ownedAnnotationEntries>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuU1iAEeWYzIJ5DlH_tw" name="Actor" outgoingEdges="_22vui1iAEeWYzIJ5DlH_tw _22vujViAEeWYzIJ5DlH_tw _22vuj1iAEeWYzIJ5DlH_tw" incomingEdges="_zhnMQFiFEeWYzIJ5DlH_tw _zmUGEFiFEeWYzIJ5DlH_tw _zm1DcFiFEeWYzIJ5DlH_tw _zm1qgFiFEeWYzIJ5DlH_tw _zm24oFiFEeWYzIJ5DlH_tw _zm3fsFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.0"/>
-        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.0"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOTT8IeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#_bOTT8IeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuVFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Anchor.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuVViAEeWYzIJ5DlH_tw" name="Program" outgoingEdges="_22vukViAEeWYzIJ5DlH_tw" incomingEdges="_zmN_cFiFEeWYzIJ5DlH_tw _zmuVwFiFEeWYzIJ5DlH_tw _zmyAIFiFEeWYzIJ5DlH_tw _zmzOQFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.1"/>
-        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.1"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7AoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7AoeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuVliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Anchor.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuV1iAEeWYzIJ5DlH_tw" name="Performance" outgoingEdges="_22vuk1iAEeWYzIJ5DlH_tw _22vulViAEeWYzIJ5DlH_tw _22vul1iAEeWYzIJ5DlH_tw" incomingEdges="_zmRp0FiFEeWYzIJ5DlH_tw _zmXJYFiFEeWYzIJ5DlH_tw _zmpdQFiFEeWYzIJ5DlH_tw _zmxZEFiFEeWYzIJ5DlH_tw _zm0cYFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.2"/>
-        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.2"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7BIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7BIeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuWFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Anchor.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuWViAEeWYzIJ5DlH_tw" name="Event" outgoingEdges="_22vumViAEeWYzIJ5DlH_tw" incomingEdges="_zmoPIFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.3"/>
-        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.3"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7CIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7CIeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuWliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Anchor.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuW1iAEeWYzIJ5DlH_tw" name="Stage" outgoingEdges="_22vum1iAEeWYzIJ5DlH_tw _22vunViAEeWYzIJ5DlH_tw" incomingEdges="_zmqrYFiFEeWYzIJ5DlH_tw _zmvj4FiFEeWYzIJ5DlH_tw _zmynMFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.4"/>
-        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.4"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7CoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7CoeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuXFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Anchor.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Anchor']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuXViAEeWYzIJ5DlH_tw" name="Name" incomingEdges="_22vukViAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.1/@attributes.0"/>
-        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.1/@attributes.0"/>
+        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7A4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7A4eZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuXliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/StaticAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuX1iAEeWYzIJ5DlH_tw" name="Date" incomingEdges="_22vuk1iAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.2/@attributes.0"/>
-        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.2/@attributes.0"/>
+        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7BYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7BYeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuYFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/StaticAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuYViAEeWYzIJ5DlH_tw" name="Audience" incomingEdges="_22vulViAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.2/@attributes.1"/>
-        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.2/@attributes.1"/>
+        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7BoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7BoeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuYliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/StaticAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuY1iAEeWYzIJ5DlH_tw" name="Revenue" incomingEdges="_22vul1iAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.2/@attributes.2"/>
-        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.2/@attributes.2"/>
+        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7B4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7B4eZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuZFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/StaticAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuZViAEeWYzIJ5DlH_tw" name="Name" incomingEdges="_22vumViAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.3/@attributes.0"/>
-        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.3/@attributes.0"/>
+        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7CYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7CYeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuZliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/StaticAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuZ1iAEeWYzIJ5DlH_tw" name="Location" incomingEdges="_22vum1iAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.4/@attributes.0"/>
-        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#//@anchors.4/@attributes.0"/>
+        <target xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7C4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticAttribute" href="Performance.anchor#_bOT7C4eZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuaFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/StaticAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuaViAEeWYzIJ5DlH_tw" name="Gender" outgoingEdges="_52fAcFiBEeWYzIJ5DlH_tw" incomingEdges="_22vui1iAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:KnottedStaticAttribute" href="Performance.anchor#//@anchors.0/@attributes.0"/>
-        <semanticElements xmi:type="anchor:KnottedStaticAttribute" href="Performance.anchor#//@anchors.0/@attributes.0"/>
+        <target xmi:type="anchor:KnottedStaticAttribute" href="Performance.anchor#_bOTT8YeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:KnottedStaticAttribute" href="Performance.anchor#_bOTT8YeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vualiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/StaticAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vua1iAEeWYzIJ5DlH_tw" name="Name" incomingEdges="_22vuj1iAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#//@anchors.0/@attributes.2"/>
-        <semanticElements xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#//@anchors.0/@attributes.2"/>
+        <target xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#_bOT7AYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#_bOT7AYeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vubFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/HistorizedAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vubViAEeWYzIJ5DlH_tw" name="Name" incomingEdges="_22vunViAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#//@anchors.4/@attributes.1"/>
-        <semanticElements xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#//@anchors.4/@attributes.1"/>
+        <target xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#_bOT7DIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:HistorizedAttribute" href="Performance.anchor#_bOT7DIeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vubliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/HistorizedAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vub1iAEeWYzIJ5DlH_tw" name="ProfessionalLevel" outgoingEdges="_52fngFiBEeWYzIJ5DlH_tw" incomingEdges="_22vujViAEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:KnottedHistorizedAttribute" href="Performance.anchor#//@anchors.0/@attributes.1"/>
-        <semanticElements xmi:type="anchor:KnottedHistorizedAttribute" href="Performance.anchor#//@anchors.0/@attributes.1"/>
+        <target xmi:type="anchor:KnottedHistorizedAttribute" href="Performance.anchor#_bOT7AIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:KnottedHistorizedAttribute" href="Performance.anchor#_bOT7AIeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vucFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/HistorizedAttribute.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedAttribute']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vucViAEeWYzIJ5DlH_tw" name="Rating" incomingEdges="_sVWH8FiHEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Knot" href="Performance.anchor#//@knots.0"/>
-        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#//@knots.0"/>
+        <target xmi:type="anchor:Knot" href="Performance.anchor#_bOT7DYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#_bOT7DYeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vucliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Knot.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuc1iAEeWYzIJ5DlH_tw" name="ParentalType" incomingEdges="_sVZLQFiHEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Knot" href="Performance.anchor#//@knots.1"/>
-        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#//@knots.1"/>
+        <target xmi:type="anchor:Knot" href="Performance.anchor#_bOT7DoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#_bOT7DoeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vudFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Knot.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vudViAEeWYzIJ5DlH_tw" name="ProfessionalLevel" incomingEdges="_52fngFiBEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Knot" href="Performance.anchor#//@knots.2"/>
-        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#//@knots.2"/>
+        <target xmi:type="anchor:Knot" href="Performance.anchor#_bOT7D4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#_bOT7D4eZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vudliAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Knot.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vud1iAEeWYzIJ5DlH_tw" name="Gender" incomingEdges="_52fAcFiBEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:Knot" href="Performance.anchor#//@knots.3"/>
-        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#//@knots.3"/>
+        <target xmi:type="anchor:Knot" href="Performance.anchor#_bOT7EIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:Knot" href="Performance.anchor#_bOT7EIeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vueFiAEeWYzIJ5DlH_tw" showIcon="false" workspacePath="/anchor.design/icons/Knot.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='Knot']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vueViAEeWYzIJ5DlH_tw" outgoingEdges="_zmRp0FiFEeWYzIJ5DlH_tw _zmUGEFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.1"/>
-        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.1"/>
+        <target xmi:type="anchor:StaticTie" href="Performance.anchor#_bOT7FYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#_bOT7FYeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vueliAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/StaticTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vue1iAEeWYzIJ5DlH_tw" outgoingEdges="_zmXJYFiFEeWYzIJ5DlH_tw _zmoPIFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.2"/>
-        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.2"/>
+        <target xmi:type="anchor:StaticTie" href="Performance.anchor#_bOT7GIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#_bOT7GIeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vufFiAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/StaticTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vufViAEeWYzIJ5DlH_tw" outgoingEdges="_zmpdQFiFEeWYzIJ5DlH_tw _zmqrYFiFEeWYzIJ5DlH_tw _zmuVwFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.3"/>
-        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.3"/>
+        <target xmi:type="anchor:StaticTie" href="Performance.anchor#_bOT7G4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#_bOT7G4eZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vufliAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/StaticTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuf1iAEeWYzIJ5DlH_tw" outgoingEdges="_zmvj4FiFEeWYzIJ5DlH_tw _zmxZEFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.4"/>
-        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.4"/>
+        <target xmi:type="anchor:StaticTie" href="Performance.anchor#_bOUiE4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#_bOUiE4eZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vugFiAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/StaticTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vugViAEeWYzIJ5DlH_tw" outgoingEdges="_zmzOQFiFEeWYzIJ5DlH_tw _zm0cYFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.6"/>
-        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#//@ties.6"/>
+        <target xmi:type="anchor:StaticTie" href="Performance.anchor#_bOUiGYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:StaticTie" href="Performance.anchor#_bOUiGYeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vugliAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/StaticTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='StaticTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vug1iAEeWYzIJ5DlH_tw" outgoingEdges="_zm24oFiFEeWYzIJ5DlH_tw _zm3fsFiFEeWYzIJ5DlH_tw _sVZLQFiHEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:KnottedStaticTie" href="Performance.anchor#//@ties.8"/>
-        <semanticElements xmi:type="anchor:KnottedStaticTie" href="Performance.anchor#//@ties.8"/>
+        <target xmi:type="anchor:KnottedStaticTie" href="Performance.anchor#_bOUiH4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:KnottedStaticTie" href="Performance.anchor#_bOUiH4eZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuhFiAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/StaticTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedStaticTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuhViAEeWYzIJ5DlH_tw" outgoingEdges="_zmyAIFiFEeWYzIJ5DlH_tw _zmynMFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:HistorizedTie" href="Performance.anchor#//@ties.5"/>
-        <semanticElements xmi:type="anchor:HistorizedTie" href="Performance.anchor#//@ties.5"/>
+        <target xmi:type="anchor:HistorizedTie" href="Performance.anchor#_bOUiFoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:HistorizedTie" href="Performance.anchor#_bOUiFoeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuhliAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/HistorizedTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuh1iAEeWYzIJ5DlH_tw" outgoingEdges="_zm1DcFiFEeWYzIJ5DlH_tw _zm1qgFiFEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:HistorizedTie" href="Performance.anchor#//@ties.7"/>
-        <semanticElements xmi:type="anchor:HistorizedTie" href="Performance.anchor#//@ties.7"/>
+        <target xmi:type="anchor:HistorizedTie" href="Performance.anchor#_bOUiHIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:HistorizedTie" href="Performance.anchor#_bOUiHIeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuiFiAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/HistorizedTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='HistorizedTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DNode" xmi:id="_22vuiViAEeWYzIJ5DlH_tw" outgoingEdges="_zhnMQFiFEeWYzIJ5DlH_tw _zmN_cFiFEeWYzIJ5DlH_tw _sVWH8FiHEeWYzIJ5DlH_tw" width="-1" height="-1">
-        <target xmi:type="anchor:KnottedHistorizedTie" href="Performance.anchor#//@ties.0"/>
-        <semanticElements xmi:type="anchor:KnottedHistorizedTie" href="Performance.anchor#//@ties.0"/>
+        <target xmi:type="anchor:KnottedHistorizedTie" href="Performance.anchor#_bOT7EYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:KnottedHistorizedTie" href="Performance.anchor#_bOT7EYeZEeWCVuuQuBR2Gg"/>
         <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
         <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
         <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
         <ownedStyle xmi:type="diagram:WorkspaceImage" xmi:id="_22vuiliAEeWYzIJ5DlH_tw" showIcon="false" hideLabelByDefault="true" workspacePath="/anchor.design/icons/HistorizedTie.png">
-          <description xmi:type="style:WorkspaceImageDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedTie']/@style"/>
+          <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedTie']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedTie']"/>
+        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@nodeMappings[name='KnottedHistorizedTie']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vui1iAEeWYzIJ5DlH_tw" sourceNode="_22vuU1iAEeWYzIJ5DlH_tw" targetNode="_22vuaViAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.0"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOTT8IeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vujFiAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vujViAEeWYzIJ5DlH_tw" sourceNode="_22vuU1iAEeWYzIJ5DlH_tw" targetNode="_22vub1iAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.0"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOTT8IeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vujliAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vuj1iAEeWYzIJ5DlH_tw" sourceNode="_22vuU1iAEeWYzIJ5DlH_tw" targetNode="_22vua1iAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.0"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOTT8IeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vukFiAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vukViAEeWYzIJ5DlH_tw" sourceNode="_22vuVViAEeWYzIJ5DlH_tw" targetNode="_22vuXViAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.1"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7AoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vukliAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vuk1iAEeWYzIJ5DlH_tw" sourceNode="_22vuV1iAEeWYzIJ5DlH_tw" targetNode="_22vuX1iAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.2"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7BIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vulFiAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vulViAEeWYzIJ5DlH_tw" sourceNode="_22vuV1iAEeWYzIJ5DlH_tw" targetNode="_22vuYViAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.2"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7BIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vulliAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vul1iAEeWYzIJ5DlH_tw" sourceNode="_22vuV1iAEeWYzIJ5DlH_tw" targetNode="_22vuY1iAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.2"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7BIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vumFiAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vumViAEeWYzIJ5DlH_tw" sourceNode="_22vuWViAEeWYzIJ5DlH_tw" targetNode="_22vuZViAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.3"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7CIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vumliAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vum1iAEeWYzIJ5DlH_tw" sourceNode="_22vuW1iAEeWYzIJ5DlH_tw" targetNode="_22vuZ1iAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.4"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7CoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vunFiAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_22vunViAEeWYzIJ5DlH_tw" sourceNode="_22vuW1iAEeWYzIJ5DlH_tw" targetNode="_22vubViAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:Anchor" href="Performance.anchor#//@anchors.4"/>
+        <target xmi:type="anchor:Anchor" href="Performance.anchor#_bOT7CoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_22vunliAEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AttributeEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_52fAcFiBEeWYzIJ5DlH_tw" sourceNode="_22vuaViAEeWYzIJ5DlH_tw" targetNode="_22vud1iAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:KnottedStaticAttribute" href="Performance.anchor#//@anchors.0/@attributes.0"/>
+        <target xmi:type="anchor:KnottedStaticAttribute" href="Performance.anchor#_bOTT8YeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_52fAcViBEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_52fngFiBEeWYzIJ5DlH_tw" sourceNode="_22vub1iAEeWYzIJ5DlH_tw" targetNode="_22vudViAEeWYzIJ5DlH_tw">
-        <target xmi:type="anchor:KnottedHistorizedAttribute" href="Performance.anchor#//@anchors.0/@attributes.1"/>
+        <target xmi:type="anchor:KnottedHistorizedAttribute" href="Performance.anchor#_bOT7AIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_52fngViBEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']/@style"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zhnMQFiFEeWYzIJ5DlH_tw" name="part" sourceNode="_22vuiViAEeWYzIJ5DlH_tw" targetNode="_22vuU1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.0/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.0/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7EoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7EoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zhnzUFiFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zhnzUViFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zhnzUliFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmN_cFiFEeWYzIJ5DlH_tw" name="in" sourceNode="_22vuiViAEeWYzIJ5DlH_tw" targetNode="_22vuVViAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.0/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.0/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7E4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7E4eZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmOmgFiFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmOmgViFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmOmgliFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmRp0FiFEeWYzIJ5DlH_tw" name="in" sourceNode="_22vueViAEeWYzIJ5DlH_tw" targetNode="_22vuV1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.1/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.1/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7FoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7FoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmRp0ViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmRp0liFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmRp01iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmUGEFiFEeWYzIJ5DlH_tw" name="wasCast" sourceNode="_22vueViAEeWYzIJ5DlH_tw" targetNode="_22vuU1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.1/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.1/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7F4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7F4eZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmUtIFiFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmUtIViFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmUtIliFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmXJYFiFEeWYzIJ5DlH_tw" name="subset" sourceNode="_22vue1iAEeWYzIJ5DlH_tw" targetNode="_22vuV1iAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.2/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.2/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7GYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7GYeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmXJYViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmXJYliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmXJY1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmoPIFiFEeWYzIJ5DlH_tw" name="of" sourceNode="_22vue1iAEeWYzIJ5DlH_tw" targetNode="_22vuWViAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.2/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.2/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7GoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOT7GoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmo2MFiFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmo2MViFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmo2MliFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmpdQFiFEeWYzIJ5DlH_tw" name="at" sourceNode="_22vufViAEeWYzIJ5DlH_tw" targetNode="_22vuV1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.3/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.3/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiEIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiEIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmpdQViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmpdQliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmpdQ1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmqrYFiFEeWYzIJ5DlH_tw" name="wasHeld" sourceNode="_22vufViAEeWYzIJ5DlH_tw" targetNode="_22vuW1iAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.3/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.3/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiEYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiEYeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmqrYViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmqrYliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmqrY1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmuVwFiFEeWYzIJ5DlH_tw" name="wasPlayed" sourceNode="_22vufViAEeWYzIJ5DlH_tw" targetNode="_22vuVViAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.3/@anchorRoles.2"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.3/@anchorRoles.2"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiEoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiEoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmuVwViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmuVwliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmuVw1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmvj4FiFEeWYzIJ5DlH_tw" name="at" sourceNode="_22vuf1iAEeWYzIJ5DlH_tw" targetNode="_22vuW1iAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.4/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.4/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiFIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiFIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmwK8FiFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmwK8ViFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmwK8liFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmxZEFiFEeWYzIJ5DlH_tw" name="wasHeld" sourceNode="_22vuf1iAEeWYzIJ5DlH_tw" targetNode="_22vuV1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.4/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.4/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiFYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiFYeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmxZEViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmxZEliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmxZE1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmyAIFiFEeWYzIJ5DlH_tw" name="isPlaying" sourceNode="_22vuhViAEeWYzIJ5DlH_tw" targetNode="_22vuVViAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.5/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.5/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiF4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiF4eZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmyAIViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmyAIliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmyAI1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmynMFiFEeWYzIJ5DlH_tw" name="at" sourceNode="_22vuhViAEeWYzIJ5DlH_tw" targetNode="_22vuW1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.5/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.5/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiGIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiGIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmynMViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmynMliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmynM1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zmzOQFiFEeWYzIJ5DlH_tw" name="wasPlayed" sourceNode="_22vugViAEeWYzIJ5DlH_tw" targetNode="_22vuVViAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.6/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.6/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiGoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiGoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zmz1UFiFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zmz1UViFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zmz1UliFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zm0cYFiFEeWYzIJ5DlH_tw" name="at" sourceNode="_22vugViAEeWYzIJ5DlH_tw" targetNode="_22vuV1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.6/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.6/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiG4eZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiG4eZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zm0cYViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zm0cYliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zm0cY1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zm1DcFiFEeWYzIJ5DlH_tw" name="with" sourceNode="_22vuh1iAEeWYzIJ5DlH_tw" targetNode="_22vuU1iAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.7/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.7/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiHYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiHYeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zm1DcViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zm1DcliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zm1Dc1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zm1qgFiFEeWYzIJ5DlH_tw" name="exclusive" sourceNode="_22vuh1iAEeWYzIJ5DlH_tw" targetNode="_22vuU1iAEeWYzIJ5DlH_tw" beginLabel="1">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.7/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.7/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiHoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiHoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zm2RkFiFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zm2RkViFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zm2RkliFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zm24oFiFEeWYzIJ5DlH_tw" name="parent" sourceNode="_22vug1iAEeWYzIJ5DlH_tw" targetNode="_22vuU1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.8/@anchorRoles.0"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.8/@anchorRoles.0"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiIIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiIIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zm24oViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zm24oliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zm24o1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_zm3fsFiFEeWYzIJ5DlH_tw" name="child" sourceNode="_22vug1iAEeWYzIJ5DlH_tw" targetNode="_22vuU1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.8/@anchorRoles.1"/>
-        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#//@ties.8/@anchorRoles.1"/>
+        <target xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiIYeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:AnchorRole" href="Performance.anchor#_bOUiIYeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_zm3fsViFEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_zm3fsliFEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_zm3fs1iFEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='AnchorRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sVWH8FiHEeWYzIJ5DlH_tw" name="got" sourceNode="_22vuiViAEeWYzIJ5DlH_tw" targetNode="_22vucViAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:KnotRole" href="Performance.anchor#//@ties.0/@knotRoles.0"/>
-        <semanticElements xmi:type="anchor:KnotRole" href="Performance.anchor#//@ties.0/@knotRoles.0"/>
+        <target xmi:type="anchor:KnotRole" href="Performance.anchor#_bOT7FIeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:KnotRole" href="Performance.anchor#_bOT7FIeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_sVWvAFiHEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_sVWvAViHEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_sVWvAliHEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']"/>
       </ownedDiagramElements>
       <ownedDiagramElements xmi:type="diagram:DEdge" xmi:id="_sVZLQFiHEeWYzIJ5DlH_tw" name="having" sourceNode="_22vug1iAEeWYzIJ5DlH_tw" targetNode="_22vuc1iAEeWYzIJ5DlH_tw" beginLabel="m">
-        <target xmi:type="anchor:KnotRole" href="Performance.anchor#//@ties.8/@knotRoles.0"/>
-        <semanticElements xmi:type="anchor:KnotRole" href="Performance.anchor#//@ties.8/@knotRoles.0"/>
+        <target xmi:type="anchor:KnotRole" href="Performance.anchor#_bOUiIoeZEeWCVuuQuBR2Gg"/>
+        <semanticElements xmi:type="anchor:KnotRole" href="Performance.anchor#_bOUiIoeZEeWCVuuQuBR2Gg"/>
         <ownedStyle xmi:type="diagram:EdgeStyle" xmi:id="_sVZLQViHEeWYzIJ5DlH_tw" targetArrow="NoDecoration" size="2" centered="Both">
-          <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']/@style"/>
+          <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']/@style"/>
           <beginLabelStyle xmi:type="diagram:BeginLabelStyle" xmi:id="_sVZLQliHEeWYzIJ5DlH_tw" showIcon="false"/>
           <centerLabelStyle xmi:type="diagram:CenterLabelStyle" xmi:id="_sVZLQ1iHEeWYzIJ5DlH_tw" showIcon="false"/>
         </ownedStyle>
-        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']"/>
+        <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer/@edgeMappings[name='KnotRoleEdge']"/>
       </ownedDiagramElements>
-      <description xmi:type="description_1:DiagramDescription" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']"/>
+      <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']"/>
       <filterVariableHistory xmi:type="diagram:FilterVariableHistory" xmi:id="_22vun1iAEeWYzIJ5DlH_tw"/>
-      <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer"/>
-      <target xmi:type="anchor:Model" href="Performance.anchor#/"/>
+      <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']/@ownedRepresentations[name='Anchor%20Diagram']/@defaultLayer"/>
+      <target xmi:type="anchor:Model" href="Performance.anchor#_bOSs4IeZEeWCVuuQuBR2Gg"/>
     </ownedRepresentations>
-    <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']"/>
+    <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/anchor.design/description/anchor.odesign#//@ownedViewpoints[name='Anchor']"/>
   </ownedViews>
 </viewpoint:DAnalysis>
